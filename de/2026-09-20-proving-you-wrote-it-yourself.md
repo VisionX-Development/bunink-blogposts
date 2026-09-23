@@ -1,7 +1,7 @@
 ---
-title: Deine Arbeit beweisen – was das KI-Wasserzeichen nicht verrät
+title: Deine Arbeit belegen – was das KI-Wasserzeichen nicht verrät
 date: 2026-09-20
-description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasserzeichen – auch dann, wenn nur die Rechtschreibhilfe darübergelaufen ist. Warum daraus falsche Vorwürfe entstehen und wie deine Commit-Historie belegt, dass ein Text Satz für Satz von dir stammt.
+description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasserzeichen – auch dann, wenn nur die Rechtschreibhilfe darübergelaufen ist. Warum daraus falsche Vorwürfe entstehen – und warum deine Commit-Historie kein Beweis ist, aber ein Beleg, den nur du erklären kannst.
 ---
 
 Vor einer Weile haben wir hier beschrieben, wie sich eine KI als
@@ -84,10 +84,7 @@ hast. Was Commits, Branches und Repository bedeuten, erklärt
 
 Dadurch entsteht neben deinem Text ein zweiter, den niemand bewusst schreibt: seine
 Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert
-stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist
-der Nachweis – sie entsteht nebenbei, während du ganz normal arbeitest.
-
-## Die Zeitleiste: wann welcher Satz entstanden ist
+stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Die Zeitleiste: wann welcher Satz entstanden ist
 
 Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine
 Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht. Du wählst zwei Stände – etwa den
@@ -155,7 +152,7 @@ Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einlade
 
 ## Und die Sicherheit deiner Texte?
 
-Eine Frage vom Anfang ist offengeblieben: _Landet mein Manuskript irgendwo in einem Training?_ Bei
+Eine Frage vom Anfang ist offengeblieben: *Landet mein Manuskript irgendwo in einem Training?* Bei
 bun.ink ist die Antwort kurz. Die App schickt deine Texte nicht an ein Sprachmodell, und in der
 Datenbank liegen sie nicht als lesbarer Klartext, sondern verschlüsselt. Wie das im Detail
 funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
@@ -184,9 +181,9 @@ Wenn dir dieser Nachweis wichtig ist, lohnen sich ein paar Gewohnheiten:
 - **Umwege stehen lassen.** Verworfene Fassungen sind kein Makel, sie sind der Beleg.
 - **Werkzeuge einrahmen.** Vor und nach jedem Durchlauf durch eine Korrekturhilfe einmal speichern.
 - **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das
-  eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
+eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
 - **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung
-  dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
+dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 
 ## Zum Schluss: ein offenes Buch, in beide Richtungen
 
