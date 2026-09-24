@@ -15,9 +15,7 @@ Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel
 Manche lassen sich Szenen vorschlagen, manche wollen keine Zeile davon, und die meisten liegen
 dazwischen: Sie schreiben jeden Satz selbst und lassen die Rechtschreibung prüfen.
 
-Für die Frage nach dem Nachweis spielt diese Haltung erstaunlich wenig Rolle. Die Antwort liegt in
-keinem Fall im fertigen Text, sondern in seiner Entstehung – und genau die hält die Versionierung
-fest, die bun.ink ohnehin mitbringt.
+Für die Frage nach dem Beleg von eigener Arbeit spielt keine der Wege wirklich eine Rolle. Die Antwort liegt nicht im fertigen Text selber, sondern eher in seiner Entstehung – und genau das ist der Punkt an dem Versionierung eines Textes von Vorteil sein kann.
 
 ## Das neue Problem: den Negativbeweis führen
 
