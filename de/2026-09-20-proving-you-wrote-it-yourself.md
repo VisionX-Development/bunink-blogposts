@@ -1,8 +1,8 @@
-```
+---
 title: Deine Arbeit belegen – was das KI-Wasserzeichen nicht verrät
 date: 2026-09-20
 description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasserzeichen – auch dann, wenn nur die Rechtschreibhilfe darübergelaufen ist. Warum daraus falsche Vorwürfe entstehen – und warum deine Commit-Historie kein Beweis ist, aber ein Beleg, den nur du erklären kannst.
-```
+---
 
 Vor einer Weile haben wir hier beschrieben, wie sich eine KI als  
 [kontrollierter Schreibpartner](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren  
@@ -133,7 +133,7 @@ funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-prot
 
 Dein Text geht also nirgends hin – weder in ein Training noch als Klartext in eine Datenbank. Mit einem High-Privacy-Projekt kannst du deine Texte sogar noch weiter Schützen, wie das funktioniert ist auch in dem oben genannten Blog- Artikel erklärt. Allerdings musst du dir darüber im klaren sein, dass es für High-Privacy-Projekte keine GitHub- Verknüpfung gibt und damit auch die Vorteile der git Versionskontrolle die in diesem Artikel besprochen wurden, wegfallen. 
 
-### Nochmal in Kürze: 
+### Nochmal in Kürze:
 
 Was du also für den Beleg deiner eigenständigen Arbeit mit der Hilfe von Versionskontrolle tun solltest:
 
