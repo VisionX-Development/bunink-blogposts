@@ -1,8 +1,8 @@
----
+```
 title: Deine Arbeit belegen – was das KI-Wasserzeichen nicht verrät
 date: 2026-09-20
 description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasserzeichen – auch dann, wenn nur die Rechtschreibhilfe darübergelaufen ist. Warum daraus falsche Vorwürfe entstehen – und warum deine Commit-Historie kein Beweis ist, aber ein Beleg, den nur du erklären kannst.
----
+```
 
 Vor einer Weile haben wir hier beschrieben, wie sich eine KI als  
 [kontrollierter Schreibpartner](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren  
@@ -42,12 +42,11 @@ eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreibe
 
 ### Das Wasserzeichen ist keine Zukunftsmusik
 
-Auf Grund einer verschäften EU- Vorschrift versehen die grossen KI- Anbieter seit Sommer 2026 ihre Modelle mit einem unsichtbaren Wasserzeichen im  
-erzeugten Text. Bei Anthropic z.B. tragen es einzelne Modelle beretis ab August 2026, bis Anfang Dezember 2026 sollen es alle Modelle haben. Abschalten lässt es sich nicht. Da hinter diesen Änderungen die Transparenzpflichten des europäischen KI-Rechts stehen, werden andere Anbieter ähnliche Wege gehen müssen.
+Auf Grund einer verschärften EU- Vorschrift versehen die grossen KI- Anbieter seit Sommer 2026 ihre Modelle mit einem unsichtbaren Wasserzeichen im erzeugten Text. Bei Anthropic z.B. tragen es einzelne Modelle bereits ab August 2026, bis Anfang Dezember 2026 sollen es alle Modelle haben. Abschalten lässt es sich nicht. Da hinter diesen Änderungen die Transparenzpflichten des europäischen KI-Rechts stehen, werden andere Anbieter ähnliche Wege gehen müssen.
 
-Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches
-Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und sie ist zäh: Sie steckt nicht in
-einer Datei-Eigenschaft, sondern in der Wortwahl selbst. Sie übersteht Kopieren, Einfügen,
+Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches**  
+**Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und sie ist zäh: Sie steckt nicht in  
+einer Datei-Eigenschaft, sondern in der Wortwahl selbst. Sie übersteht Kopieren, Einfügen,  
 Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschrieben wird.
 
 ### Was ein Wasserzeichen aussagt – und was nicht
@@ -58,15 +57,15 @@ Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nich
 geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen  
 lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel erzeugen liess.
 
-Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht
-bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit
+Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht  
+bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit  
 dem du einen Vorwurf entkräften könntest, gibt es nicht.
 
 Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhält, dein Text sei «von  
 der KI», widerlegst du das nicht, indem du auf den fertigen Text zeigst. Dein Beleg ist nicht das  
 Ergebnis. **Dein Beleg ist NUR der Weg dorthin.**
 
-Den Stand zum Wasserzeichen erklärt Anthropic in seiner
+Den Stand zum Wasserzeichen erklärt Anthropic in seiner  
 [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
 
 ### Was in einer Versionierung ausser dem Text noch steht
@@ -79,7 +78,7 @@ hast. Was Commits, Branches und Repository bedeuten, erklärt der Blogartikel:
 
 Dadurch entsteht neben deinem Text eine Geschichte, die niemand bewusst aufschreibt: seine  
 Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert  
-stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Die Zeitleiste: wann welcher Satz entstanden ist.
+stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Es entsteht eine Zeitleiste die bezeugt wann welcher Satz entstanden ist.
 
 Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine  
 Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht für jede Branch. Du wählst zwei Stände – etwa den  
@@ -90,108 +89,61 @@ Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, kannst du die vi
 
 ### Warum Mikroschritte überzeugender sind als ein fertiges Kapitel
 
-Das eigentliche Indiz liegt nicht in einem einzelnen Commit, sondern in der **Form** der Historie.
-Menschliches Schreiben ist krumm: Ein Absatz wächst über eine Woche in sieben Schritten, ein anderer
-entsteht in zwanzig Minuten und wird am nächsten Tag halbiert. Es gibt Tage mit vierhundert Wörtern
+Das eigentliche Indiz liegt nicht in einem einzelnen Commit, sondern in der **Form** der Historie.  
+Menschliches Schreiben ist krumm: Ein Absatz wächst über eine Woche in sieben Schritten, ein anderer  
+entsteht in zwanzig Minuten und wird am nächsten Tag halbiert. Es gibt Tage mit vierhundert Wörtern  
 und Tage mit vierzig, Sätze, die dreimal umgestellt werden, Streichungen, Pausen, Rückkehr.
 
-Genau das steht in einer gewachsenen Commit-Historie – und genau das fehlt, wenn ein Kapitel in einem einzigen Schritt auftaucht: vollständig, ohne eine einzige Überarbeitung danach. Das beweist noch nichts; vielleicht hast du das Kapitel anderswo geschrieben und nur eingefügt. Aber es gibt dir auch nichts in die Hand, wenn jemand fragt.
+Genau das steht in einer gewachsenen Commit-Historie – und genau das fehlt, wenn ein Kapitel in einem einzigen Schritt auftaucht: vollständig, ohne eine einzige Überarbeitung danach. Das beweist noch nichts; vielleicht hast du das Kapitel anderswo geschrieben und nur eingefügt. Aber es gibt dir dann auch nichts in die Hand, wenn jemand fragt.
 
-Je kleiner du speicherst, desto dichter wird diese Spur. Das ist kein Zusatzaufwand für eine
-Prüfinstanz – es ist ohnehin die Arbeitsweise, die dir beim Zurückgehen hilft.
+Je kleiner du speicherst, desto dichter wird diese Spur. Und es ist kein zusätzlicher Zusatzaufwand – es ist ohnehin die vorgesehene Arbeitsweise mit Versionskontrolle in bun.ink. Aus «Ich habe das selbst geschrieben» wird dadurch sehr leicht: «Hier sind die 312 Schritte, mit Datum und Kommentar – frag mich zu jedem, was ich da gemacht habe».
 
 ### Der naheliegende Einwand: Kann eine KI das nicht auch?
 
 Doch, kann sie. Ein Agent kann einen fertigen Text in vierzig Schritte zerlegen, Umwege und Streichungen einbauen, glaubwürdige Commit-Nachrichten schreiben und das Ganze über Wochen verteilt speichern. Er kann sich sogar selbst kommentieren – unter einem zweiten Account, der aussieht wie eine Lektor oder Überarbeiter. Eine Historie ist deshalb kein Echtheitszertifikat, und wer das Gegenteil verspricht, verspricht etwas, das es nicht gibt: Kein Artefakt beweist lückenlos, dass es ein Mensch war der das geschrieben hat.
 
-Was die Historie trotzdem leistet, ist etwas anderes. Sie verändert die Sachlage von «Klingt nach KI», eine Vermutung, die nichts kostet zu «Du hast deine Arbeitsspur über Monate gefälscht», ein manifester Täuschungsvorwurf – und der braucht selbst Belege.
+Was die Historie trotzdem leistet, ist etwas anderes. Sie verändert die Sachlage von «Klingt nach KI», eine Vermutung die nichts kostet zu «Du hast deine Arbeitsspur über Monate gefälscht», ein manifester Täuschungsvorwurf der teuer werden könnte da er selber belegt werden muss.
 
-Vor allem aber ist deine Historie etwas, das du erzählen kannst. Warum die Rückblende rausflog, was vorher an dieser Stelle stand, warum Kapitel 3 zwei Wochen ruhte: Wer das erlebt hat, kann darüber sprechen, zu jedem beliebigen Commit, ohne Vorbereitung. Eine erzeugte Spur ist ein Drehbuch, das man erst auswendig lernen müsste.
+Vor allem aber ist deine Historie etwas, das du erzählen kannst. Warum die Rückblende rausflog, was vorher an dieser Stelle stand, warum Kapitel 3 zwei Wochen ruhte: Wer das erlebt hat, kann darüber sprechen, zu jedem beliebigen Commit, ohne Vorbereitung. Eine mit KI erzeugte Spur ist ein Drehbuch, das man erst auswendig lernen müsste.
 
 Am meisten zählt, was ausserhalb deiner Historie bestätigt wird – von Menschen, nicht von Accounts. Ein Reviewer-Profil ist in einer Minute angelegt; eine Lektorin mit Namen, Ruf und Verlag, die sich an den Zwischenstand vom April erinnert, nicht. Am stärksten ist, wer zu der Seite gehört, die später zweifelt: Hat die Lektorin des Verlags Kapitel 3 selbst kommentiert, kann der Verlag seine eigenen Leute fragen.
 
-## Vorher und nachher: was die Historie über das Werkzeug verrät
+### Vorher und nachher: was die Historie über das Werkzeug verrät
 
-Für die dritte Gruppe wird das sehr konkret. Deine Historie enthält den Absatz, **bevor** das
-Werkzeug ihn angefasst hat: Der Commit vom Dienstagabend zeigt deine Fassung, der vom Mittwochmorgen
-zeigt, was die Korrektur daraus gemacht hat. Dazwischen liegt ein Vergleich, den jeder lesen kann –
+Für die dritte Gruppe wird das sehr konkret. Deine Historie enthält den Absatz, **bevor** das  
+Werkzeug ihn angefasst hat: Der Commit vom Dienstagabend zeigt deine Fassung, der vom Mittwochmorgen  
+zeigt, was die Korrektur daraus gemacht hat. Dazwischen liegt ein Vergleich, den jeder lesen kann –  
 ein Komma, zwei umgestellte Wörter.
 
-Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du
-beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht
-mehr. Du belegst Urheberschaft: dass der Text von dir stammt und das Werkzeug ihn an den Rändern
+Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du  
+beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht  
+mehr. Du belegst Urheberschaft: dass der Text von dir stammt und das Werkzeug ihn an den Rändern  
 berührt hat, nicht in der Substanz.
 
-Praktisch heisst das: **ein Commit vor dem Werkzeug, ein Commit danach.** Zehn Sekunden Aufwand –
-und die Grenze zwischen deiner Arbeit und der Korrektur ist dauerhaft dokumentiert. Weil sich die
+Praktisch heisst das: **ein Commit vor dem Werkzeug, ein Commit danach.** Zehn Sekunden Aufwand –  
+und die Grenze zwischen deiner Arbeit und der Korrektur ist dauerhaft dokumentiert. Weil sich die  
 Markierung nicht herauswaschen lässt und du sie selbst nicht prüfen kannst, ist deine Historie der einzige Beleg, den du selbst in der Hand hast.
 
-## Die Statistik macht es sichtbar
+### Und die Sicherheit deiner Texte?
 
-Was in der Historie steckt, lässt sich auch ansehen statt lesen. Die
-[Schreibstatistik](/blog/writing-statistics-that-motivate) im Writer zeigt deine Arbeit als Zahlen
-und Bilder: Wörter pro Tag und Woche, aktive Schreibzeit, eine Heatmap über zwölf Monate. Für
-Projekte mit Repository kommt die Commit-Aktivität dazu.
-
-Ein Jahr Schreibarbeit sieht darin aus wie ein Jahr Schreibarbeit: ungleichmässig, mit Löchern und
-dichten Phasen vor Abgabeterminen – nicht wie drei Nachmittage, an denen ein Buch erschienen ist.
-Die Statistik zählt dabei dich, nicht deinen Text: Erfasst werden Wortmengen und Zeiten, keine
-Inhalte.
-
-Wichtig ist auch, was sie nicht kann: Die Zahlen erfasst dein eigener Browser, und ein eingefügter Absatz zählt darin genauso wie ein getippter. Die Statistik hilft dir, deine Arbeit zu überblicken und zu zeigen – einen Vorwurf widerlegt sie allein nicht.
-
-## GitHub als unbeteiligter Zeuge
-
-Bis hierhin liegt alles bei dir – und alles, was bei dir liegt, kannst du im Zweifel auch selbst
-inszeniert haben. Der nächste Schritt macht daraus etwas Belastbareres: Ist dein Projekt mit GitHub
-verknüpft, landen deine Commits bei einem Dritten, der nichts mit deinem Text zu tun hat. Wie das
-geht, steht in [GitHub richtig nutzen](/blog/using-github-with-bun-ink).
-
-Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Speichert [bun.ink](http://bun.ink) auf GitHub, setzt GitHub die Zeit selbst – das belegt, dass dieser Stand spätestens dann existierte. Mehr nicht: Wer ihn geschrieben hat, belegt kein Server, und wer sich mit Git auskennt, kann neben solchen Commits auch rückdatierte ablegen. Das ist weniger, als man sich wünscht, und mehr, als ein Word-Dokument hergibt. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einladen, das Repository öffnen, oder die Commit-Liste exportieren. Aus «Ich habe das selbst geschrieben» wird «Hier sind die 312 Schritte, mit Datum – frag mich zu jedem, was ich da gemacht habe».
-
-## Und die Sicherheit deiner Texte?
-
-Eine Frage vom Anfang ist offengeblieben: *Landet mein Manuskript irgendwo in einem Training?* Bei
-bun.ink ist die Antwort kurz. Die App schickt deine Texte nicht an ein Sprachmodell, und in der
-Datenbank liegen sie nicht als lesbarer Klartext, sondern verschlüsselt. Wie das im Detail
+Eine Frage vom Anfang ist offengeblieben: *Landet mein Manuskript irgendwo in einem Daten-Training?* Bei  
+bun.ink ist die Antwort kurz. Die App schickt deine Texte nicht an ein Sprachmodell, und in der  
+Datenbank liegen sie nicht als lesbarer Klartext, sondern verschlüsselt. Wie das im Detail  
 funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
 
-Dein Text geht also nirgends hin – weder in ein Training noch als Klartext in eine Datenbank. Was
-daraus für den Nachweis folgt, hat allerdings eine Kehrseite.
+Dein Text geht also nirgends hin – weder in ein Training noch als Klartext in eine Datenbank. Mit einem High-Privacy-Projekt kannst du deine Texte sogar noch weiter Schützen, wie das funktioniert ist auch in dem oben genannten Blog- Artikel erklärt. Allerdings musst du dir darüber im klaren sein, dass es für High-Privacy-Projekte keine GitHub- Verknüpfung gibt und damit auch die Vorteile der git Versionskontrolle die in diesem Artikel besprochen wurden, wegfallen. 
 
-## Ein ehrlicher Vorbehalt
+### Nochmal in Kürze: 
 
-Sie lautet: Beides zugleich geht nicht. Ein High-Privacy-Projekt, das deinen Schlüssel nie verlässt,
-hat bewusst keine GitHub-Historie – maximal privat und öffentlich nachweisbar schliessen einander
-aus. bun.ink lässt dich das pro Projekt entscheiden.
-
-Und ein zweiter, der weiter oben schon stand: Forensischer Beweis ist eine Historie nicht. Sie verschiebt die Frage von «sieht der Text menschlich aus?» zu «gibt es eine gewachsene Arbeitsspur, die ihr Urheber erklären kann und die andere Menschen bestätigen?». Das ist die bessere Frage – beantworten musst du sie trotzdem selbst.
-
-## Was du dafür tun solltest
-
-Wenn dir dieser Beleg wichtig ist, lohnen sich ein paar Gewohnheiten:
+Was du also für den Beleg deiner eigenständigen Arbeit mit der Hilfe von Versionskontrolle tun solltest:
 
 - **Früh anfangen.** Die Historie beginnt mit dem ersten Commit, nicht erst beim fertigen Manuskript.
 - **Klein speichern.** Lieber fünf Commits an einem Nachmittag als einen am Monatsende.
 - **Ehrliche Nachrichten schreiben.** «Dialog gekürzt, Rückblende raus» sagt mehr als «Update».
 - **Umwege stehen lassen.** Verworfene Fassungen sind kein Makel, sie sind der Beleg.
 - **Werkzeuge einrahmen.** Vor und nach jedem Durchlauf durch eine Korrekturhilfe einmal speichern.
-- **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das
+- **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das  
 eigene Konto des Agenten – so bleibt auch für dich selbst sichtbar, was von dir stammt und was vom Agenten.
-- **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung
+- **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung  
 dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 - **Andere Menschen einbeziehen.** Nicht irgendein Account, sondern Menschen, die man fragen kann: eine Lektorin, ein Redakteur, jemand vom Verlag. Ein Review, in dem eine erreichbare Person einen Zwischenstand kommentiert hat, wiegt mehr als hundert Commits – am meisten, wenn diese Person zu der Seite gehört, die später Fragen stellt.
-
-## Zum Schluss: ein offenes Buch, in beide Richtungen
-
-Eine faire Warnung zum Schluss: Was hier als Nachweis beschrieben wird, funktioniert in beide
-Richtungen. Eine Versionierung, die zeigt, dass ein Kapitel in vierzig Schritten gewachsen ist,
-zeigt genauso, dass ein anderes in einem Schritt fertig dastand. Wer offen mit KI arbeitet, hinterlässt eine erkennbare Spur in der Historie – und seit diesem Sommer zusätzlich eine im Text selbst.
-
-Für die meisten ist das kein Problem: Wer sein Werkzeug offenlegt, hat nichts zu verbergen, und ein
-gut geführtes Repository zeigt sogar, was vorgeschlagen und was übernommen wurde – genau der
-Gedanke im Artikel über den [kontrollierten Schreibpartner](/blog/ai-controlled-writing-partner).
-
-Denn das ist der Preis und der Wert derselben Sache: Mit bun.ink ist der Entstehungsprozess eines  
-Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin keinen Beweis, aber etwas Besseres als Beteuerungen: eine Spur, die er erklären kann und die ein Fälscher erst erfinden müsste. Wer sich nur korrigieren lässt, findet den Unterschied zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Und wer mit KI  
-arbeitet, findet die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Prozess nicht mehr.
