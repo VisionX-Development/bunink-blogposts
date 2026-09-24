@@ -11,42 +11,39 @@ Regeln und einem Agenten, der prüft und vorschlägt, während der Mensch entsch
 Hier geht es um eine Frage, die sich unabhängig davon stellt: Wie belegst du, dass ein Text deine  
 Arbeit ist?
 
-Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel niemandem abnimmt.
-Manche lassen sich Szenen vorschlagen, manche wollen keine Zeile davon, und die meisten liegen
-dazwischen: Sie schreiben jeden Satz selbst und lassen die Rechtschreibung prüfen.
+### Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel niemandem abnimmt.
 
-Für die Frage nach dem Beleg von eigener Arbeit spielt keine der Wege wirklich eine Rolle. Die Antwort liegt nicht im fertigen Text selber, sondern eher in seiner Entstehung – und genau das ist der Punkt an dem Versionierung eines Textes von Vorteil sein kann.
+Grob und vollkommen wertfrei, kann man die Mehrzahl der Autoren in drei Gruppen einteilen. Die erste Gruppe von Autoren verwendet überhaupt keine KI. Die zweite Gruppe von Autoren verwendet KI um ganze Szenen, d.h. vollständige Textpassagen bis hin zu ganzen Kapiteln und sogar Bücher zu erstellen. Die dritte Gruppe liegt irgendwo dazwischen, sie schreiben zwar jeden Satz selber, verwenden KI-Tools aber z.B. für eine Rechtschreibprüfung oder Stilanalyse usw.
+
+Für die Frage nach dem Beleg eigener Arbeit spielt keine der Wege wirklich eine Rolle. Die Antwort liegt nicht im fertigen Text selber, sondern eher in seiner Entstehung – und genau das ist der Punkt an dem Versionierung eines Textes von Vorteil sein kann.
 
 ## Das neue Problem: den Negativbeweis führen
 
-Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen
-musste: dass er ihn selbst geschrieben hat. Verlage lassen sich das versichern, Redaktionen nehmen
-entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen wenig:
-KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – auch bei
+Wer einen Text abliefert, muss zunehmend belegen können, was vor kurzem niemand belegen  
+musste: dass er ihn selbst und nicht eine KI geschrieben hat. Verlage lassen sich das versichern, Redaktionen nehmen  
+entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen wenig:  
+KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – auch bei  
 Menschen, die einfach nur sauber schreiben.
 
-Das Kernproblem: Wer einen Text verfasst hat, sieht man ihm nicht an. Ein fertiger Text ist ein
-Ergebnis, und Ergebnisse sehen sich ähnlich, egal wie sie entstanden sind. Der Unterschied liegt in
-der Entstehung – und die ist normalerweise verschwunden, sobald die Datei gespeichert ist.
-Maschinell erzeugter Text trägt inzwischen zwar eine Markierung; sie beantwortet aber ausgerechnet
+Das Kernproblem: Ob eine KI oder ein Mensch einen Text verfasst hat, sieht man ihm zunehmend nicht mehr an. Ein fertiger Text ist ein  
+Ergebnis, und Ergebnisse sehen sich ähnlich, egal wie sie entstanden sind. Der Unterschied liegt in  
+dem Weg wie der Text entsteht – doch die Dokumentation dazu ist normalerweise verschwunden, sobald die Datei gespeichert ist.  
+Maschinell erzeugter Text trägt inzwischen zwar eine Markierung; sie beantwortet aber ausgerechnet  
 diese Frage nicht – gleich mehr dazu.
 
 ## Die dritte Gruppe: eigener Text, fremde Werkzeuge
 
-Über eine der drei Haltungen vom Anfang wird am wenigsten gesprochen, obwohl sie vermutlich die
-häufigste ist: Menschen, die jeden Satz selbst schreiben, aber eine Rechtschreib- oder
-Grammatikprüfung, ein digitales Lektorat benutzen.
+Über eine der drei Haltungen vom Anfang wird am wenigsten gesprochen, obwohl sie vermutlich die  
+häufigste ist: Menschen, die jeden Satz selbst schreiben, aber eine Rechtschreib- oder  
+Grammatikprüfung oder gar ein Stilanalyse- Tool benutzen.
 
-Dass solche Werkzeuge unter der Haube längst Sprachmodelle einsetzen, sieht man ihnen nicht an. Wer
-eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreiben – und hat recht
-damit. Trotzdem ist an einer Stelle eine Maschine über den Text gelaufen. Genau daraus ist seit
-diesem Sommer ein Problem geworden.
+Dass solche Werkzeuge unter der Haube längst Sprachmodelle einsetzen, sieht man ihnen nicht sofort an. Wer  
+eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreiben. Trotzdem ist an einer Stelle eine Maschine über den Text gelaufen. Genau daraus ist seit diesem Sommer ein Problem geworden.
 
 ## Das Wasserzeichen ist keine Zukunftsmusik
 
-Seit Sommer 2026 versehen die grossen Anbieter ihre Modelle mit einem unsichtbaren Wasserzeichen im
-erzeugten Text. Bei Anthropic trägt es jedes Modell ab dem 2. August 2026, ältere sollen bis zum 2. Dezember 2026 nachgezogen haben. Abschalten lässt es sich nicht. Dahinter stehen die
-Transparenzpflichten des europäischen KI-Rechts, andere Anbieter gehen denselben Weg.
+Auf Grund einer verschäften EU- Vorschrift versehen die grossen KI- Anbieter seit Sommer 2026 ihre Modelle mit einem unsichtbaren Wasserzeichen im  
+erzeugten Text. Bei Anthropic z.B. tragen es einzelne Modelle beretis ab August 2026, bis Anfang Dezember 2026 sollen es alle Modelle haben. Abschalten lässt es sich nicht. Da hinter diesen Änderungen die Transparenzpflichten des europäischen KI-Rechts stehen, werden andere Anbieter ähnliche Wege gehen müssen.
 
 Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches
 Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und sie ist zäh: Sie steckt nicht in
@@ -55,34 +52,36 @@ Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschr
 
 ## Was ein Wasserzeichen aussagt – und was nicht
 
-Für die dritte Gruppe wird es jetzt unangenehm, aus einem Grund, der nichts mit schlechter Technik
-zu tun hat: Die Markierung ist grob. Sie belegt, dass ein Modell beteiligt war – nicht, dass es den
-Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen
-geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen
+Für die dritte Gruppe wird es jetzt unangenehm, aus einem Grund, der nichts mit schlechter Technik  
+zu tun hat: Die Markierung ist grob. Sie belegt, dass ein Modell beteiligt war – nicht, dass es den  
+Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen  
+geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen  
 lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel erzeugen liess.
 
 Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht
 bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit
 dem du einen Vorwurf entkräften könntest, gibt es nicht.
 
-Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhält, dein Text sei «von
-der KI», widerlegst du das nicht, indem du auf den fertigen Text zeigst. Dein Beleg ist nicht das
-Ergebnis. Dein Beleg ist der Weg dorthin.
+Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhält, dein Text sei «von  
+der KI», widerlegst du das nicht, indem du auf den fertigen Text zeigst. Dein Beleg ist nicht das  
+Ergebnis. **Dein Beleg ist NUR der Weg dorthin.**
 
 Den Stand zum Wasserzeichen erklärt Anthropic in seiner
 [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
 
 ## Was in einer Versionierung ausser dem Text noch steht
 
-Genau hier tut die Versionierung etwas, das sie eigentlich für ganz andere Zwecke tut. Wenn du in
-bun.ink arbeitest, speicherst du keine Datei, die sich selbst überschreibt, sondern legst
-Speicherpunkte an – Commits, die festhalten, wie der Text aussah, wann das war und was du notiert
-hast. Was Commits, Branches und Repository bedeuten, erklärt
+Genau hier tut die Versionierung etwas, das sie eigentlich für ganz andere Zwecke tut. Wenn du in  
+bun.ink arbeitest, speicherst du keine Datei, die sich selbst überschreibt, sondern legst  
+Speicherpunkte an – Commits, die festhalten, wie der Text aussah, wann das war und was du notiert  
+hast. Was Commits, Branches und Repository bedeuten, erklärt der Blogartikel:  
 [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers).
 
-Dadurch entsteht neben deinem Text ein zweiter, den niemand bewusst schreibt: seine
-Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert
-stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Die Zeitleiste: wann welcher Satz entstanden ist
+Dadurch entsteht neben deinem Text eine Meta-Information, die niemand bewusst aufschreibt: seine  
+Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert  
+stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Die Zeitleiste: wann welcher Satz entstanden ist.
+
+###
 
 Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine
 Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht. Du wählst zwei Stände – etwa den
