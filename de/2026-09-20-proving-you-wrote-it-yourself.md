@@ -17,7 +17,7 @@ Grob und vollkommen wertfrei, kann man die Mehrzahl der Autoren in drei Gruppen 
 
 Für die Frage nach dem Beleg eigener Arbeit spielt keine der Wege wirklich eine Rolle. Die Antwort liegt nicht im fertigen Text selber, sondern eher in seiner Entstehung – und genau das ist der Punkt an dem Versionierung eines Textes von Vorteil sein kann.
 
-## Das neue Problem: den Negativbeweis führen
+### Das neue Problem: den Negativbeweis führen
 
 Wer einen Text abliefert, muss zunehmend belegen können, was vor kurzem niemand belegen  
 musste: dass er ihn selbst und nicht eine KI geschrieben hat. Verlage lassen sich das versichern, Redaktionen nehmen  
@@ -31,7 +31,7 @@ dem Weg wie der Text entsteht – doch die Dokumentation dazu ist normalerweise 
 Maschinell erzeugter Text trägt inzwischen zwar eine Markierung; sie beantwortet aber ausgerechnet  
 diese Frage nicht – gleich mehr dazu.
 
-## Die dritte Gruppe: eigener Text, fremde Werkzeuge
+### Die dritte Gruppe: eigener Text, fremde Werkzeuge
 
 Über eine der drei Haltungen vom Anfang wird am wenigsten gesprochen, obwohl sie vermutlich die  
 häufigste ist: Menschen, die jeden Satz selbst schreiben, aber eine Rechtschreib- oder  
@@ -40,7 +40,7 @@ Grammatikprüfung oder gar ein Stilanalyse- Tool benutzen.
 Dass solche Werkzeuge unter der Haube längst Sprachmodelle einsetzen, sieht man ihnen nicht sofort an. Wer  
 eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreiben. Trotzdem ist an einer Stelle eine Maschine über den Text gelaufen. Genau daraus ist seit diesem Sommer ein Problem geworden.
 
-## Das Wasserzeichen ist keine Zukunftsmusik
+### Das Wasserzeichen ist keine Zukunftsmusik
 
 Auf Grund einer verschäften EU- Vorschrift versehen die grossen KI- Anbieter seit Sommer 2026 ihre Modelle mit einem unsichtbaren Wasserzeichen im  
 erzeugten Text. Bei Anthropic z.B. tragen es einzelne Modelle beretis ab August 2026, bis Anfang Dezember 2026 sollen es alle Modelle haben. Abschalten lässt es sich nicht. Da hinter diesen Änderungen die Transparenzpflichten des europäischen KI-Rechts stehen, werden andere Anbieter ähnliche Wege gehen müssen.
@@ -50,7 +50,7 @@ Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und sie ist z
 einer Datei-Eigenschaft, sondern in der Wortwahl selbst. Sie übersteht Kopieren, Einfügen,
 Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschrieben wird.
 
-## Was ein Wasserzeichen aussagt – und was nicht
+### Was ein Wasserzeichen aussagt – und was nicht
 
 Für die dritte Gruppe wird es jetzt unangenehm, aus einem Grund, der nichts mit schlechter Technik  
 zu tun hat: Die Markierung ist grob. Sie belegt, dass ein Modell beteiligt war – nicht, dass es den  
@@ -69,7 +69,7 @@ Ergebnis. **Dein Beleg ist NUR der Weg dorthin.**
 Den Stand zum Wasserzeichen erklärt Anthropic in seiner
 [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
 
-## Was in einer Versionierung ausser dem Text noch steht
+### Was in einer Versionierung ausser dem Text noch steht
 
 Genau hier tut die Versionierung etwas, das sie eigentlich für ganz andere Zwecke tut. Wenn du in  
 bun.ink arbeitest, speicherst du keine Datei, die sich selbst überschreibt, sondern legst  
@@ -77,20 +77,18 @@ Speicherpunkte an – Commits, die festhalten, wie der Text aussah, wann das war
 hast. Was Commits, Branches und Repository bedeuten, erklärt der Blogartikel:  
 [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers).
 
-Dadurch entsteht neben deinem Text eine Meta-Information, die niemand bewusst aufschreibt: seine  
+Dadurch entsteht neben deinem Text eine Geschichte, die niemand bewusst aufschreibt: seine  
 Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert  
 stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist dein Beleg – sie entsteht nebenbei, während du ganz normal arbeitest. Die Zeitleiste: wann welcher Satz entstanden ist.
 
-###
-
-Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine
-Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht. Du wählst zwei Stände – etwa den
-ersten Commit und den von heute – und siehst dazwischen jede Änderung hervorgehoben. Ausführlich
+Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine  
+Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht für jede Branch. Du wählst zwei Stände – etwa den  
+ersten Commit und den von heute – und siehst dazwischen jede Änderung hervorgehoben. Ausführlich  
 beschrieben in [Der Commit-Browser](/blog/browsing-your-commit-history).
 
-Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, musst du nicht beteuern. Du kannst die vierzig Speicherpunkte zeigen, aus denen es geworden ist – und zu jedem erzählen, was du da gemacht hast.
+Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, kannst du die vierzig Speicherpunkte zeigen, aus denen es entstanden ist – und zu jedem erzählen, was du warum gemacht hast.
 
-## Warum Mikroschritte überzeugender sind als ein fertiges Kapitel
+### Warum Mikroschritte überzeugender sind als ein fertiges Kapitel
 
 Das eigentliche Indiz liegt nicht in einem einzelnen Commit, sondern in der **Form** der Historie.
 Menschliches Schreiben ist krumm: Ein Absatz wächst über eine Woche in sieben Schritten, ein anderer
@@ -102,11 +100,11 @@ Genau das steht in einer gewachsenen Commit-Historie – und genau das fehlt, we
 Je kleiner du speicherst, desto dichter wird diese Spur. Das ist kein Zusatzaufwand für eine
 Prüfinstanz – es ist ohnehin die Arbeitsweise, die dir beim Zurückgehen hilft.
 
-## Der naheliegende Einwand: Kann eine KI das nicht auch?
+### Der naheliegende Einwand: Kann eine KI das nicht auch?
 
-Doch, kann sie. Ein Agent kann einen fertigen Text in vierzig Schritte zerlegen, Umwege und Streichungen einbauen, glaubwürdige Commit-Nachrichten schreiben und das Ganze über Wochen verteilt speichern. Er kann sich sogar selbst kommentieren – unter einem zweiten Account, der aussieht wie eine Lektorin. Eine Historie ist deshalb kein Echtheitszertifikat, und wer das Gegenteil verspricht, verspricht etwas, das es nicht gibt: Kein Artefakt beweist, dass ein Mensch geschrieben hat.
+Doch, kann sie. Ein Agent kann einen fertigen Text in vierzig Schritte zerlegen, Umwege und Streichungen einbauen, glaubwürdige Commit-Nachrichten schreiben und das Ganze über Wochen verteilt speichern. Er kann sich sogar selbst kommentieren – unter einem zweiten Account, der aussieht wie eine Lektor oder Überarbeiter. Eine Historie ist deshalb kein Echtheitszertifikat, und wer das Gegenteil verspricht, verspricht etwas, das es nicht gibt: Kein Artefakt beweist lückenlos, dass es ein Mensch war der das geschrieben hat.
 
-Was die Historie trotzdem leistet, ist etwas anderes. Sie verändert die Frage. «Klingt nach KI» ist eine Vermutung, die nichts kostet. «Du hast deine Arbeitsspur über Monate gefälscht» ist ein Täuschungsvorwurf – und der braucht selbst Belege.
+Was die Historie trotzdem leistet, ist etwas anderes. Sie verändert die Sachlage von «Klingt nach KI», eine Vermutung, die nichts kostet zu «Du hast deine Arbeitsspur über Monate gefälscht», ein manifester Täuschungsvorwurf – und der braucht selbst Belege.
 
 Vor allem aber ist deine Historie etwas, das du erzählen kannst. Warum die Rückblende rausflog, was vorher an dieser Stelle stand, warum Kapitel 3 zwei Wochen ruhte: Wer das erlebt hat, kann darüber sprechen, zu jedem beliebigen Commit, ohne Vorbereitung. Eine erzeugte Spur ist ein Drehbuch, das man erst auswendig lernen müsste.
 
