@@ -5,8 +5,8 @@ description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasser
 ---
 
 Vor einer Weile haben wir hier beschrieben, wie sich eine KI als  
-[kontrollierter Schreibpartner](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren  
-Regeln und einem Agenten, der prüft und vorschlägt, während der Mensch entscheidet.
+[kontrolliertes Tool](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren  
+Regeln und einem Agenten, der prüft und vorschlägt, während wir als Autoren entscheiden.
 
 Hier geht es um eine Frage, die sich unabhängig davon stellt: Wie belegst du, dass ein Text deine  
 Arbeit ist?
