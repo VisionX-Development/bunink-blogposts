@@ -27,9 +27,7 @@ Menschen, die einfach nur sauber schreiben.
 
 Das Kernproblem: Ob eine KI oder ein Mensch einen Text verfasst hat, sieht man ihm zunehmend nicht mehr an. Ein fertiger Text ist ein  
 Ergebnis, und Ergebnisse sehen sich ähnlich, egal wie sie entstanden sind. Der Unterschied liegt in  
-dem Weg wie der Text entsteht – doch die Dokumentation dazu ist normalerweise verschwunden, sobald die Datei gespeichert ist.  
-Maschinell erzeugter Text trägt inzwischen zwar eine Markierung; sie beantwortet aber ausgerechnet  
-diese Frage nicht – gleich mehr dazu.
+dem Weg wie der Text entsteht – doch die Dokumentation dazu ist normalerweise verschwunden, sobald die Datei gespeichert ist.
 
 ### Die dritte Gruppe: eigener Text, fremde Werkzeuge
 
