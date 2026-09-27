@@ -4,64 +4,47 @@ date: 2026-09-20
 description: Seit diesem Sommer tragen KI-erzeugte Texte ein unsichtbares Wasserzeichen – auch dann, wenn nur die Rechtschreibhilfe darübergelaufen ist. Warum daraus falsche Vorwürfe entstehen und wie deine Commit-Historie belegt, dass ein Text Satz für Satz von dir stammt.
 ---
 
-Vor einer Weile haben wir hier beschrieben, wie sich eine KI als
-[kontrollierter Schreibpartner](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren
-Regeln und einem Agenten, der prüft und vorschlägt, während der Mensch entscheidet.
+Vor einer Weile haben wir hier beschrieben, wie sich eine KI als  
+[kontrolliertes Tool](/blog/ai-controlled-writing-partner) einsetzen lässt: mit klaren  
+Regeln und einem Agenten, der prüft und vorschlägt, während wir als Autoren die Entscheidung treffen.
 
 Hier geht es um eine Frage, die sich unabhängig davon stellt: Wie belegst du, dass ein Text deine
 Arbeit ist?
 
-Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel niemandem abnimmt.
-Manche lassen sich Szenen vorschlagen, manche wollen keine Zeile davon, und die meisten liegen
-dazwischen: Sie schreiben jeden Satz selbst und lassen die Rechtschreibung prüfen.
+Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel niemandem abnimmt.  
+Manche lassen sich Szenen vorschlagen, manche wollen keine Zeile davon, und die meisten liegen dazwischen: Sie schreiben jeden Satz selbst und lassen die Rechtschreibung prüfen.
 
-Für die Frage nach dem Nachweis spielt diese Haltung erstaunlich wenig Rolle. Die Antwort liegt in
-keinem Fall im fertigen Text, sondern in seiner Entstehung – und genau die hält die Versionierung
-fest, die bun.ink ohnehin mitbringt.
+Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe Rolle. Denn die Antwort liegt nicht im fertigen Text. Sie liegt in seiner Entstehung – vielmehr seinem Entstehungsprozess. Und genau diesen Prozess hält die Versionierung eines Textes  
+fest, und in [bun.ink](http://bun.ink) geht das ohne Mehrarbeit. 
 
 ## Das neue Problem: den Negativbeweis führen
 
-Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen
-musste: dass er ihn selbst geschrieben hat. Verlage lassen sich das versichern, Redaktionen nehmen
-entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen wenig:
-KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – auch bei
-Menschen, die einfach nur sauber schreiben.
+Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen  
+musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen  
+entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen heute noch wenig: KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch - so wurde Moby-Dick, Herman Melvilles Klassiker von 1851 kürzlich von einem KI-Detektor als von einer KI geschrieben erkannt. 
 
-Das Kernproblem: Wer einen Text verfasst hat, sieht man ihm nicht an. Ein fertiger Text ist ein
-Ergebnis, und Ergebnisse sehen sich ähnlich, egal wie sie entstanden sind. Der Unterschied liegt in
-der Entstehung – und die ist normalerweise verschwunden, sobald die Datei gespeichert ist.
-Maschinell erzeugter Text trägt inzwischen zwar eine Markierung; sie beantwortet aber ausgerechnet
-diese Frage nicht – gleich mehr dazu.
+Das Kernproblem: Die Grenze zwischen Mensch und Maschine bei der Texterstellung wird immer unschärfer. Ein reiner Text ist erstmal ein offenes Ergebnis. Der Unterschied zwischen Mensch und Maschine liegt in der Entstehung – und die ist normalerweise verschwunden, sobald die Datei gespeichert ist. Maschinell erzeugter Text dagegen, trägt so gut wie nie die Information über ihre Entstehung.
 
-## Die dritte Gruppe: eigener Text, fremde Werkzeuge
+## Eigener Text, fremde Werkzeuge
 
-Über eine der drei Haltungen vom Anfang wird am wenigsten gesprochen, obwohl sie vermutlich die
-häufigste ist: Menschen, die jeden Satz selbst schreiben, aber eine Rechtschreib- oder
-Grammatikprüfung, ein digitales Lektorat benutzen.
+Was geschieht nun mit Autoren, die jeden Satz selbst schreiben, aber eine Rechtschreib- oder  
+Grammatikprüfung oder ein digitales Lektorat benutzen? Was geschieht mit Autoren die Auszüge aus der Recherche eines KI-Agenten verwenden?
 
-Dass solche Werkzeuge unter der Haube längst Sprachmodelle einsetzen, sieht man ihnen nicht an. Wer
-eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreiben – und hat recht
-damit. Trotzdem ist an einer Stelle eine Maschine über den Text gelaufen. Genau daraus ist seit
-diesem Sommer ein Problem geworden.
+All diese Werkzeuge verwenden unter der Haube längst Sprachmodelle, das sieht man ihnen oft gar nicht an. Wer  
+eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreiben. Trotzdem ist an einer Stelle eine Maschine über den Text gelaufen. Genau daraus ist seit diesem Sommer ein Problem geworden.
 
 ## Das Wasserzeichen ist keine Zukunftsmusik
 
-Seit Sommer 2026 versehen die grossen Anbieter ihre Modelle mit einem unsichtbaren Wasserzeichen im
-erzeugten Text. Bei Anthropic trägt es jedes Modell ab dem 2. August 2026, ältere sollen bis zum 2. Dezember 2026 nachgezogen haben. Abschalten lässt es sich nicht. Dahinter stehen die
-Transparenzpflichten des europäischen KI-Rechts, andere Anbieter gehen denselben Weg.
+Seit Sommer 2026 versehen die grossen Anbieter ihre Modelle mit einem unsichtbaren Wasserzeichen im erzeugten Text. Bei Anthropic tragen es bereitest einige Modell ab dem 2. August 2026, die Übrigen sollen bis zum 2. Dezember 2026 nachgezogen werden. Abschalten lässt es sich nicht. Dahinter stehen die  
+Transparenzpflichten des europäischen KI-Rechts, andere Anbieter werden denselben Weg gehen müssen.
 
-Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches
-Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und sie ist zäh: Sie steckt nicht in
-einer Datei-Eigenschaft, sondern in der Wortwahl selbst. Sie übersteht Kopieren, Einfügen,
-Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschrieben wird.
+Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und das Wasserzeichen ist eine statistische Eigenschaft des Textes die in den Worten steckt. Sie lasst sich nicht einfach entfernen. Sie übersteht Kopieren, Einfügen, Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschrieben wird.
 
 ## Was ein Wasserzeichen aussagt – und was nicht
 
-Für die dritte Gruppe wird es jetzt unangenehm, aus einem Grund, der nichts mit schlechter Technik
-zu tun hat: Die Markierung ist grob. Sie belegt, dass ein Modell beteiligt war – nicht, dass es den
-Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen
-geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen
-lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel erzeugen liess.
+Für die Gruppe die „nur“ KI-Tools benutzt ist das ein Problem. Die Markierung ist sehr grob. Sie belegt, dass ein Modell beteiligt war – aber nicht, dass es den  
+Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen  
+geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel oder Buch erzeugen liess.
 
 Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht
 bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit
@@ -155,7 +138,7 @@ Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einlade
 
 ## Und die Sicherheit deiner Texte?
 
-Eine Frage vom Anfang ist offengeblieben: _Landet mein Manuskript irgendwo in einem Training?_ Bei
+Eine Frage vom Anfang ist offengeblieben: *Landet mein Manuskript irgendwo in einem Training?* Bei
 bun.ink ist die Antwort kurz. Die App schickt deine Texte nicht an ein Sprachmodell, und in der
 Datenbank liegen sie nicht als lesbarer Klartext, sondern verschlüsselt. Wie das im Detail
 funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
@@ -184,9 +167,9 @@ Wenn dir dieser Nachweis wichtig ist, lohnen sich ein paar Gewohnheiten:
 - **Umwege stehen lassen.** Verworfene Fassungen sind kein Makel, sie sind der Beleg.
 - **Werkzeuge einrahmen.** Vor und nach jedem Durchlauf durch eine Korrekturhilfe einmal speichern.
 - **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das
-  eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
+eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
 - **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung
-  dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
+dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 
 ## Zum Schluss: ein offenes Buch, in beide Richtungen
 
