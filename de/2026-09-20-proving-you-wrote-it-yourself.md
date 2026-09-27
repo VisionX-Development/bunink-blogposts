@@ -12,7 +12,7 @@ Hier geht es um eine Frage, die sich unabhängig davon stellt: Wie belegst du, d
 Arbeit ist?
 
 Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel niemandem abnimmt.  
-Manche lassen sich Szenen vorschlagen, manche wollen keine Zeile davon, und die meisten liegen dazwischen: Sie schreiben jeden Satz selbst und lassen die Rechtschreibung prüfen.
+Ohne jegliche Werten sowie grob und vereinfacht gibt es dazu drei Lager: das erste Lager sind die, die niemals KI verwenden; das zweite Lager sind diejenigen die wiederum alles, ganze Szenen, Kapitel und Bücher durch die KI erstellen lassen; die dritte Gruppe liegen genau zwischen den ersten und zweiten Lager, diese Autoren schreiben jeden Satz selbst benutzen aber KI- Tools für eine Rechtschreibprüfung, Überarbeitung oder Stilanalyse.
 
 Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe Rolle. Denn die Antwort liegt nicht im fertigen Text. Sie liegt in seiner Entstehung – vielmehr seinem Entstehungsprozess. Und genau diesen Prozess hält die Versionierung eines Textes  
 fest, und in [bun.ink](http://bun.ink) geht das ohne Mehrarbeit. 
