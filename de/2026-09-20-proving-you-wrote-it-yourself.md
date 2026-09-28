@@ -101,6 +101,7 @@ Für die dritte Gruppe wird das sehr konkret. Deine Historie enthält den Absatz
 Werkzeug ihn angefasst hat: Der Commit vom Dienstagabend zeigt deine Fassung, der vom Mittwochmorgen
 zeigt, was die Korrektur daraus gemacht hat. Dazwischen liegt ein Vergleich, den jeder lesen kann –
 ein Komma, zwei umgestellte Wörter. Und ja, Fehler zu machen, z.B. Rechtschreibfehler, ist hier sehr nützlich, auch wenn es ein leichtes für eine KI ist diese zu finden und zu korrigieren. 
+ Und ja, Fehler zu machen, z.B. Rechtschreibfehler, ist hier sehr nützlich, auch wenn es ein leichtes für eine KI ist diese zu finden und zu korrigieren. 
 
 Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du
 beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht
