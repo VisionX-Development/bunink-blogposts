@@ -104,10 +104,10 @@ ein Komma, zwei umgestellte Wörter. Und ja, Fehler zu machen, z.B. Rechtschreib
 
 Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du
 beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht
-mehr. Du beweist Urheberschaft: dass der Text von dir stammt und das Werkzeug ihn an den Rändern
+mehr. Du beweist Urheberschaft: dass der Text von dir stammt und das ein Werkzeug ihn an den Rändern
 berührt hat, nicht in der Substanz.
 
-Praktisch heisst das: **ein Commit vor dem Werkzeug, ein Commit danach.** Zehn Sekunden Aufwand –
+Praktisch heisst das: **ein Commit vor dem Werkzeuggebrauch, ein Commit danach.** Zehn Sekunden Aufwand –
 und die Grenze zwischen deiner Arbeit und der Korrektur ist dauerhaft dokumentiert. Weil sich die
 Markierung nicht herauswaschen lässt und du sie selbst nicht prüfen kannst, ist deine Historie der
 einzige Nachweis, der dir gehört.
