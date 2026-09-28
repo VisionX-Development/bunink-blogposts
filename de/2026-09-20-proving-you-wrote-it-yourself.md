@@ -15,7 +15,7 @@ Wie jemand mit KI umgeht, ist eine persönliche Entscheidung, die dieser Artikel
 Ohne jegliche Wertung sowie grob und vereinfacht gibt es dazu drei Lager: das erste Lager sind die, die niemals KI verwenden; das zweite Lager sind diejenigen die wiederum alles, ganze Szenen, Kapitel und Bücher durch die KI erstellen lassen; die dritte Gruppe liegt genau zwischen dem ersten und zweiten Lager, diese Autoren schreiben jeden Satz selbst benutzen aber KI- Tools für eine Rechtschreibprüfung, Überarbeitung oder Stilanalyse.
 
 Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe Rolle. Denn die Antwort liegt nicht im fertigen Text. Sie liegt in seiner Entstehung – vielmehr seinem Entstehungsprozess. Und genau diesen Prozess hält die Versionierung eines Textes  
-fest, und in [bun.ink](http://bun.ink) geht das ohne Mehrarbeit. 
+fest, und in bun.ink geht das ohne Mehrarbeit. 
 
 ## Das neue Problem: den Negativbeweis führen
 
@@ -36,7 +36,7 @@ eine Grammatikkorrektur annimmt, hat nicht das Gefühl, mit einer KI zu schreibe
 ## Das Wasserzeichen ist keine Zukunftsmusik
 
 Seit Sommer 2026 versehen die grossen Anbieter ihre Modelle mit einem unsichtbaren Wasserzeichen im erzeugten Text. Bei Anthropic tragen es bereitest einige Modell ab dem 2. August 2026, die Übrigen sollen bis zum 2. Dezember 2026 nachgezogen werden. Abschalten lässt es sich nicht. Dahinter stehen die  
-Transparenzpflichten des europäischen KI-Rechts, andere Anbieter werden denselben Weg gehen müssen.
+Transparenzpflichten des europäischen KI-Rechts. Andere Anbieter werden denselben Weg gehen müssen.
 
 Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein solches Modell benutzt, hinterlässt sie** – auch die Rechtschreibhilfe. Und das Wasserzeichen ist eine statistische Eigenschaft des Textes die in den Worten steckt. Sie lasst sich nicht einfach entfernen. Sie übersteht Kopieren, Einfügen, Umformatieren – und verschwindet erst, wenn die Stelle vollständig neu geschrieben wird.
 
@@ -44,7 +44,7 @@ Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hinter
 
 Für die Gruppe die „nur“ KI-Tools benutzt ist das ein Problem. Die Markierung ist sehr grob. Sie belegt, dass ein Modell beteiligt war – aber nicht, dass es den  
 Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen  
-geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel oder Buch erzeugen liess.
+geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel oder Buch erzeugen liess. In den Augen eines fremden Lesers, der die Textentstehen nicht kenn oder nachvollziehen kann, werden die Gruppen 2 (nur KI) und 3 (KI- Tools) jetzt gleich gesetzt.
 
 Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht
 bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit
@@ -52,33 +52,33 @@ dem du einen Vorwurf entkräften könntest, gibt es nicht.
 
 Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhält, dein Text sei «von
 der KI», widerlegst du das nicht, indem du auf den fertigen Text zeigst. Dein Beleg ist nicht das
-Ergebnis. Dein Beleg ist der Weg dorthin.
+Ergebnis. Dein einziger möglicher Beleg wird zukünftig viel mehr der Weg dorthin sein.
 
 Den Stand zum Wasserzeichen erklärt Anthropic in seiner
 [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
 
 ## Was in einer Versionierung ausser dem Text noch steht
 
-Genau hier tut die Versionierung etwas, das sie eigentlich für ganz andere Zwecke tut. Wenn du in
+Genau hier tut die Versionierung zufällig auch etwas, für das Sie eigentlich in der Vergangenheit gar nicht gedacht war. Wenn du in
 bun.ink arbeitest, speicherst du keine Datei, die sich selbst überschreibt, sondern legst
 Speicherpunkte an – Commits, die festhalten, wie der Text aussah, wann das war und was du notiert
 hast. Was Commits, Branches und Repository bedeuten, erklärt
 [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers).
 
-Dadurch entsteht neben deinem Text ein zweiter, den niemand bewusst schreibt: seine
+Dadurch entsteht neben deinem Text eine zweite „Geschichte“, die niemand bewusst schreibt: seine
 Entstehungsgeschichte. Wann der erste Absatz da war, welcher Satz drei Wochen lang unverändert
 stand, wo du eine Szene verworfen und später anders wieder aufgenommen hast. Diese zweite Ebene ist
-der Nachweis – sie entsteht nebenbei, während du ganz normal arbeitest.
+der Beleg deiner Arbeit – sie entsteht nebenbei, während du ganz normal arbeitest.
 
 ## Die Zeitleiste: wann welcher Satz entstanden ist
 
 Im Writer kannst du diese Historie auch lesen. Im Changes-Tab gibt es den **Commit-Browser**: eine
 Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht. Du wählst zwei Stände – etwa den
-ersten Commit und den von heute – und siehst dazwischen jede Änderung hervorgehoben. Ausführlich
+ersten Commit und den von heute – und siehst dazwischen jede Änderung einer Branch hervorgehoben. Ausführlich
 beschrieben in [Der Commit-Browser](/blog/browsing-your-commit-history).
 
 Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, musst du nicht beteuern. Du kannst
-die vierzig Speicherpunkte zeigen, aus denen es geworden ist.
+die vierzig Speicherpunkte zeigen, aus denen es entstanden ist.
 
 ## Warum Mikroschritte überzeugender sind als ein fertiges Kapitel
 
@@ -90,17 +90,17 @@ und Tage mit vierzig, Sätze, die dreimal umgestellt werden, Streichungen, Pause
 Genau das steht in einer gewachsenen Commit-Historie – und genau das fehlt, wenn ein Kapitel in
 einem einzigen Schritt auftaucht: vollständig, ohne eine einzige Überarbeitung danach. Ein Text, der
 so entsteht, ist entweder anderswo entstanden oder erzeugt worden. Beides sieht anders aus als
-Arbeit.
+ein Text der von einem Menschen bearbeitet wurde.
 
-Je kleiner du speicherst, desto dichter wird dieser Nachweis. Das ist kein Zusatzaufwand für eine
-Prüfinstanz – es ist ohnehin die Arbeitsweise, die dir beim Zurückgehen hilft.
+Je kleiner du speicherst, desto dichter wird dieser Nachweis. Mit bun.ink ist das kein Zusatzaufwand mehr,
+es ist ohnehin die Arbeitsweise, die dir beim Zurückgehen hilft.
 
 ## Vorher und nachher: was die Historie über das Werkzeug verrät
 
 Für die dritte Gruppe wird das sehr konkret. Deine Historie enthält den Absatz, **bevor** das
 Werkzeug ihn angefasst hat: Der Commit vom Dienstagabend zeigt deine Fassung, der vom Mittwochmorgen
 zeigt, was die Korrektur daraus gemacht hat. Dazwischen liegt ein Vergleich, den jeder lesen kann –
-ein Komma, zwei umgestellte Wörter.
+ein Komma, zwei umgestellte Wörter. Und ja, Fehler zu machen, z.B. Rechtschreibfehler, ist hier sehr nützlich, auch wenn es ein leichtes für eine KI ist diese zu finden und zu korrigieren. 
 
 Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du
 beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht
