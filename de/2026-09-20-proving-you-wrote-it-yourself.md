@@ -77,7 +77,7 @@ Liste aller Speicherpunkte, jeder mit Zeitstempel und Nachricht. Du wählst zwei
 ersten Commit und den von heute – und siehst dazwischen jede Änderung einer Branch hervorgehoben. Ausführlich
 beschrieben in [Der Commit-Browser](/blog/browsing-your-commit-history).
 
-Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, musst du nicht beteuern. Du kannst
+Wenn dich also jemand fragt, ob Kapitel 7 wirklich von dir ist, musst du nicht beteuern. Du kannst  
 die vierzig Speicherpunkte zeigen, aus denen es entstanden ist.
 
 ## Warum Mikroschritte überzeugender sind als ein fertiges Kapitel
@@ -132,6 +132,11 @@ geht, steht in [GitHub richtig nutzen](/blog/using-github-with-bun-ink).
 
 Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Ein Zeitstempel auf dem GitHub- Server ist mehr ein Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einladen, das Repository öffnen, oder die Commit-Liste exportieren. Aus «Ich habe das selbst geschrieben» wird «Hier sind die 312 Schritte, mit Datum und dem Inhalt der zugehörigen Änderungen».
 
+Natürlich ist eine gewachsene Commit- Historie kein forensischer Beweis. Sie liesse sich mit genügend  
+Aufwand inszenieren, auch durch einen KI-Agenten. Was die Versionierung leistet, ist bescheidener aber trotzdem nützlich: Sie  
+verschiebt die Frage von «sieht der Text menschlich aus?» zu «gibt es eine über Wochen gewachsene,  
+stimmige Arbeitsspur?». Das ist die bessere Frage, und sie lässt sich damit beantworten.
+
 ## Und die Sicherheit deiner Texte?
 
 Im Zusammenhang mit den bekannten großen Sprachmodellen, ergibt sich leider auch immer eine weitere Frage: *Landet mein Manuskript irgendwo in einem Trainingsdatensatz?* Bei  
@@ -140,38 +145,30 @@ Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschl�
 
 Die Verwendung von Versionierung über GitHub -  in dem Sinne wie oben beschrieben, musst du explizit zustimmen. Natürlich kannst du [bun.ink](http://bun.ink) auch ohne GitHub nutzen. Insbesondere der Hight Privacy Ordner kann nur ohne GitHub verwendet werden. Kein anderer kann dann deine Texte lesen oder verändern. Aber mit dem Vorteil der absoluten Privatsphäre geht auch der Nachteil der fehlenden Versionskontrolle und im Zweifel der Beleg über deine durchgeführte Arbeit verloren.
 
-Und ein zweiter Vorbehalt: Forensischer Beweis ist eine Historie nicht, sie liesse sich mit genügend
-Aufwand inszenieren. Was die Versionierung leistet, ist bescheidener und trotzdem nützlich: Sie
-verschiebt die Frage von «sieht der Text menschlich aus?» zu «gibt es eine über Wochen gewachsene,
-stimmige Arbeitsspur?». Das ist die bessere Frage, und sie lässt sich beantworten.
+## Was du zum Beleg deiner Arbeit tun kannst.
 
-## Was du dafür tun solltest
-
-Wenn dir dieser Nachweis wichtig ist, lohnen sich ein paar Gewohnheiten:
+Wenn dir dieser Beleg wichtig ist, lohnen sich ein paar Gewohnheiten:
 
 - **Früh anfangen.** Die Historie beginnt mit dem ersten Commit, nicht erst beim fertigen Manuskript.
 - **Klein speichern.** Lieber fünf Commits an einem Nachmittag als einen am Monatsende.
 - **Ehrliche Nachrichten schreiben.** «Dialog gekürzt, Rückblende raus» sagt mehr als «Update».
 - **Umwege stehen lassen.** Verworfene Fassungen sind kein Makel, sie sind der Beleg.
 - **Werkzeuge einrahmen.** Vor und nach jedem Durchlauf durch eine Korrekturhilfe einmal speichern.
-- **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das
-eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
-- **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung
-dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
+- **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
+- **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 
 ## Zum Schluss: ein offenes Buch, in beide Richtungen
 
-Eine faire Warnung zum Schluss: Was hier als Nachweis beschrieben wird, funktioniert in beide
-Richtungen. Eine Versionierung, die zeigt, dass ein Kapitel in vierzig Schritten gewachsen ist,
-zeigt genauso, dass ein anderes in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt
-eine erkennbare Spur in der Historie – und seit diesem Sommer zusätzlich eine im Text selbst.
+Eine faire Warnung zum Schluss: Was hier als Nachweis beschrieben wird, funktioniert in beide  
+Richtungen. Eine Versionierung, die zeigt, dass ein Kapitel in vierzig Schritten gewachsen ist,  
+zeigt genauso, dass ein anderes in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt  
+eine erkennbare Spur in der Historie – aber seit diesem Sommer gibt es zusätzlich eine im Text selbst.
 
 Für die meisten ist das kein Problem: Wer sein Werkzeug offenlegt, hat nichts zu verbergen, und ein
 gut geführtes Repository zeigt sogar, was vorgeschlagen und was übernommen wurde – genau der
 Gedanke im Artikel über den [kontrollierten Schreibpartner](/blog/ai-controlled-writing-partner).
 
-Denn das ist der Preis und der Wert derselben Sache: Mit bun.ink ist der Entstehungsprozess eines
-Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin den Nachweis,
-auf den er künftig angewiesen sein wird. Wer sich nur korrigieren lässt, findet den Unterschied
-zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Und wer mit KI
-arbeitet, findet die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Prozess nicht mehr.
+Denn das ist der Preis und der Wert derselben Sache: mit bun.ink ist der Entstehungsprozess eines  
+Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin den Nachweis, auf den er künftig angewiesen sein wird. Wer sich nur korrigieren lässt, findet den Unterschied  
+zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Wer mit KI  
+arbeitet, findet sieht hier die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Schreib-Prozess nicht mehr.
