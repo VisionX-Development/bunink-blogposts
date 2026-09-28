@@ -119,9 +119,8 @@ Was in der Historie steckt, lässt sich auch ansehen statt lesen. Die
 und Bilder: Wörter pro Tag und Woche, aktive Schreibzeit, eine Heatmap über zwölf Monate. Für
 Projekte mit Repository kommt die Commit-Aktivität dazu.
 
-Ein Jahr Schreibarbeit sieht darin aus wie ein Jahr Schreibarbeit: ungleichmässig, mit Löchern und
-dichten Phasen vor Abgabeterminen – nicht wie drei Nachmittage, an denen ein Buch erschienen ist.
-Die Statistik zählt dabei dich, nicht deinen Text: Erfasst werden Wortmengen und Zeiten, keine
+Ein Jahr Schreibarbeit sieht darin aus wie ein Jahr Schreibarbeit eben aussieht: ungleichmässig, mit Löchern und dichten Phasen vor Abgabeterminen – nicht wie drei Nachmittage, an denen ein Buch erschienen ist.  
+Die Statistik zählt dabei dich, nicht deinen Text: Erfasst werden Wortmengen und Zeiten, keine  
 Inhalte.
 
 ## GitHub als unbeteiligter Zeuge
@@ -131,26 +130,16 @@ inszeniert haben. Der letzte Schritt macht daraus etwas Belastbares: Ist dein Pr
 verknüpft, landen deine Commits bei einem Dritten, der nichts mit deinem Text zu tun hat. Wie das
 geht, steht in [GitHub richtig nutzen](/blog/using-github-with-bun-ink).
 
-Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Einer auf einem fremden Server ist ein
-Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einladen, das Repository
-öffnen, oder die Commit-Liste exportieren. Aus «Ich habe das selbst geschrieben» wird «Hier sind die
-312 Schritte, mit Datum».
+Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Ein Zeitstempel auf dem GitHub- Server ist mehr ein Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einladen, das Repository öffnen, oder die Commit-Liste exportieren. Aus «Ich habe das selbst geschrieben» wird «Hier sind die 312 Schritte, mit Datum und dem Inhalt der zugehörigen Änderungen».
 
 ## Und die Sicherheit deiner Texte?
 
-Eine Frage vom Anfang ist offengeblieben: *Landet mein Manuskript irgendwo in einem Training?* Bei
-bun.ink ist die Antwort kurz. Die App schickt deine Texte nicht an ein Sprachmodell, und in der
-Datenbank liegen sie nicht als lesbarer Klartext, sondern verschlüsselt. Wie das im Detail
+Im Zusammenhang mit den bekannten großen Sprachmodellen, ergibt sich leider auch immer eine weitere Frage: *Landet mein Manuskript irgendwo in einem Trainingsdatensatz?* Bei  
+bun.ink ist die Antwort kurz. Die App schickt deine Texte weder an ein Sprachmodell noch zu irgendjemand anderen wenn du das nicht möchtest. In der [bun.ink](http://bun.ink)   
+Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschlüsselt. Wie das im Detail  
 funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
 
-Dein Text geht also nirgends hin – weder in ein Training noch als Klartext in eine Datenbank. Was
-daraus für den Nachweis folgt, hat allerdings eine Kehrseite.
-
-## Ein ehrlicher Vorbehalt
-
-Sie lautet: Beides zugleich geht nicht. Ein High-Privacy-Projekt, das deinen Schlüssel nie verlässt,
-hat bewusst keine GitHub-Historie – maximal privat und öffentlich nachweisbar schliessen einander
-aus. bun.ink lässt dich das pro Projekt entscheiden.
+Die Verwendung von Versionierung über GitHub -  in dem Sinne wie oben beschrieben, musst du explizit zustimmen. Natürlich kannst du [bun.ink](http://bun.ink) auch ohne GitHub nutzen. Insbesondere der Hight Privacy Ordner kann auch nur ohne GitHub verwendet werden. Kein anderer kann dann deine Texte lesen oder verändern. 
 
 Und ein zweiter Vorbehalt: Forensischer Beweis ist eine Historie nicht, sie liesse sich mit genügend
 Aufwand inszenieren. Was die Versionierung leistet, ist bescheidener und trotzdem nützlich: Sie
