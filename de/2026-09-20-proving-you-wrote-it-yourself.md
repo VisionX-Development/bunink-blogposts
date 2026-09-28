@@ -135,11 +135,10 @@ Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Ein Zeitstempel auf d
 ## Und die Sicherheit deiner Texte?
 
 Im Zusammenhang mit den bekannten großen Sprachmodellen, ergibt sich leider auch immer eine weitere Frage: *Landet mein Manuskript irgendwo in einem Trainingsdatensatz?* Bei  
-bun.ink ist die Antwort kurz. Die App schickt deine Texte weder an ein Sprachmodell noch zu irgendjemand anderen wenn du das nicht möchtest. In der [bun.ink](http://bun.ink)   
-Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschlüsselt. Wie das im Detail  
-funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
+bun.ink ist die Antwort kurz. Die App schickt deine Texte weder an ein Sprachmodell noch zu irgendjemand anderen wenn du das nicht möchtest. In der [bun.ink](http://bun.ink)  
+Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschlüsselt. Wie das im Detail funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
 
-Die Verwendung von Versionierung über GitHub -  in dem Sinne wie oben beschrieben, musst du explizit zustimmen. Natürlich kannst du [bun.ink](http://bun.ink) auch ohne GitHub nutzen. Insbesondere der Hight Privacy Ordner kann auch nur ohne GitHub verwendet werden. Kein anderer kann dann deine Texte lesen oder verändern. 
+Die Verwendung von Versionierung über GitHub -  in dem Sinne wie oben beschrieben, musst du explizit zustimmen. Natürlich kannst du [bun.ink](http://bun.ink) auch ohne GitHub nutzen. Insbesondere der Hight Privacy Ordner kann nur ohne GitHub verwendet werden. Kein anderer kann dann deine Texte lesen oder verändern. Aber mit dem Vorteil der absoluten Privatsphäre geht auch der Nachteil der fehlenden Versionskontrolle und im Zweifel der Beleg über deine durchgeführte Arbeit verloren.
 
 Und ein zweiter Vorbehalt: Forensischer Beweis ist eine Historie nicht, sie liesse sich mit genügend
 Aufwand inszenieren. Was die Versionierung leistet, ist bescheidener und trotzdem nützlich: Sie
