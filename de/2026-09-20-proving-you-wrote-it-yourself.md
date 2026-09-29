@@ -162,7 +162,7 @@ Wenn dir dieser Beleg wichtig ist, lohnen sich ein paar Gewohnheiten:
 
 Ein fairer Hinweis am Ende. Was hier als Beleg der Arbeit an einem Text beschrieben wird, funktioniert in beide  
 Richtungen. Eine Versionierung zeigt, dass ein Kapitel in vierzig Schritten über einen langen Zeitraum gewachsen ist.  
-Es kann aber genauso zeigen, dass ein anderes Kapitel "aus dem Nichts" in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt mit einer Text- Versionierung  
+Es kann aber genauso zeigen, dass ein anderes Kapitel "aus dem Nichts" in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt mit einer Git- Versionierung  
 eine erkennbare Spur in der Historie. Allerdings, diese Spur gibt es mit dem Wasserzeichen seit diesem Sommer ja sowieso.
 
 Für die meisten ist das kein Problem: Wer sein Werkzeug offenlegt, hat nichts zu verbergen, und ein
