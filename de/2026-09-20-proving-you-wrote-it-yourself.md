@@ -160,10 +160,10 @@ Wenn dir dieser Beleg wichtig ist, lohnen sich ein paar Gewohnheiten:
 
 ## Zum Schluss: ein offenes Buch, in beide Richtungen
 
-Eine faire Warnung zum Schluss: Was hier als Nachweis beschrieben wird, funktioniert in beide  
-Richtungen. Eine Versionierung, die zeigt, dass ein Kapitel in vierzig Schritten gewachsen ist,  
-zeigt genauso, dass ein anderes in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt  
-eine erkennbare Spur in der Historie – aber seit diesem Sommer gibt es zusätzlich eine im Text selbst.
+Ein fairer Hinweis am Ende. Was hier als Beleg der Arbeit an einem Text beschrieben wird, funktioniert in beide  
+Richtungen. Eine Versionierung zeigt, dass ein Kapitel in vierzig Schritten über einen langen Zeitraum gewachsen ist.  
+Es kann aber genauso zeigen, dass ein anderes Kapitel "aus dem Nichts" in einem Schritt fertig dastand. Wer mit KI arbeitet, hinterlässt mit einer Text- Versionierung  
+eine erkennbare Spur in der Historie. Allerdings, diese Spur gibt es mit dem Wasserzeichen seit diesem Sommer ja sowieso.
 
 Für die meisten ist das kein Problem: Wer sein Werkzeug offenlegt, hat nichts zu verbergen, und ein
 gut geführtes Repository zeigt sogar, was vorgeschlagen und was übernommen wurde – genau der
@@ -172,4 +172,4 @@ Gedanke im Artikel über den [kontrollierten Schreibpartner](/blog/ai-controlled
 Denn das ist der Preis und der Wert derselben Sache: mit bun.ink ist der Entstehungsprozess eines  
 Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin den Nachweis, auf den er künftig angewiesen sein wird. Wer sich nur korrigieren lässt, findet den Unterschied  
 zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Wer mit KI  
-arbeitet, findet sieht hier die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Schreib-Prozess nicht mehr.
+arbeitet, sieht hier die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Schreib-Prozess nicht mehr.
