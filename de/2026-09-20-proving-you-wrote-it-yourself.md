@@ -170,6 +170,4 @@ gut geführtes Repository zeigt sogar, was vorgeschlagen und was übernommen wur
 Gedanke im Artikel über den [kontrollierten Schreibpartner](/blog/ai-controlled-writing-partner).
 
 Denn das ist der Preis und der Wert derselben Sache: mit bun.ink ist der Entstehungsprozess eines  
-Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin den Nachweis, auf den er künftig angewiesen sein wird. Wer sich nur korrigieren lässt, findet den Unterschied  
-zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Wer mit KI  
-arbeitet, findet sieht hier die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Schreib-Prozess nicht mehr.
+Textes ein sprichwörtlich offenes Buch. Wer jede Zeile selbst schreibt, findet darin den Nachweis, auf den er künftig angewiesen sein wird. Wer sich nur korrigieren lässt, findet den Unterschied zwischen «da war eine Maschine im Spiel» und «hier steht, was sie getan hat». Wer mit KI arbeitet, findet sieht hier die Wahrheit über seine Arbeitsweise. Nur unsichtbar ist der Schreib-Prozess nicht mehr.
