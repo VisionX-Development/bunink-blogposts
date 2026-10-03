@@ -1,7 +1,7 @@
 ---
 title: Metadaten und Notizen – was in einer Markdown-Datei ausser dem Text steckt
 date: 2026-09-30
-description: Frontmatter für Titel und Status am Dateianfang, Notizen als Merkzettel an einer Textstelle. Wie beides in [bun.ink](http://bun.ink) funktioniert, wo es gespeichert wird und wer es sieht.
+description: Frontmatter für Titel und Status am Dateianfang, Notizen als Merkzettel an einer Textstelle. Wie beides in bun.ink funktioniert, wo es gespeichert wird und wer es sieht.
 ---
 
 Eine Markdown-Datei ist Text. Aber nicht nur: Oft soll sie auch sagen, wie sie heisst, in welchem Stadium sie ist oder was an einer Stelle noch fehlt. [bun.ink](http://bun.ink) kennt dafür zwei Werkzeuge, die beide in der Datei selbst leben – **Metadaten** und **Notizen**.
@@ -26,28 +26,20 @@ Eine Markdown-Datei ist Text. Aber nicht nur: Oft soll sie auch sagen, wie sie h
 
 ## Metadaten: der Block am Anfang
 
-```
 Frontmatter ist ein Block zwischen zwei Zeilen mit drei Bindestrichen, ganz am Anfang der Datei:
 
-(Markdown)
+```markdown
 ---
-```
-
 title: Das zweite Kapitel
-
 status: draft
-
-```
 ---
 ```
 
-(Markdown)
-
-Website-Generatoren wie Hugo, Jekyll oder Astro lesen daraus Titel und Datum, unser eigenes \[Handbuch\]([https://github.com/VisionX-Development/writing-with-bunink](https://github.com/VisionX-Development/writing-with-bunink)) seine Kapitelnummer und den Status. Welche Felder du brauchst, bestimmt das Programm, das die Datei weiterverarbeitet.
+Website-Generatoren wie Hugo, Jekyll oder Astro lesen daraus Titel und Datum, unser eigenes [Handbuch](https://github.com/VisionX-Development/writing-with-bunink) seine Kapitelnummer und den Status. Welche Felder du brauchst, bestimmt das Programm, das die Datei weiterverarbeitet.
 
 In [bun.ink](http://bun.ink) ist der Block ein eigener Kasten mit der Beschriftung **Metadaten**. Er landet immer am Dateianfang, egal wo der Cursor steht, und es gibt nie mehr als einen – Programme lesen ohnehin nur den ersten. Ein **×** entfernt ihn wieder. Und weil drei selbst getippte Bindestriche mitten im Text eine Trennlinie sind, legst du Metadaten immer über das Menü an.
 
-Das Wichtigste passiert unsichtbar: [bun.ink](http://bun.ink) speichert den Block Zeichen für Zeichen zurück. Wer eine Datei aus einem bestehenden Repository öffnet, findet nach dem Speichern dasselbe Frontmatter vor – keine verrutschten Leerzeilen, keine eingefügten Backslashes.                                                    
+Das Wichtigste passiert unsichtbar: [bun.ink](http://bun.ink) speichert den Block Zeichen für Zeichen zurück. Wer eine Datei aus einem bestehenden Repository öffnet, findet nach dem Speichern dasselbe Frontmatter vor – keine verrutschten Leerzeilen, keine eingefügten Backslashes.
 
 ## Notizen: der Merkzettel an der Textstelle
 
@@ -57,11 +49,13 @@ Setz den Cursor in einen Absatz und wähle **Format → Dokument → Notiz einf�
 
 In der Datei steht die Notiz als HTML-Kommentar mit einer Kennung:
 
+```markdown
 Anna stand am Fenster und zählte die Züge.
 
 <!-- bun.ink:note
 Wie viele Züge fahren nachts wirklich? Fahrplan prüfen.
 -->
+```
 
 ### Diese Form hat drei Vorteile:
 
@@ -71,10 +65,10 @@ Wie viele Züge fahren nachts wirklich? Fahrplan prüfen.
 
 ## Eine Warnung: unsichtbar heisst nicht geheim
 
-Eine Notiz ist in der fertigen Ansicht verborgen, in der Datei aber lesbar. Wer die Rohdatei, einen Commit oder einen Vergleich ansieht, sieht auch sie. In einem öffentlichen Repository sind deine Notizen öffentlich, und ein Lektorat im selben Repository liest sie mit. Was niemand sehen darf, gehört nicht in eine Notiz. Für Anmerkungen, die tatsächlich an jemand anderen gehen, gibt es den \[Review über Pull Requests\](/blog/reviews-as-pull-requests): Dort stehen Kommentare auf GitHub am Pull Request, nicht im Text. Notizen sind dein eigener Merkzettel.
+Eine Notiz ist in der fertigen Ansicht verborgen, in der Datei aber lesbar. Wer die Rohdatei, einen Commit oder einen Vergleich ansieht, sieht auch sie. In einem öffentlichen Repository sind deine Notizen öffentlich, und ein Lektorat im selben Repository liest sie mit. Was niemand sehen darf, gehört nicht in eine Notiz. Für Anmerkungen, die tatsächlich an jemand anderen gehen, gibt es den [Review über Pull Requests](/blog/reviews-as-pull-requests): Dort stehen Kommentare auf GitHub am Pull Request, nicht im Text. Notizen sind dein eigener Merkzettel.
 
 ## Übrigens: fremde Kommentare bleiben stehen
 
 Viele Dateien in Docs-Repositories bringen schon HTML-Kommentare mit – ausgeblendete TODOs, Anweisungen für Prüfprogramme. [bun.ink](http://bun.ink) zeigt sie im Editor grau an und speichert sie unverändert zurück. Das klingt selbstverständlich, andere Schreibeditoren verlieren solche Kommentare beim Speichern einfach.
 
-Wie alles im Detail funktioniert, steht im Handbuch im Kapitel \[Metadaten und Notizen\]([https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/11-metadaten-und-notizen.md](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/11-metadaten-und-notizen.md)).
+Wie alles im Detail funktioniert, steht im [Handbuch](https://github.com/VisionX-Development/writing-with-bunink).
