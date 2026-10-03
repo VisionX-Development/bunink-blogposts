@@ -1,198 +1,166 @@
 ---
-title: Proving Your Work — What the AI Watermark Doesn't Tell You
+title: Proving Your Work – What the AI Watermark Doesn't Tell You
 date: 2026-09-20
-description: Since this summer, AI-generated text has carried an invisible watermark — even when all that touched it was the spelling checker. Why that leads to false accusations, and how your commit history proves a text came from you, sentence by sentence.
-sourceHash: 78cbfa63a5bc3862c0289fd8ed1adf1886af0ea762c2d51ce9438fe5d03da834
+description: Since this summer, AI-generated texts have carried an invisible watermark — even when all that happened was a spell check. Why this leads to false accusations, and how your commit history proves that a text is yours, sentence by sentence.
+sourceHash: a8abab2153bb0d25987e55447e4ce97bb33200aff9d37b4da34fd136efe31d9e
 ---
 
-A while ago we described here how AI can be used as a
-[controlled writing partner](/blog/ai-controlled-writing-partner): with clear rules and an agent
-that checks and suggests while the human decides.
+A while back we described here how AI can be used as a
+[controlled tool](/blog/ai-controlled-writing-partner): with clear
+rules and an agent that checks and suggests, while we as authors make the decisions.
 
-This one is about a question that arises regardless: how do you show that a text is your work?
+This article is about a question that arises regardless: how do you prove that a text is your
+work?
 
-How someone handles AI is a personal decision this article won't make for anyone. Some have scenes
-suggested to them and drafts reviewed. Some want none of it — out of conviction, or because a
-contract rules it out. Most sit somewhere in between without having thought about it: they write
-every sentence themselves and run the spell checker.
+How someone deals with AI is a personal decision, and this article won't make it for anyone.  
+Without passing judgement, and in rough and simplified terms, there are three camps: the first camp are those who never use AI; the second camp are those who have AI produce everything — whole scenes, chapters and books; the third group sits exactly between the first and second camp — these authors write every sentence themselves but use AI tools for spell-checking, revision or style analysis.
 
-For the question of proof, that stance matters surprisingly little. The answer is never in the
-finished text but in how it came to be — and that is exactly what the version control bun.ink
-brings along keeps hold of.
+When it comes to the question of proof, one's attitude towards AI matters surprisingly little. Because the answer doesn't lie in the finished text. It lies in how it came about — more precisely, in the process of its creation. And that process is exactly what the versioning of a text records, and in bun.ink it happens without any extra work.
 
 ## The new problem: proving a negative
 
-Anyone handing in a text increasingly has to show something nobody had to show until recently: that
-they wrote it themselves. Publishers ask for assurances, newsrooms add contract clauses. The tools
-used to verify this are poor: AI detectors guess from surface features and get it wrong regularly —
-even for people who simply write cleanly.
+Anyone who delivers a text increasingly has to be able to prove something that nobody had to prove until recently: that they wrote it themselves and not a machine. Publishers want guarantees, editorial offices write corresponding clauses into contracts. The tools used to check this are still of little use today: AI detectors guess based on surface features and are regularly wrong — Moby-Dick, Herman Melville's 1851 classic, was recently flagged by an AI detector as having been written by an AI.
 
-The core problem: who wrote a text isn't visible in the finished text. A finished text is a result,
-and results look alike no matter how they came about. The difference is in how the text came to
-be — and that's normally gone the moment the file is saved. Machine-generated text does carry a
-mark these days; but it doesn't answer this particular question — more on that in a moment.
+The core problem: the line between human and machine in text production is becoming ever blurrier. A text on its own is, first of all, an open result. The difference between human and machine lies in how it came about — and that is normally gone the moment the file is saved. Machine-generated text, on the other hand, almost never carries information about its own origin.
 
-## The third group: your own text, someone else's tools
+## Your own text, someone else's tools
 
-Of the three stances from the beginning, one gets talked about the least although it's probably the
-most common: people who write every sentence themselves but use a spelling or grammar checker, or
-a digital copy-editor.
+So what happens to authors who write every sentence themselves but use a spelling or
+grammar checker or a digital editing tool? What happens to authors who use excerpts from an AI agent's research?
 
-You can't tell that these tools run language models under the hood. Anyone accepting a grammar
-correction doesn't feel like they're writing with an AI — and they're right about that. And yet, at
-one point, a machine passed over the text. That is exactly what has become a problem since this
-summer.
+All of these tools have long been using language models under the hood, and you often can't tell from the outside. Someone who accepts a grammar correction doesn't feel like they're writing with an AI. And yet, at some point, a machine has been over the text. And since this summer, that has become a problem.
 
-## The watermark isn't a future problem
+## The watermark is no longer a distant prospect
 
-Since the summer of 2026, the major providers have put an invisible watermark into the text their
-models generate. At Anthropic it's carried by every model released on or after 2 August 2026; the
-older ones were to follow by 2 December 2026. It can't be switched off. Behind it are the
-transparency obligations of European AI law, and other providers are going the same way.
+Since the summer of 2026, the major providers have been embedding an invisible watermark in the text their models generate. At Anthropic, some models have carried it since 2 August 2026, with the rest due to follow by 2 December 2026. It can't be switched off. Behind this stand the
+transparency obligations of European AI law. Other providers will have to go the same way.
 
-What matters is where this mark turns up: **every tool that uses such a model under the hood leaves
-it behind** — including the spelling checker. And it's tough: it doesn't sit in a file property but
-in the word choice itself. It survives copying, pasting and reformatting, and only disappears once
-a passage is rewritten from scratch.
+What matters is where this marking shows up: **every tool that uses such a model in the background leaves it behind** — including the spell checker. And the watermark is a statistical property of the text that sits in the words themselves. It can't simply be removed. It survives copying, pasting, reformatting — and only disappears once the passage is completely rewritten.
 
 ## What a watermark says — and what it doesn't
 
-This is where it gets uncomfortable for the third group, for a reason that has nothing to do with
-bad technology: the mark is coarse. It shows a model was involved — not that it wrote the text.
-Anthropic says so itself: it doesn't distinguish between written, revised, translated and
-summarised. Have your own text proofread and you get the same mark as someone who had a whole
-chapter generated.
+For the group that "only" uses AI tools, this is a problem. The marking is very crude. It proves that a model was involved — but not that it wrote the
+text. Anthropic says so clearly itself: it does not distinguish between
+written, revised, translated and summarised. Someone who has their own text proofread gets the same marking as someone who had a whole chapter or book generated. In the eyes of an outside reader who doesn't know and can't trace how the text came about, groups 2 (AI only) and 3 (AI tools) are now treated as one and the same.
 
-On top of that: **you can't check it yourself.** Detection is open only to authorised bodies —
-government agencies, media, research. There is no public tool to refute an accusation with.
+On top of that comes the real annoyance: **you can't check it yourself.** Detection is so far
+only available to authorised bodies — authorities, media, research. There is no public tool with
+which you could refute an accusation.
 
-Which gives us the sentence this article turns on: if someone tells you your text is "from the AI",
-you don't refute it by pointing at the finished text. Your proof isn't the result. It's the path
-that led there.
+From this follows the sentence this article revolves around: if someone accuses you of your text being "from
+the AI", you don't refute that by pointing at the finished text. Your proof is not the
+result. In future, your only possible proof will be much more the path that led there.
 
 Anthropic explains the current state of the watermark in its
-[help article on how it marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
+[help article on marking AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
 
-## What a version history holds besides the text
+## What a version history contains besides the text
 
-This is where version control does something it actually does for entirely different reasons. When
-you work in bun.ink, you're not saving a file that overwrites itself — you're creating save
-points, commits, that record what the text looked like, when that was, and what you noted about it.
-What commits, branches and repositories mean is explained in
+And this is exactly where versioning happens to do something it was never actually designed for in the past. When you work in
+bun.ink, you don't save a file that overwrites itself; you create
+save points — commits that record what the text looked like, when that was and what you noted
+down. What commits, branches and repositories mean is explained in
 [Git and GitHub made simple](/blog/git-and-github-for-writers).
 
-This creates a second text alongside yours that nobody deliberately writes: the story of how it
-came about. When the first paragraph existed, which sentence stood unchanged for weeks, where you
-discarded a scene and picked it up later in a different form. That second layer is the proof — it
-comes into being on the side, while you simply do your work.
+This creates a second "story" alongside your text, one nobody deliberately writes: the story of how it came to be. When the first paragraph appeared, which sentence stood unchanged for three weeks, where you discarded a scene and later picked it up differently. This second layer is
+the proof of your work — and it comes into being on the side, while you simply get on with writing.
 
-## The timeline: when each sentence came to be
+## The timeline: when each sentence came into being
 
-In the writer you can read this history too. The Changes tab has the **commit browser**: a list of
-every save point, each with a timestamp and message. You pick two states — say, the first commit
-and today's — and see every change between them highlighted. Described in full in
-[The commit browser](/blog/browsing-your-commit-history).
+In the Writer you can read this history too. In the Changes tab there's the **Commit Browser**: a
+list of all save points, each with a timestamp and a message. You pick two states — say the
+first commit and today's — and see every change on a branch highlighted in between. Described in detail
+in [The Commit Browser](/blog/browsing-your-commit-history).
 
-So if someone asks whether chapter 7 is really yours, you don't have to insist. You can show the
-forty save points it grew out of.
+So if someone asks you whether chapter 7 is really yours, you don't have to protest. You can  
+show the forty save points it grew out of.
 
 ## Why micro-steps are more convincing than a finished chapter
 
-The actual proof isn't in any single commit — it's in the **shape** of the history. Human writing is
-crooked: one paragraph grows over a week in seven steps, another appears in twenty minutes and gets
-cut in half the next day. There are days with four hundred words and days with forty, sentences
-rearranged three times, deletions, pauses, returns.
+The real proof doesn't lie in a single commit, but in the **shape** of the history.
+Human writing is crooked: one paragraph grows over a week in seven steps, another
+appears in twenty minutes and is cut in half the next day. There are days with four hundred words
+and days with forty, sentences that get rearranged three times, deletions, pauses, returns.
 
-That is exactly what a grown commit history contains — and exactly what's missing when a chapter
-shows up in a single step, complete, without a single revision afterwards. A text that appears that
-way either came from elsewhere or was generated. Both look different from work.
+That's exactly what a grown commit history contains — and exactly what's missing when a chapter shows up in
+a single step: complete, without a single revision afterwards. A text that comes into being
+this way was either created elsewhere or generated. Both look different from
+a text that a human has worked on.
 
-The smaller you save, the denser this record becomes. That's not extra effort for some reviewing
-authority — it's the way of working that helps you go back anyway.
+The smaller your saves, the denser this evidence becomes. With bun.ink that's no longer extra effort;
+it's the way of working that helps you go back anyway.
 
 ## Before and after: what the history reveals about the tool
 
-For the third group this gets very concrete. Your history contains the paragraph **before** the
-tool touched it: Tuesday evening's commit shows your version, Wednesday morning's shows what the
-correction made of it. Between them lies a comparison anyone can read — a comma, two words swapped.
+For the third group this becomes very concrete. Your history contains the paragraph **before** the
+tool touched it: Tuesday evening's commit shows your version, Wednesday morning's
+shows what the correction made of it. In between lies a comparison anyone can read —
+a comma, two words swapped around. And yes, making mistakes, e.g. spelling mistakes, is very useful here, even if it's easy for an AI to find and correct them.  
+ And yes, making mistakes, e.g. spelling mistakes, is very useful here, even if it's easy for an AI to find and correct them.
 
-That shifts the question from "is there machine in here?" to "what exactly did it do?". You're not
-proving no tool was ever involved — since this summer you can't do that anyway. You're proving
-authorship: that the text is yours and the tool touched its edges, not its substance.
+This shifts the question from "is there machine in there?" to "what exactly did it do?". You
+don't prove that no tool was ever involved — since this summer you can't do that
+anyway. You prove authorship: that the text is yours and that a tool touched it at the edges,
+not in substance.
 
-In practice: **one commit before the tool, one after.** Ten seconds of effort — and the line between
-your work and the correction is documented for good. Because the mark can't be washed out and you
-can't inspect it yourself, your history is the only record that belongs to you.
+In practice that means: **one commit before using the tool, one commit after.** Ten seconds of effort —
+and the line between your work and the correction is permanently documented. Because the
+marking can't be washed out and you can't check it yourself, your history is the
+only piece of evidence that belongs to you.
 
-## The statistics make it visible
+## Statistics make it visible
 
 What's in the history can also be looked at rather than read. The
-[writing statistics](/blog/writing-statistics-that-motivate) in the writer show your work as numbers
-and pictures: words per day and week, active writing time, a twelve-month heatmap. Projects linked
-to a repository add commit activity.
+[writing statistics](/blog/writing-statistics-that-motivate) in the Writer show your work as numbers
+and pictures: words per day and week, active writing time, a heatmap over twelve months. For
+projects with a repository, commit activity is added on top.
 
-A year of writing work looks like a year of writing work: uneven, with holes and dense stretches
-before deadlines — not like three afternoons on which a book appeared. The statistics count you, not
-your text: what's recorded are word counts and times, not content.
+A year of writing looks in there like a year of writing just does: uneven, with gaps and dense phases before deadlines — not like three afternoons in which a book appeared.  
+The statistics count you, not your text: word counts and times are recorded, no  
+content.
 
-## GitHub as a disinterested witness
+## GitHub as an impartial witness
 
-Up to here everything sits with you — and anything that sits with you, you could have staged
-yourself. The last step turns it into something that holds up: when your project is linked to
-GitHub, your commits land with a third party that has nothing to do with your text. How to set that
-up is in [Using GitHub the right way](/blog/using-github-with-bun-ink).
+Up to this point everything sits with you — and anything that sits with you could, in case of doubt, have been staged by you. The final step turns it into something that holds up: if your project is linked to GitHub,
+your commits end up with a third party that has nothing to do with your text. How that
+works is described in [Using GitHub the right way](/blog/using-github-with-bun-ink).
 
-A timestamp you set yourself is a claim; one on someone else's server is a record. You grant access
-as coarsely or finely as you like. "I wrote this myself" becomes "here are the 312 steps, with
-dates".
+A timestamp you set yourself is a claim. A timestamp on the GitHub server is more like proof. You grant access as coarsely or finely as you like — invite one person, open up the repository, or export the commit list. "I wrote this myself" becomes "here are the 312 steps, with dates and the content of the corresponding changes".
+
+Of course, a grown commit history is not forensic proof. With enough  
+effort it could be staged, including by an AI agent. What versioning achieves is more modest but useful nonetheless: it  
+shifts the question from "does the text look human?" to "is there a coherent trail of work that grew over weeks?". That's the better question, and this is how you can answer it.
 
 ## And what about the security of your texts?
 
-One question from the beginning has stayed open: _does my manuscript end up in a training set
-somewhere?_ With bun.ink the answer is short. The app doesn't send your texts to a language model,
-and in the database they aren't stored as readable plain text but encrypted. How that works in
-detail is in [How bun.ink protects your texts](/blog/how-bun-ink-protects-your-texts).
+In connection with the well-known large language models, another question unfortunately always comes up: *does my manuscript end up in some training data set somewhere?* At  
+bun.ink the answer is short. The app sends your texts neither to a language model nor to anyone else unless you want it to. In the [bun.ink](http://bun.ink)  
+database, text entries are not stored as readable plain text but encrypted. How that works in detail is described in [How bun.ink protects your texts](/blog/how-bun-ink-protects-your-texts).
 
-Your text doesn't go anywhere — not into a training set, not as plain text into a database. What
-follows from that for your record, though, has a flip side.
+Using versioning via GitHub — in the sense described above — is something you have to explicitly agree to. Of course you can also use [bun.ink](http://bun.ink) without GitHub. The High Privacy folder in particular can only be used without GitHub. Nobody else can then read or change your texts. But the advantage of absolute privacy comes with the disadvantage of missing version control — and, in case of doubt, the loss of proof of the work you've done.
 
-## An honest caveat
+## What you can do to document your work
 
-It is this: you can't have both at once. A high-privacy project deliberately has no GitHub
-history — maximum privacy and public verifiability rule each other out. bun.ink lets you decide
-that per project.
+If this kind of proof matters to you, a few habits are worth building:
 
-And a second caveat: a history isn't forensic proof, and could in principle be staged. What version
-control delivers is more modest and still useful: it shifts the question from "does this text look
-human?" to "is there a coherent working trail that grew over weeks?" — the far better question, and
-it can be answered.
-
-## What you should do for it
-
-If this record matters to you, a few habits pay off:
-
-- **Start early.** The history begins with the first commit, not the finished manuscript.
-- **Save small.** Five commits in an afternoon beat one at the end of the month.
-- **Write honest messages.** "Trimmed the dialogue, cut the flashback" says more than "update".
-- **Leave the detours in.** Discarded versions aren't a blemish — they're the evidence.
-- **Frame your tools.** Save once before and once after every pass through a correction helper.
-- **Keep the agent separate.** Larger AI work belongs on its own branch and account — that
-  distinction is half the proof.
-- **Review even on your own.** What you discarded stays documented with your reasoning — see
-  [The editor comes to the text](/blog/reviews-as-pull-requests).
+- **Start early.** The history begins with the first commit, not with the finished manuscript.
+- **Save small.** Better five commits in one afternoon than one at the end of the month.
+- **Write honest messages.** "Dialogue shortened, flashback cut" says more than "Update".
+- **Leave the detours in.** Discarded versions are not a flaw, they are the evidence.
+- **Frame your tools.** Save once before and once after every pass through a correction tool.
+- **Keep the agent separate.** Larger AI work belongs on its own branch and under the agent's own account — that distinction is half the proof.
+- **Revisions, even when working alone.** What you discarded stays documented along with the reasoning — how that works is described in [The Editor Comes to the Text](/blog/reviews-as-pull-requests).
 
 ## Finally: an open book, in both directions
 
-A fair warning to close: this works in both directions. A history that can show a chapter grew in
-forty steps can just as easily show another stood there finished in one. Anyone working with AI
-leaves a recognisable trail — and, since this summer, another one in the text itself.
+A fair warning at the end: what's described here as proof works in both  
+directions. A version history that shows a chapter grew in forty steps  
+equally shows that another one stood there finished in a single step. Anyone working with AI leaves  
+a recognisable trail in the history — but since this summer there's an additional one in the text itself.
 
-For most people that's not a problem: if you're open about your tools you have nothing to hide, and
-a well-kept repository even shows what was suggested and what was kept — exactly the idea in the
-article about the [controlled writing partner](/blog/ai-controlled-writing-partner).
+For most people that's not a problem: whoever discloses their tools has nothing to hide, and a
+well-kept repository even shows what was suggested and what was accepted — exactly the
+idea behind the article on the [controlled writing partner](/blog/ai-controlled-writing-partner).
 
-Because that's the price and the value of the same thing: with bun.ink the making of a text is a
-literally open book. Anyone who writes every line themselves finds in it the proof they'll come to
-depend on. Anyone who only lets it be corrected finds the difference between "there was a machine
-involved" and "here's exactly what it did". And anyone working with AI finds the truth about how
-they work. What the process no longer is, is invisible.
+Because that's the price and the value of one and the same thing: with bun.ink, the process behind a  
+text is a proverbial open book. Those who write every line themselves find in it the proof they will come to depend on. Those who only have their work corrected find the difference between "a machine was involved" and "here's what it did". Those who work with AI learn the truth about their way of working. The one thing the writing process no longer is, is invisible.
