@@ -85,6 +85,8 @@ Diese Reihenfolge schützt den eigenen Text. Sie verhindert, dass eine KI aus ei
 
 In Verbindung mit Versionskontrolle wird dieser Ansatz noch stärker. Wenn ein Projekt in einem Repository liegt, bleiben Änderungen nachvollziehbar – du siehst, welche Vorschläge übernommen wurden und welche Fassung vorher existierte. Was Commits, Branches und Repository im Detail bedeuten, haben wir in [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers) aufgeschrieben; den praktischen Workflow in bun.ink zeigt [GitHub richtig nutzen](/blog/using-github-with-bun-ink).
 
+Am besten arbeitet der Agent dabei auf einem eigenen Branch und gibt sein Ergebnis als Pull Request zurück. In bun.ink gehst du es dann Stelle für Stelle durch – übernehmen, verwerfen oder eine eigene Fassung dagegensetzen –, genau wie die Überarbeitung eines menschlichen Lektorats. Wie das abläuft, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests); wie du einen Agenten einrichtest und beauftragst, beschreibt das Handbuch im Kapitel [KI-Tools und deine Texte](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/08-ki-agenten.md).
+
 Eine `AGENTS.md` liefert dabei die Regeln. Das Repository bewahrt die Geschichte. Der Agent hilft beim Prüfen und Überarbeiten. Zusammen entsteht eine Arbeitsweise, in der KI nicht heimlich übernimmt, sondern sichtbar mitarbeitet.
 
 Das ist vielleicht der wichtigste Gedanke: KI-gestützte Texterstellung muss nicht bedeuten, dass ein Text weniger persönlich wird. Richtig eingesetzt kann sie sogar helfen, die eigene Absicht klarer zu schützen – weil Stil, Perspektive und Handlung nicht nur im Kopf der Autorin oder des Autors liegen, sondern als überprüfbare Regeln im Projekt stehen.

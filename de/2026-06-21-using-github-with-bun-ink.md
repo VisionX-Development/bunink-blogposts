@@ -74,7 +74,7 @@ Die Verknüpfung selbst stösst du über den Button **Repository verknüpfen** a
 
 Damit der Austausch zwischen bun.ink und GitHub funktioniert, ist eine einmalige Freigabe nötig. Hinter bun.ink steht die Entwicklerfirma **VisionX Development**, und über deren GitHub-Konto läuft eine sogenannte **OAuth-App**. Diese App benötigt deine Erlaubnis, auf dein GitHub-Konto zuzugreifen, damit bun.ink in deinem Namen mit deinen Repositories kommunizieren kann – also Dateien lesen und schreiben kann.
 
-Beim ersten Verbinden wirst du deshalb zu GitHub geleitet und bestätigst dort den Zugriff. Das ist ein normaler, transparenter Vorgang: Du siehst, welche Berechtigungen erteilt werden, und du kannst diese Freigabe jederzeit wieder zurücknehmen – in den GitHub-Einstellungen oder direkt im Kontobereich von bun.ink, wo du den GitHub-Account auch wieder trennen kannst.
+Beim ersten Verbinden wirst du deshalb zu GitHub geleitet und bestätigst dort den Zugriff. Das ist ein normaler, transparenter Vorgang: Du siehst, welche Berechtigungen erteilt werden, und du kannst diese Freigabe jederzeit wieder zurücknehmen – in den GitHub-Einstellungen oder direkt in bun.ink unter **Einstellungen** → **GitHub**, wo du ein verbundenes Konto auch wieder trennen kannst.
 
 ## Der Workflow in bun.ink im Überblick
 
@@ -103,6 +103,14 @@ Wichtig dabei: Änderungen auf einem Branch landen **nicht** in der bun.ink-Date
 Im Bereich **Änderungen** zeigt dir bun.ink, was es zu tun gibt: deine eigenen, noch nicht gepushten Änderungen einerseits und eingehende Änderungen von GitHub andererseits. Über die Diff-Ansicht kannst du jederzeit den Unterschied zum GitHub-Stand betrachten.
 
 Die **Synchronisierungslogik** ist dabei einfach gedacht: Hat GitHub neue Änderungen, bittet dich bun.ink, zuerst zu synchronisieren, bevor du erneut pushst. Eingehende Änderungen werden automatisch übernommen, soweit sie sich nicht mit deinen eigenen überschneiden. Wo dieselbe Datei lokal und auf GitHub geändert wurde, entsteht ein **Konflikt** – und den löst du pro Datei ganz bewusst auf: die GitHub-Version übernehmen, deine eigene Version behalten oder beide als getrennte Dateien aufheben. So gehen keine Änderungen unbemerkt verloren.
+
+## Was seither dazugekommen ist
+
+Der Workflow oben ist der Kern. Seit dieser Artikel entstanden ist, sind ein paar Bausteine dazugekommen:
+
+- **Mehrere GitHub-Konten.** Du kannst mehr als ein Konto verbinden, etwa ein privates und eines für die Arbeit. Jedes Projekt merkt sich, über welches Konto es mit GitHub spricht. Verbinden und trennen kannst du die Konten unter **Einstellungen** → **GitHub**.
+- **Die Geschichte durchblättern.** Im Bereich **Änderungen** liegt der Commit-Browser: Du wählst zwei Stände – zwei Commits oder einen Commit und deinen aktuellen Text – und siehst die Unterschiede als Text. Mehr dazu in [Der Commit-Browser](/blog/browsing-your-commit-history).
+- **Überarbeitungen als Pull Request.** Ein Lektorat oder ein KI-Agent arbeitet auf einem eigenen Branch, und du entscheidest Stelle für Stelle, was davon in deinen Text kommt. Wie das abläuft, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 
 ## Der Fokus bleibt beim Schreiben
 

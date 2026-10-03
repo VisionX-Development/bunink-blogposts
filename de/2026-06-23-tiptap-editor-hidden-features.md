@@ -10,33 +10,39 @@ Viele dieser Funktionen liegen nicht laut im Weg. Sie sind eher wie kleine Hebel
 
 ## Der Zen-Modus – nur du und der Text
 
-Der **Zen-Modus** ist die ruhigste Schreibumgebung in bun.ink. Wenn du unter `/writer` arbeitest, kannst du ihn per Shortcut ein- und ausschalten. Welche Tastenkombination dafür verwendet wird, legst du in den Einstellungen selbst fest: Öffne dafür **Einstellungen** und dann den Bereich **Editor**. Dort findest du alle Shortcuts, die bun.ink für den Editor bereitstellt oder künftig erweitert.
+Der **Zen-Modus** ist die ruhigste Schreibumgebung in bun.ink. Wenn du unter `/writer` arbeitest, kannst du ihn per Shortcut ein- und ausschalten. Welche Tastenkombination dafür verwendet wird, legst du in den Einstellungen selbst fest: Öffne dafür **Einstellungen** und dann den Bereich **Editor**. Im Abschnitt **Shortcuts** stehen alle Tastenkürzel von bun.ink, darunter **Zen-Modus**.
 
-Im Zen-Modus geht es bewusst nicht um viele Knöpfe, Menüs oder Ablenkungen. Du kannst dort im Kern nur zwei Dinge anpassen:
+Im Zen-Modus geht es bewusst nicht um viele Knöpfe, Menüs oder Ablenkungen. Du kannst dort im Kern nur drei Dinge anpassen:
 
-- die **Schriftgrösse**
-- die **Transparenz der Schrift**
+- die **Textgröße**
+- die **Transparenz** der Schrift
+- **Aktuelle Zeile zentriert halten** – die Zeile, an der du schreibst, bleibt in der Mitte des Bildschirms, und der Text läuft unter ihr durch
 
 Diese Einstellungen werden gespeichert, damit deine ruhige Schreibumgebung beim nächsten Mal wieder so aussieht, wie du sie brauchst. Mehr soll der Zen-Modus gar nicht sein. Er ist kein zweiter, komplizierter Editor, sondern ein Raum zum Schreiben.
 
 ## Die Stealth-Taste – wenn der Text kurz verschwinden soll
 
-Eine besondere Funktion im Zen-Modus ist die **Stealth-Taste**. Auch sie kann in den Editor-Einstellungen als eigene Taste festgelegt werden.
+Eine besondere Funktion im Zen-Modus ist die **Stealth-Taste**. Auch sie legst du in den Einstellungen unter **Editor** fest, im Abschnitt **Shortcuts** bei **Stealth-Modus**.
 
-Mit dieser Taste schaltest du die Transparenz der Schrift schnell zwischen zwei Zuständen um:
+Mit dieser Taste schaltest du die Schrift schnell zwischen zwei Zuständen um:
 
-- **100 Prozent Transparenz** – der Text ist nicht sichtbar
-- **50 Prozent Transparenz** – der Text ist halbtransparent sichtbar
+- **unsichtbar** – der Text ist ausgeblendet
+- **halb sichtbar** – standardmässig zu 50 Prozent; wie stark, stellst du in den Einstellungen unter **Sichtbarkeit beim Einblenden** ein
 
 Das funktioniert in dieser Form nur im Zen-Modus. Der Gedanke dahinter ist einfach: Wenn jemand neugierig auf deinen Bildschirm schaut, kannst du den Text mit einem Tastendruck optisch verschwinden lassen. Dann wirkt das Fenster fast leer. Praktisch ist das für private Notizen, unfertige Entwürfe oder schlicht für Momente, in denen dein Text noch niemanden etwas angeht.
 
 Und ja: Wenn man dabei an neugierige Chefs denkt, ist das natürlich eher mit einem Augenzwinkern gemeint.
 
-## Formatieren mit dem T-Button
+## Formatieren mit dem Format-Knopf
 
-Die wichtigsten Formatierungen erreichst du über den **T-Button**. Er öffnet das Format-Menü des Editors. Dort findest du die grundlegenden Funktionen, die man beim Schreiben regelmässig braucht: Überschriften, Listen, Hervorhebungen, Zitate und ähnliche Basisformate.
+Alle Formatierungen erreichst du über den **Format**-Knopf in der Werkzeugleiste, das kleine T. Er öffnet das Format-Menü des Editors, sortiert in vier Gruppen:
 
-Zusätzlich gibt es ein sogenanntes **Bubble-Feld**. Es erscheint automatisch, wenn du eine Textstelle markierst. Statt erst ein grosses Menü zu öffnen, kannst du dort einzelne Basisfunktionen direkt auf die Auswahl anwenden. Das ist besonders praktisch, wenn du beim Überarbeiten schnell ein Wort fett setzen, eine Stelle kursiv markieren oder einen Abschnitt als Zitat hervorheben möchtest.
+- **Text** – Fett, Kursiv, Durchgestrichen, Inline-Code
+- **Absatz** – Überschriften, Listen, Zitat und Code-Block
+- **Darstellung** – ein Zeilenumbruch ohne neuen Absatz, der Zeilenabstand und der **Markdown-Quelltext**, der dir das Dokument genau so zeigt, wie es gespeichert wird
+- **Dokument** – Metadaten und Notizen einfügen und **Zeilenumbrüche anzeigen**, falls eine Zeile mitten im Absatz umbricht
+
+Zusätzlich gibt es die **Formatierungs-Bubble**. Sie erscheint automatisch, wenn du eine Textstelle markierst. Statt erst das Menü zu öffnen, wendest du dort einzelne Formate direkt auf die Auswahl an – praktisch, wenn du beim Überarbeiten schnell ein Wort fett setzen oder eine Stelle kursiv markieren willst. Welche Formate die Bubble anbietet, bestimmst du in den Einstellungen unter **Editor** bei **Formatierungs-Bubble**. Jeden Eintrag erklärt das [Handbuch im Kapitel «Der Editor»](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/03-der-editor.md).
 
 Wichtig ist: Der TipTap-Editor in bun.ink erstellt **Markdown-Dokumente**. Markdown ist eine einfache Schreibweise, bei der Formatierungen durch bestimmte Zeichen beschrieben werden. Du schreibst also nicht in einem schweren Layout-Format, sondern in einem klaren Textformat, das sich gut speichern, exportieren und versionieren lässt.
 
@@ -52,10 +58,11 @@ Markdown arbeitet mit wenigen, gut lesbaren Zeichen. Einige typische Beispiele:
 - `1. Listenpunkt` erzeugt eine nummerierte Liste.
 - `> Zitat` erzeugt einen Zitatblock.
 - `` `Code` `` markiert einen kurzen Code- oder Monospace-Ausdruck.
+- `` ``` `` am Zeilenanfang, gefolgt von einer Sprache wie `python`, beginnt einen Code-Block.
 
 Nicht jede optische Formatierung hat in klassischem Markdown ein eigenes, einfaches Zeichen. **Unterstreichen** gehört zum Beispiel nicht zu den Standardformatierungen, die Markdown über solche Symbole abdeckt. Deshalb kann es sein, dass bestimmte Funktionen bewusst nicht wie in einer klassischen Textverarbeitung funktionieren.
 
-Ausserdem gilt: Die Markdown-Zeichen sollen dich beim Schreiben nicht stören. In der eigentlichen `.md`-Datei wird das Dokument als Markdown bereitgestellt. In bestimmten Exporten, etwa als `.txt`, können die Formatzeichen sichtbar werden, weil dort der reine Text inklusive seiner Markdown-Schreibweise ausgegeben wird.
+Ausserdem gilt: Die Markdown-Zeichen sollen dich beim Schreiben nicht stören. In der eigentlichen `.md`-Datei wird das Dokument als Markdown bereitgestellt. In bestimmten Exporten, etwa als `.txt`, können die Formatzeichen sichtbar werden, weil dort der reine Text inklusive seiner Markdown-Schreibweise ausgegeben wird. Wie die Datei genau aussieht, zeigt dir jederzeit **Format → Darstellung → Markdown-Quelltext**. Und was in einer Markdown-Datei ausser dem Text noch stehen kann, beschreibt [Metadaten und Notizen](/blog/metadata-and-notes-in-markdown).
 
 ## Shortcuts: schneller schreiben, weniger klicken
 
@@ -74,11 +81,12 @@ TipTap bringt bereits eine Reihe sinnvoller Standard-Shortcuts mit. Welche davon
 - **Überschriften:** `Strg + Alt + 1` bis `Strg + Alt + 6` bzw. `Cmd + Alt + 1` bis `Cmd + Alt + 6`
 - **Nummerierte Liste:** `Strg + Shift + 7` bzw. `Cmd + Shift + 7`
 - **Aufzählung:** `Strg + Shift + 8` bzw. `Cmd + Shift + 8`
+- **Zeilenumbruch im selben Absatz:** `Shift + Enter`
 - **Alles auswählen:** `Strg + A` bzw. `Cmd + A`
 
-bun.ink bleibt aber nicht bei den Standardfunktionen stehen. Die App legt besonderen Wert auf eigene Shortcuts, die speziell für ein bequemes Schreiberlebnis entwickelt werden. Viele davon kannst du in den Einstellungen aktivieren, deaktivieren oder mit einer eigenen Tastenkombination belegen. Dazu gehört zum Beispiel der bereits erwähnte Shortcut für die Stealth-Taste.
+bun.ink bleibt aber nicht bei den Standardfunktionen stehen. Dazu kommen eigene Shortcuts, alle an einer Stelle: in den Einstellungen unter **Editor** im Abschnitt **Shortcuts**. Dort stehen **Notiz einfügen** (standardmässig `Ctrl + N`, auch auf dem Mac die Control-Taste), **Speichern** (`Strg + S` bzw. `Cmd + S`), **Stealth-Modus** und **Zen-Modus**. Jedes Kürzel kannst du mit einer eigenen Tastenkombination belegen.
 
-Weitere praktische Tastaturfunktionen sind geplant. Das Ziel ist klar: Du sollst beim Schreiben möglichst selten zur Maus greifen müssen. Navigation, Fokus, Formatierung und Arbeitsfluss sollen direkt über die Tastatur erreichbar sein.
+Das Ziel ist klar: Du sollst beim Schreiben möglichst selten zur Maus greifen müssen. Navigation, Fokus, Formatierung und Arbeitsfluss sollen direkt über die Tastatur erreichbar sein.
 
 ## Versteckte Navigation: die Tastatur als Schreibwerkzeug
 
@@ -110,20 +118,20 @@ Ein Hinweis: Der Verlauf bezieht sich immer auf den Hauptstand deines Dokuments.
 
 So bekommst du auch ohne GitHub eine einfache, nachvollziehbare Versionsgeschichte direkt in bun.ink.
 
-## Was passiert beim Schliessen, Ausloggen oder Auto-Logout?
+## Was passiert beim Schliessen, Ausloggen oder Sicherheits-Logout?
 
 Ein Editor muss nicht nur speichern können. Er muss dich auch warnen, wenn du im Begriff bist, ungesicherte Arbeit zu verlieren.
 
 Wenn du einen Tab schliesst oder dich ausloggen möchtest, obwohl seit dem letzten Speichern neue Änderungen entstanden sind, sollte bun.ink dich darauf aufmerksam machen. Der Editor erkennt, dass der aktuelle Inhalt noch nicht gesichert wurde, und gibt dir die Möglichkeit, vorher zu speichern oder die Aktion bewusst fortzusetzen.
 
-Ähnlich wichtig ist die **Auto-Logout-Funktion**. Wenn sie aktiviert ist, schützt sie dein Konto, indem sie dich nach einer bestimmten Zeit der Inaktivität automatisch abmeldet. Damit dabei nichts verloren geht, sichert bun.ink vor dem automatischen Logout alle offenen Änderungen automatisch im lokalen Cloud-Speicher deines Kontos – andernfalls gingen diese Änderungen beim Logout verloren. Ein GitHub-Push passiert dabei allerdings nicht. Die Auto-Logout-Funktion kannst du unter **Einstellungen** im Bereich **Sicherheit** ein- und ausschalten.
+Ähnlich wichtig ist der **Sicherheits-Logout**. Wenn sie aktiviert ist, schützt sie dein Konto, indem sie dich nach einer bestimmten Zeit der Inaktivität automatisch abmeldet. Damit dabei nichts verloren geht, sichert bun.ink vor dem automatischen Logout alle offenen Änderungen automatisch im lokalen Cloud-Speicher deines Kontos – andernfalls gingen diese Änderungen beim Logout verloren. Ein GitHub-Push passiert dabei allerdings nicht. Den Sicherheits-Logout schaltest du unter **Einstellungen** im Bereich **Sicherheit** ein und aus und wählst dort auch die Zeit ohne Aktivität.
 
 Trotzdem ist es sinnvoll, gerade bei längeren Schreibphasen regelmässig manuell zu speichern – besonders dann, wenn du auf einem GitHub-Branch arbeitest und deine Änderungen erst durch Commit und Push wirklich dort landen.
 
-Genau hier gilt eine klare Faustregel: **Auf einem GitHub-Branch speichert nur der Commit und Push nach GitHub deine Arbeit wirklich.** Bis dahin liegen Branch-Änderungen ausschliesslich lokal in diesem Browser. Bei einem Logout, einem Browser-Absturz oder einem versehentlich geschlossenen Tab sind nur die bereits **gepushten** Stände eines Branches gesichert – alles, was noch nicht gepusht wurde, kann verloren gehen. Pushe deshalb ruhig öfter, als du denkst: Zu viel pushen geht praktisch nicht.
+Genau hier gilt eine klare Faustregel: **Auf einem GitHub-Branch sichert erst Auf Branch speichern – also Commit und Push nach GitHub – deine Arbeit wirklich.** Bis dahin liegen Branch-Änderungen ausschliesslich lokal in diesem Browser. Bei einem Logout, einem Browser-Absturz oder einem versehentlich geschlossenen Tab sind nur die bereits **gepushten** Stände eines Branches gesichert – alles, was noch nicht gepusht wurde, kann verloren gehen. Pushe deshalb ruhig öfter, als du denkst: Zu viel pushen geht praktisch nicht.
 
 ## Ein Editor, der leise mitdenkt
 
-Der TipTap-Editor in bun.ink ist nicht einfach nur ein Textfeld. Er verbindet eine reduzierte Schreiboberfläche mit Markdown, Shortcuts, Zen-Modus, Stealth-Funktion, lokalen Versionen und einem Speichermodell, das sowohl lokale Cloud-Texte als auch GitHub-Branches unterstützt.
+Der TipTap-Editor in bun.ink ist nicht einfach nur ein Textfeld. Er verbindet eine reduzierte Schreiboberfläche mit Markdown, einem aufgeräumten Format-Menü, Shortcuts, Zen-Modus, Stealth-Funktion, lokalen Versionen und einem Speichermodell, das sowohl lokale Cloud-Texte als auch GitHub-Branches unterstützt.
 
 Am besten funktioniert er, wenn du ihn nicht als Werkzeugkasten voller Knöpfe verstehst, sondern als Schreibraum mit ein paar gut platzierten Schaltern. Manche davon wirst du täglich nutzen. Andere brauchst du nur in besonderen Momenten. Aber sie sind da – verborgen genug, um nicht zu stören, und nah genug, um deinen Schreibfluss zu schützen.

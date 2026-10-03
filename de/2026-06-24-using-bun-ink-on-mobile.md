@@ -52,6 +52,15 @@ Ein grosser Vorteil dieses Ansatzes ist weniger sichtbar, aber im Alltag sehr we
 
 Du musst dich also nicht fragen, ob deine App-Version noch aktuell ist. Wenn bun.ink verbessert wird, bekommst du beim nächsten Laden automatisch die beste verfügbare Version. Das macht die Nutzung unkompliziert und hilft auch auf älteren Geräten: Solange der mobile Browser noch unterstützt wird, kann bun.ink weiterhin laufen.
 
+## Was auf dem Handy anders ist
+
+Der Editor funktioniert auf dem Smartphone genauso wie am Schreibtisch, nur die Bedienung drumherum ist auf den kleinen Bildschirm zugeschnitten:
+
+- **Die Werkzeugleiste bleibt stehen.** Sie wandert beim Scrollen nicht aus dem Bild, Format-Menü und Speichern sind immer erreichbar.
+- **Ein Wisch zur Seitenleiste und zurück.** Auf dem Handy liegt die Seitenleiste mit Dateien, GitHub und Verlauf über dem Text. Statt den ganzen Text hochzuscrollen, wischst du auf der Werkzeugleiste nach unten: Das bringt dich zur Seitenleiste und merkt sich deine Textstelle. Ein Wisch nach oben führt dich wieder dorthin zurück – auch vom Ende eines langen Kapitels aus.
+- **Tabs als kompakte Auswahl.** Statt einer Tab-Leiste wählst du offene Dokumente aus einer Liste.
+- **Vorschläge im Vollbild.** Kommt eine [Überarbeitung als Pull Request](/blog/reviews-as-pull-requests), öffnet **Vorschläge zeigen** sie über die ganze Breite. **Zurück zum Text** bringt dich in den Editor, und eine Stelle in den Vorschlägen springt direkt an ihre Zeile im Text.
+
 ## Schreiben dort, wo der Text entsteht
 
 bun.ink will keine zusätzliche Hürde zwischen dich und deinen Text stellen. Der mobile Browser, das Home-Screen-Icon und automatische Updates greifen deshalb ineinander: Du erreichst die App schnell, nutzt sie auf Smartphone und Tablet in einer angepassten Oberfläche und musst dich nicht um Installations- oder Update-Routinen kümmern.
