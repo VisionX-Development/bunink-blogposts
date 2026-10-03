@@ -1,8 +1,8 @@
 ---
 title: Proving Your Work – What the AI Watermark Doesn't Tell You
 date: 2026-09-20
-description: Since this summer, AI-generated texts have carried an invisible watermark — even when all that happened was a spell check. Why this leads to false accusations, and how your commit history proves that a text is yours, sentence by sentence.
-sourceHash: 1983f310f575f3713eb021cf58bc92ac0ee076ff9acf90099d6af02783ec59da
+description: Since August 2026, Anthropic has been marking text from new Claude models with an invisible watermark — whether the model wrote it or only corrected it. Why this leads to false accusations, and how your commit history proves that a text is yours, sentence by sentence.
+sourceHash: 29ebaf2df9e910f13d64afd3068d4047c37611999b902600b2849faa4015fda0
 ---
 
 A while back we described here how AI can be used as a [controlled tool](/blog/ai-controlled-writing-partner): with clear rules and an agent that checks and suggests, while we as authors make the decisions.
@@ -27,9 +27,9 @@ All of these tools have long been using language models under the hood, and you 
 
 ## The watermark is no longer a distant prospect
 
-Since the summer of 2026, the major providers have been embedding an invisible watermark in the text their models generate. At Anthropic, some models have carried it since 2 August 2026, with the rest due to follow by 2 December 2026. It can't be switched off. Behind this stand the transparency obligations of European AI law. Other providers will have to go the same way.
+Since 2 August 2026, Anthropic has been adding an invisible watermark to text from new Claude models released in the EU; older models are to have the marking added later. Behind this is the code of practice for Article 50 of the EU AI Act, which Anthropic has signed. The obligation to mark AI-generated text in a machine-readable way applies, in principle, to every provider generating such text in the EU — others will have to go the same way.
 
-What matters is where this marking shows up: **every tool that uses such a model in the background leaves it behind** — including the spell checker. And the watermark is a statistical property of the text that sits in the words themselves. It can't simply be removed. It survives copying, pasting, reformatting — and only disappears once the passage is completely rewritten.
+What matters is where this marking shows up: **every tool that uses a marking model in the background can leave it behind** — including the spell checker. And according to Anthropic, the marking travels with the text when it's copied and pasted elsewhere.
 
 ## What a watermark says — and what it doesn't
 
@@ -49,7 +49,7 @@ This creates a second "story" alongside your text, one nobody deliberately write
 
 ## The timeline: when each sentence came into being
 
-In the Writer you can read this history too. In the Changes tab there's the **Commit Browser**: a list of all save points, each with a timestamp and a message. You pick two states — say the first commit and today's — and see every change on a branch highlighted in between. Described in detail in [The Commit Browser](/blog/browsing-your-commit-history).
+In the Writer you can read this history too. In the Changes tab there's the **Commit Browser**: a list of all save points, each with a timestamp and a message. You pick two states — say the first commit and today's — and see every change in between highlighted. Described in detail in [The Commit Browser](/blog/browsing-your-commit-history).
 
 So if someone asks you whether chapter 7 is really yours, you don't have to protest. You can show the forty save points it grew out of.
 
@@ -63,11 +63,11 @@ The smaller your saves, the denser this evidence becomes. With bun.ink that's no
 
 ## Before and after: what the history reveals about the tool
 
-For the third group this becomes very concrete. Your history contains the paragraph **before** the tool touched it: Tuesday evening's commit shows your version, Wednesday morning's shows what the correction made of it. In between lies a comparison anyone can read — a comma, two words swapped around. And yes, making mistakes, e.g. spelling mistakes, is very useful here, even if it's easy for an AI to find and correct them. And yes, making mistakes, e.g. spelling mistakes, is very useful here, even if it's easy for an AI to find and correct them.
+For the third group this becomes very concrete. Your history contains the paragraph **before** the tool touched it: Tuesday evening's commit shows your version, Wednesday morning's shows what the correction made of it. In between lies a comparison anyone can read — a comma, two words swapped around. And yes, making mistakes, e.g. spelling mistakes, is very useful here, even if it's easy for an AI to find and correct them.
 
 This shifts the question from "is there machine in there?" to "what exactly did it do?". You don't prove that no tool was ever involved — since this summer you can't do that anyway. You prove authorship: that the text is yours and that a tool touched it at the edges, not in substance.
 
-In practice that means: **one commit before using the tool, one commit after.** Ten seconds of effort — and the line between your work and the correction is permanently documented. Because the marking can't be washed out and you can't check it yourself, your history is the only piece of evidence that belongs to you.
+In practice that means: **one commit before using the tool, one commit after.** Ten seconds of effort — and the line between your work and the correction is permanently documented. Because you can't check the marking yourself, your history is the only piece of evidence that belongs to you.
 
 ## Statistics make it visible
 
@@ -85,9 +85,9 @@ Of course, a grown commit history is not forensic proof. With enough effort it c
 
 ## And what about the security of your texts?
 
-In connection with the well-known large language models, another question unfortunately always comes up: *does my manuscript end up in some training data set somewhere?* At bun.ink the answer is short. The app sends your texts neither to a language model nor to anyone else unless you want it to. In the [bun.ink](http://bun.ink) database, text entries are not stored as readable plain text but encrypted. How that works in detail is described in [How bun.ink protects your texts](/blog/how-bun-ink-protects-your-texts).
+In connection with the well-known large language models, another question unfortunately always comes up: *does my manuscript end up in some training data set somewhere?* At bun.ink the answer is short. The app sends your texts neither to a language model nor to anyone else unless you want it to. In the bun.ink database, text entries are not stored as readable plain text but encrypted. How that works in detail is described in [How bun.ink protects your texts](/blog/how-bun-ink-protects-your-texts).
 
-Using versioning via GitHub — in the sense described above — is something you have to explicitly agree to. Of course you can also use [bun.ink](http://bun.ink) without GitHub. The High Privacy folder in particular can only be used without GitHub. Nobody else can then read or change your texts. But the advantage of absolute privacy comes with the disadvantage of missing version control — and, in case of doubt, the loss of proof of the work you've done.
+Versioning via GitHub, as described above, is something you have to explicitly agree to. Of course you can also use [bun.ink](http://bun.ink) without GitHub. A high-privacy folder or project in particular can only be used without GitHub. Nobody else can then read or change your texts. But the advantage of absolute privacy comes with a disadvantage: there's no versioning via GitHub — and so, in case of doubt, no proof of your work.
 
 ## What you can do to document your work
 
@@ -103,7 +103,7 @@ If this kind of proof matters to you, a few habits are worth building:
 
 ## Finally: an open book, in both directions
 
-A fair warning at the end: what's described here as proof works in both directions. A version history that shows a chapter grew in forty steps equally shows that another one stood there finished in a single step. Anyone working with AI leaves a recognisable trail in the history — but since this summer there's an additional one in the text itself.
+A fair warning at the end: what's described here as proof works in both directions. A version history that shows a chapter grew in forty steps equally shows that another one stood there finished in a single step. Anyone working with AI leaves a recognisable trail in the history — but with models like Claude, since this summer there's an additional one in the text itself.
 
 For most people that's not a problem: whoever discloses their tools has nothing to hide, and a well-kept repository even shows what was suggested and what was accepted — exactly the idea behind the article on the [controlled writing partner](/blog/ai-controlled-writing-partner).
 

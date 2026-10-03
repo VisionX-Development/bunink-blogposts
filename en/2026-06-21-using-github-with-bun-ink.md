@@ -2,7 +2,7 @@
 title: Using GitHub the right way – the versioning workflow in bun.ink
 date: 2026-06-21
 description: From a free GitHub account to your first repository to the complete branch, commit, and sync workflow in bun.ink – explained step by step and without jargon.
-sourceHash: d2a5dee2dd91232aca224b73a160827ec4192b0deba08c9bb27959112d39108c
+sourceHash: 444f96e910a66407d3b96f93eb53400faf51df411b960eab28e653f55ad92e8c
 ---
 
 The article [Git and GitHub made simple – version control for writers](/blog/git-and-github-for-writers) tackled the big question: what are Git and GitHub anyway, and why are these tools useful precisely for writers? This post picks up right there and gets concrete. It is no longer about the what, but about the how: the practical workflow you use to version your documents through GitHub – straight from bun.ink.
@@ -75,7 +75,7 @@ You trigger the linking itself via the **Link repository** button. bun.ink then 
 
 For the exchange between bun.ink and GitHub to work, a one-time authorization is required. Behind bun.ink stands the development company **VisionX Development**, and a so-called **OAuth app** runs through its GitHub account. This app needs your permission to access your GitHub account so that bun.ink can communicate with your repositories on your behalf – that is, read and write files.
 
-When you connect for the first time, you are therefore taken to GitHub and confirm the access there. This is a normal, transparent process: you can see which permissions are granted, and you can revoke this authorization at any time – in your GitHub settings or directly in bun.ink's account area, where you can also disconnect the GitHub account again.
+When you connect for the first time, you are therefore taken to GitHub and confirm the access there. This is a normal, transparent process: you can see which permissions are granted, and you can revoke this authorization at any time – in your GitHub settings or directly in bun.ink under **Settings** → **GitHub**, where you can also disconnect a connected account again.
 
 ## The workflow in bun.ink at a glance
 
@@ -104,6 +104,14 @@ One important point: changes on a branch do **not** end up in the bun.ink databa
 In the **Changes** area, bun.ink shows you what needs doing: your own changes that have not yet been pushed on the one hand, and incoming changes from GitHub on the other. Through the diff view you can look at the difference from the GitHub state at any time.
 
 The **sync logic** is kept simple in concept: if GitHub has new changes, bun.ink asks you to sync first before you push again. Incoming changes are applied automatically, as long as they do not overlap with your own. Where the same file was changed both locally and on GitHub, a **conflict** arises – and you resolve it quite deliberately, per file: take the GitHub version, keep your own version, or keep both as separate files. That way no changes are lost unnoticed.
+
+## What has been added since
+
+The workflow above is the core. Since this article was written, a few building blocks have been added:
+
+- **Several GitHub accounts.** You can connect more than one account, say a personal one and one for work. Each project remembers which account it uses to talk to GitHub. You connect and disconnect accounts under **Settings** → **GitHub**.
+- **Browsing the history.** The **Changes** area holds the commit browser: you pick two states – two commits, or a commit and your current text – and see the differences as text. More in [The Commit Browser](/blog/browsing-your-commit-history).
+- **Revisions as pull requests.** An editor or an AI agent works on a branch of its own, and you decide passage by passage what goes into your text. How that works is described in [The Editor Comes to the Text](/blog/reviews-as-pull-requests).
 
 ## The focus stays on writing
 

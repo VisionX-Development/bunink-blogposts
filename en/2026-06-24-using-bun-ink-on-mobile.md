@@ -2,7 +2,7 @@
 title: Using bun.ink on a Mobile Device
 date: 2026-06-24
 description: Why bun.ink deliberately runs in the mobile browser, still feels like an app, and how to add the writing environment to your Home Screen on iOS and Android.
-sourceHash: fc26db9d6991132fd842e641538e828a41ff9aae7e3cdc9043b0a6363d46d4c0
+sourceHash: 9406dc6291eb0d020c1be467eb5ef9d4f85dfac123f608ddc17b2eca3ceaab00
 ---
 
 Writing rarely happens only at a desk. An idea appears on the train, a paragraph works better on the sofa, a note has to be captured while you are out. **bun.ink** is designed for exactly these moments, so the app remains natural to use on mobile devices too.
@@ -52,6 +52,15 @@ On Android, Chrome may distinguish between a simple Home Screen shortcut and an 
 One major advantage of this approach is less visible, but very valuable in everyday use: **updates happen in the background**. New improvements can be released on the same day without you having to download an update from an App Store yourself.
 
 So you do not have to wonder whether your app version is still current. When bun.ink is improved, you automatically receive the best available version the next time it loads. That keeps usage simple and also helps on older devices: as long as the mobile browser is still supported, bun.ink can keep running.
+
+## What's different on a phone
+
+The editor works on a smartphone exactly as it does at your desk; only the controls around it are tailored to the small screen:
+
+- **The toolbar stays put.** It doesn't scroll out of view, so the format menu and saving are always within reach.
+- **One swipe to the sidebar and back.** On a phone, the sidebar with files, GitHub and history sits above the text. Instead of scrolling all the way up, you swipe down on the toolbar: that takes you to the sidebar and remembers your place in the text. A swipe up takes you straight back there – even from the end of a long chapter.
+- **Tabs as a compact list.** Instead of a tab bar, you pick open documents from a list.
+- **Suggestions in full screen.** When a [revision arrives as a pull request](/blog/reviews-as-pull-requests), **Show suggestions** opens it across the whole width. **Back to the text** returns you to the editor, and a passage in the suggestions jumps straight to its line in the text.
 
 ## Writing where the text happens
 

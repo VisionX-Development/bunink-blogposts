@@ -2,7 +2,7 @@
 title: AI as a Controlled Writing Partner – Creating Texts with Agents and Clear Rules
 date: 2026-06-19
 description: How writers can use AI for drafting, checking, and revising without surrendering control over style, content, and decisions.
-sourceHash: 7dbbaba0177e9952bbfd00948070e810cf14ac790081a70e39a4df1f2c2b0812
+sourceHash: 7d7a99fe5af3bff6fa51f9382c8b657eca1db41bb72417c5408ddca7bd660ede
 ---
 
 Artificial intelligence can now draft paragraphs, suggest scenes, imitate character voices and rework entire versions of a text. That sounds like a big promise – and sometimes like a threat: _Is a human still doing the writing?_
@@ -85,6 +85,8 @@ This order protects your own text. It stops an AI from turning an idiosyncratic 
 ## Writing with memory and rules
 
 Combined with version control, this approach becomes even stronger. When a project lives in a repository, changes stay traceable – you can see which suggestions were adopted and what the previous version looked like. We've written up what commits, branches and repositories mean in detail in [Git and GitHub made simple](/blog/git-and-github-for-writers); for the practical workflow in bun.ink, see [Using GitHub the right way](/blog/using-github-with-bun-ink).
+
+Ideally the agent works on a branch of its own and hands back its result as a pull request. In bun.ink you then go through it passage by passage – accept, discard, or put your own wording against it – just like a revision from a human editor. How that works is described in [The Editor Comes to the Text](/blog/reviews-as-pull-requests); how to set up an agent and give it a task is covered in the handbook chapter [AI Tools and Your Texts](https://github.com/VisionX-Development/writing-with-bunink/blob/main/en/08-ai-agents.md).
 
 The `AGENTS.md` supplies the rules. The repository preserves the history. The agent helps with checking and revising. Together they create a way of working in which AI doesn't quietly take over, but visibly contributes.
 

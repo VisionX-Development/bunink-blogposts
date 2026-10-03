@@ -1,8 +1,8 @@
 ---
 title: Why Your Writing Deserves a Repository — and What bun.ink Does With It
 date: 2026-07-15
-description: The story behind bun.ink – why texts deserve a repository, what that has to do with AI agents, and what a writing workflow looks like when no version ever gets lost again.
-sourceHash: 07989b0ec8e517de51e8923c21b65498a005139a23099eb7c90e2e722d6a75da
+description: The story behind bun.ink and how it works under the hood – Markdown in your own GitHub repository, commits as deliberate versions, and revisions from people or AI agents that you decide passage by passage.
+sourceHash: 0e00f5bf2f6f5403647756b03b59f3750be1cd2c94139334abf285b384a6e424
 ---
 
 bun.ink grew out of a simple observation: the most powerful tools for versioning and collaborating on text have been around for ages. They're called Git and GitHub, and developers have been using them for decades — but anyone who wanted to use them for their own writing had to live in the terminal. Writing apps, on the other hand, feel wonderful, yet treat a text's history as an afterthought: only the current state ever exists, and everything before it is gone or buried in duplicates and "Versions" menus.
@@ -13,9 +13,10 @@ bun.ink closes exactly that gap: a writing app in the browser that feels like a 
 
 In bun.ink you write like you would in any good writing app: a focused editor, formatting, [text snippets](/blog/text-snippets-for-fast-writing), [writing statistics](/blog/writing-statistics-that-motivate). The difference lies underneath:
 
-- **Every document is Markdown** – an open format that belongs to you. No lock-in, no proprietary file format.
-- **Saving creates commits, branches are versions of your text** – every saved version is preserved, and you can try out radical rewrites on a branch of their own while the main version stays untouched. We explain the complete workflow in [Using GitHub the right way](/blog/using-github-with-bun-ink).
-- **Everything runs in the browser**, [including on your smartphone](/blog/using-bun-ink-on-mobile), and your data is stored in Europe.
+- **The file is Markdown, and it belongs to you.** bun.ink doesn't store a format of its own; it stores exactly the `.md` file that sits in your repository. If you stop using bun.ink, you still have your texts – on GitHub and as a ZIP export.
+- **A commit is a deliberate version.** Saving keeps your current state in bun.ink, with a version history for each document. Whatever you want to hold on to becomes a commit with a message in your repository. Branches are versions of your text: you try out a radical rewrite on a branch of its own while the main version stays untouched. We walk through the workflow in [Using GitHub the right way](/blog/using-github-with-bun-ink).
+- **The history is readable.** In [the commit browser](/blog/browsing-your-commit-history) you compare any two states – two commits, or a commit and your current text – as text, not as diff syntax.
+- **Everything runs in the browser**, [including on your smartphone](/blog/using-bun-ink-on-mobile). bun.ink itself runs in Frankfurt; whatever you push to GitHub lives in your GitHub account.
 
 If terms like commit, branch and merge don't mean anything to you yet: in [Git and GitHub made simple](/blog/git-and-github-for-writers) we've written them up calmly and without programmer jargon. Here, we want to look at why we built all of this in the first place.
 
@@ -26,10 +27,22 @@ Beyond versioning, there's a second, more current reason why texts belong in a r
 Tools like Claude Code or GitHub Copilot can read an entire repository, suggest changes and hand them back as a pull request. If your texts live in GitHub, that suddenly applies to your book manuscript, your documentation or your collection of articles too:
 
 - An agent reads your entire manuscript and checks for consistency across all chapters.
-- A revision arrives as its own branch – you compare it line by line with your version and keep only what convinces you.
+- Its revision – or your editor's – arrives as a pull request. bun.ink shows it to you **passage by passage**: accept it, discard it, or put your own wording against it. Whatever you discard goes back to the pull request as a commit, and nothing is merged until every passage has been decided. What that looks like day to day is described in [The Editor Comes to the Text](/blog/reviews-as-pull-requests).
 - None of it ever overwrites your text. You remain the author; the agent makes suggestions.
 
 A Word document can't do that. A repository can. bun.ink makes the repository usable for people who write. How to put an agent to work with clear rules and an `AGENTS.md` without giving up control is shown in the article [AI as a Controlled Writing Partner](/blog/ai-controlled-writing-partner).
+
+Since August 2026 there's one more reason. Anthropic adds an invisible watermark to text from new Claude models – part of the transparency obligations under Article 50 of the EU AI Act. The mark doesn't distinguish between a model writing a paragraph and a model fixing its commas. It says *that* a model was involved, not *who* wrote the text. Only the way the text came about shows that: a commit history in which a chapter grows in small steps over weeks. More on this in [Proving Your Work](/blog/proving-you-wrote-it-yourself).
+
+## Under the hood
+
+For anyone who wants to know what they're getting into:
+
+- **Markdown is the single source of truth.** The editor (TipTap on ProseMirror) reads Markdown and writes Markdown. Front matter, HTML comments, tables and hard-wrapped paragraphs come back byte for byte when you save, and merely opening a file never changes it. Open an existing docs repository and you won't get a diff full of blank lines and backslashes. Notes attached to a passage sit in the file as `<!-- bun.ink:note -->` and are invisible in every other view – see [Metadata and Notes](/blog/metadata-and-notes-in-markdown).
+- **Two storage locations, clearly separated.** The main version lives in bun.ink, with a version history. A branch runs in your browser and is saved as a commit straight to the GitHub branch – never to the bun.ink database.
+- **GitHub via the REST API.** bun.ink talks to GitHub as an OAuth app, and one person can connect several accounts. Access tokens are stored on the server, encrypted with AES-256-GCM, and never reach the browser.
+- **Encryption in two layers.** Content is stored encrypted on the server with AES-256-GCM. For texts nobody else should read, there are high-privacy folders and projects: encryption happens in the browser, the key is derived from your passphrase with Argon2id, and there's a recovery key. We can't read this content, and it never goes to GitHub. Details in [How bun.ink protects your texts](/blog/how-bun-ink-protects-your-texts).
+- **Built with** SvelteKit and Svelte 5; accounts and data at Appwrite in Frankfurt.
 
 ## Who we're building for
 
