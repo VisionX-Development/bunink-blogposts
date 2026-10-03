@@ -26,13 +26,9 @@ All diese Werkzeuge verwenden unter der Haube längst Sprachmodelle, das sieht m
 
 ## Das Wasserzeichen ist keine Zukunftsmusik
 
-Seit dem 2. August 2026 versieht Anthropic Text aus neuen Claude-Modellen, die in der EU erscheinen, mit einem unsichtbaren Wasserzeichen; ältere Modelle sollen die Markierung nachgerüstet bekommen. Dahinter steht der Verhaltenskodex zu Artikel 50 des EU AI Act, den Anthropic unterzeichnet hat. Die Pflicht zur maschinenlesbaren Kennzeichnung trifft grundsätzlich jeden Anbieter, der in der EU KI-Text erzeugt – andere werden denselben Weg gehen müssen.
+Seit dem 2. August 2026 versieht Anthropic Text aus neuen Claude-Modellen mit einem unsichtbaren Wasserzeichen – nach [eigenen Angaben](https://www.anthropic.com/news/claude-text-watermark) weltweit, weil sich die Markierung nicht zuverlässig auf eine Region begrenzen lässt. Für ältere Modelle wird sie in den kommenden Monaten nachgerüstet; das EU-Recht setzt dafür eine [Frist bis zum 2. Dezember 2026](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/). Dahinter steht der Verhaltenskodex zu Artikel 50 des EU AI Act, den Anthropic unterzeichnet hat – andere Anbieter werden denselben Weg gehen müssen.
 
-<!-- bun.ink:note
-Entfernt, weil die verlinkte Anthropic-Seite es nicht hergibt: "die Uebrigen bis zum 2. Dezember 2026" und "Abschalten laesst es sich nicht". Falls du dafuer eine andere Quelle hast: wieder einfuegen und verlinken.
--->
-
-Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein markierendes Modell benutzt, kann sie hinterlassen** – auch die Rechtschreibhilfe. Und laut Anthropic wandert die Markierung mit dem Text, wenn er kopiert und anderswo eingefügt wird.
+Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hintergrund ein markierendes Modell benutzt, kann sie hinterlassen** – auch die Rechtschreibhilfe. Das Wasserzeichen steckt in der Wortwahl selbst. Laut Anthropic übersteht es leichte Bearbeitung und Kopieren; erst wenn jedes Wort ersetzt wird, ist es weg. Auch eine Übersetzung durch Claude trägt es.
 
 ## Was ein Wasserzeichen aussagt – und was nicht
 
@@ -42,7 +38,7 @@ Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.**
 
 Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhält, dein Text sei «von der KI», widerlegst du das nicht, indem du auf den fertigen Text zeigst. Dein Beleg ist nicht das Ergebnis. Dein einziger möglicher Beleg wird zukünftig viel mehr der Weg dorthin sein.
 
-Den Stand zum Wasserzeichen erklärt Anthropic in seiner [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content).
+Den Stand zum Wasserzeichen erklärt Anthropic in seiner [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content), wie es technisch funktioniert, in [How Claude's text watermarking works](https://www.anthropic.com/news/claude-text-watermark).
 
 ## Was in einer Versionierung ausser dem Text noch steht
 

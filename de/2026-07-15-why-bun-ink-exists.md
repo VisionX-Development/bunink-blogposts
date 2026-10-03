@@ -31,7 +31,7 @@ Werkzeuge wie Claude Code oder GitHub Copilot können ein komplettes Repository 
 
 Ein Word-Dokument kann das nicht. Ein Repository schon. bun.ink macht das Repository für Schreibende benutzbar. Wie du einen Agenten mit klaren Regeln und einer `AGENTS.md` einsetzt, ohne die Kontrolle abzugeben, zeigt der Artikel [KI als kontrollierter Schreibpartner](/blog/ai-controlled-writing-partner).
 
-Seit August 2026 gibt es dafür noch einen Grund. Anthropic versieht Text neuer Claude-Modelle mit einem unsichtbaren Wasserzeichen – Teil der Transparenzpflichten nach Artikel 50 des EU AI Act. Die Markierung unterscheidet nicht, ob ein Modell einen Absatz geschrieben oder nur Kommas gesetzt hat. Sie sagt, *dass* ein Modell beteiligt war, nicht, *wer* geschrieben hat. Das zeigt nur die Entstehung: eine Commit-Historie, in der ein Kapitel über Wochen in kleinen Schritten wächst. Mehr dazu in [Deine Arbeit beweisen](/blog/proving-you-wrote-it-yourself).
+Seit August 2026 gibt es dafür noch einen Grund. Anthropic versieht Text neuer Claude-Modelle weltweit mit einem unsichtbaren Wasserzeichen – angestossen durch die Transparenzpflichten nach Artikel 50 des EU AI Act. Die Markierung unterscheidet nicht, ob ein Modell einen Absatz geschrieben oder nur Kommas gesetzt hat. Sie sagt, *dass* ein Modell beteiligt war, nicht, *wer* geschrieben hat. Das zeigt nur die Entstehung: eine Commit-Historie, in der ein Kapitel über Wochen in kleinen Schritten wächst. Mehr dazu in [Deine Arbeit beweisen](/blog/proving-you-wrote-it-yourself).
 
 ## Unter der Haube
 

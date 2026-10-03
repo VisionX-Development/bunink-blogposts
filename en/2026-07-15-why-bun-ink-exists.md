@@ -2,7 +2,7 @@
 title: Why Your Writing Deserves a Repository — and What bun.ink Does With It
 date: 2026-07-15
 description: The story behind bun.ink and how it works under the hood – Markdown in your own GitHub repository, commits as deliberate versions, and revisions from people or AI agents that you decide passage by passage.
-sourceHash: 0e00f5bf2f6f5403647756b03b59f3750be1cd2c94139334abf285b384a6e424
+sourceHash: a019742fe58605b6ddd9cd5fa5d8b41583f8b84126cef6069a30df1a9f6f1683
 ---
 
 bun.ink grew out of a simple observation: the most powerful tools for versioning and collaborating on text have been around for ages. They're called Git and GitHub, and developers have been using them for decades — but anyone who wanted to use them for their own writing had to live in the terminal. Writing apps, on the other hand, feel wonderful, yet treat a text's history as an afterthought: only the current state ever exists, and everything before it is gone or buried in duplicates and "Versions" menus.
@@ -32,7 +32,7 @@ Tools like Claude Code or GitHub Copilot can read an entire repository, suggest 
 
 A Word document can't do that. A repository can. bun.ink makes the repository usable for people who write. How to put an agent to work with clear rules and an `AGENTS.md` without giving up control is shown in the article [AI as a Controlled Writing Partner](/blog/ai-controlled-writing-partner).
 
-Since August 2026 there's one more reason. Anthropic adds an invisible watermark to text from new Claude models – part of the transparency obligations under Article 50 of the EU AI Act. The mark doesn't distinguish between a model writing a paragraph and a model fixing its commas. It says *that* a model was involved, not *who* wrote the text. Only the way the text came about shows that: a commit history in which a chapter grows in small steps over weeks. More on this in [Proving Your Work](/blog/proving-you-wrote-it-yourself).
+Since August 2026 there's one more reason. Anthropic adds an invisible watermark to text from new Claude models worldwide – prompted by the transparency obligations under Article 50 of the EU AI Act. The mark doesn't distinguish between a model writing a paragraph and a model fixing its commas. It says *that* a model was involved, not *who* wrote the text. Only the way the text came about shows that: a commit history in which a chapter grows in small steps over weeks. More on this in [Proving Your Work](/blog/proving-you-wrote-it-yourself).
 
 ## Under the hood
 
