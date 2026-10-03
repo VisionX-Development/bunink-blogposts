@@ -2,7 +2,7 @@
 title: Proving Your Work – What the AI Watermark Doesn't Tell You
 date: 2026-09-20
 description: Since August 2026, Anthropic has been marking text from new Claude models with an invisible watermark — whether the model wrote it or only corrected it. Why this leads to false accusations, and how your commit history proves that a text is yours, sentence by sentence.
-sourceHash: 29ebaf2df9e910f13d64afd3068d4047c37611999b902600b2849faa4015fda0
+sourceHash: ec5f921b2cb73d720ab50df974f3df006c6fe6df90bd392eab4f3c52d49c6d0d
 ---
 
 A while back we described here how AI can be used as a [controlled tool](/blog/ai-controlled-writing-partner): with clear rules and an agent that checks and suggests, while we as authors make the decisions.
@@ -15,7 +15,7 @@ When it comes to the question of proof, one's attitude towards AI matters surpri
 
 ## The new problem: proving a negative
 
-Anyone who delivers a text increasingly has to be able to prove something that nobody had to prove until recently: that they wrote it themselves and not a machine. Publishers want guarantees, editorial offices write corresponding clauses into contracts. The tools used to check this are still of little use today: AI detectors guess based on surface features and are regularly wrong — Moby-Dick, Herman Melville's 1851 classic, was recently flagged by an AI detector as having been written by an AI.
+Anyone who delivers a text increasingly has to be able to prove something that nobody had to prove until recently: that they wrote it themselves and not a machine. Publishers want guarantees, editorial offices write corresponding clauses into contracts. The tools used to check this are still of little use today: AI detectors guess based on surface features and are regularly wrong — in a [test by Markus Brinsa](https://brinsa.com/moby-dick-failed-the-ai-test-or-the-test-failed-moby-dick), the detector Pangram classified around 44 percent of Moby-Dick, Herman Melville's 1851 classic, as AI-generated text.
 
 The core problem: the line between human and machine in text production is becoming ever blurrier. A text on its own is, first of all, an open result. The difference between human and machine lies in how it came about — and that is normally gone the moment the file is saved. Machine-generated text, on the other hand, almost never carries information about its own origin.
 

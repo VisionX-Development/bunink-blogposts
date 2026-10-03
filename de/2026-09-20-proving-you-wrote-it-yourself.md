@@ -14,11 +14,7 @@ Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe 
 
 ## Das neue Problem: den Negativbeweis führen
 
-Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen heute noch wenig: KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – so wurde Moby-Dick, Herman Melvilles Klassiker von 1851, kürzlich von einem KI-Detektor als von einer KI geschrieben erkannt.
-
-<!-- bun.ink:note
-Quelle fuer Moby-Dick ergaenzen (Link) -- auf HN wird so etwas sofort nachgefragt. Ohne Quelle lieber allgemein: "... und halten selbst Klassiker fuer maschinell erzeugt."
--->
+Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen heute noch wenig: KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – so stufte der Detektor Pangram in einem [Test von Markus Brinsa](https://brinsa.com/moby-dick-failed-the-ai-test-or-the-test-failed-moby-dick) rund 44 Prozent von Moby-Dick, Herman Melvilles Klassiker von 1851, als KI-Text ein.
 
 Das Kernproblem: Die Grenze zwischen Mensch und Maschine bei der Texterstellung wird immer unschärfer. Ein reiner Text ist erstmal ein offenes Ergebnis. Der Unterschied zwischen Mensch und Maschine liegt in der Entstehung – und die ist normalerweise verschwunden, sobald die Datei gespeichert ist. Maschinell erzeugter Text dagegen trägt so gut wie nie die Information über seine Entstehung.
 
