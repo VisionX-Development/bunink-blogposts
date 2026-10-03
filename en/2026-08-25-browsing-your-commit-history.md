@@ -31,7 +31,7 @@ If any of these requirements is missing, the section either stays hidden entirel
 Every commit in the list carries two little toggles, **A** and **B**. With them you decide what gets compared:
 
 - **A** is always the left, older side. A is always a real commit – never your currently open, unfinished text.
-- **B** is the right, newer side. B can be a commit, or the special entry **Working state**: your current text in the editor, exactly as it stands right now, even if you haven't saved or pushed it yet.
+- **B** is the right, newer side. B can be a commit, or the special entry **Working draft**: your current text in the editor, exactly as it stands right now, even if you haven't saved or pushed it yet.
 
 If you click on a side that's already selected on the other side, the two sides simply swap places – the comparison is never left empty. Using the section header, you can swap A and B with a single click, or reset the selection to the default.
 

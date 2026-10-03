@@ -2,7 +2,7 @@
 title: Metadata and Notes – What's Inside a Markdown File Besides the Text
 date: 2026-09-30
 description: Frontmatter for title and status at the top of the file, notes as reminders attached to a specific spot in the text. How both work in bun.ink, where they're stored and who can see them.
-sourceHash: 7522e2009eb7e4607a0177777e6cd38ca7b2b3189a5e0fa4e8cc0e65c4992ec6
+sourceHash: 8295120e8bc7b21aceef89d73a67dac8bf453a149996f73242330e97562c4146
 ---
 
 A Markdown file is text. But it's more than that: often it also needs to say what it's called, what stage it's at, or what's still missing in a particular spot. [bun.ink](http://bun.ink) has two tools for this, and both live inside the file itself — **metadata** and **notes**.
@@ -72,4 +72,4 @@ A note is hidden in the rendered view, but readable in the file. Anyone looking 
 
 Many files in docs repositories already come with HTML comments — hidden TODOs, instructions for linting tools. [bun.ink](http://bun.ink) shows them greyed out in the editor and writes them back unchanged. That may sound obvious, but other writing editors simply lose such comments when saving.
 
-How it all works in detail is explained in the [handbook](https://github.com/VisionX-Development/writing-with-bunink).
+How it all works in detail is explained in the handbook chapter [Metadata and Notes](https://github.com/VisionX-Development/writing-with-bunink/blob/main/en/11-metadata-and-notes.md).
