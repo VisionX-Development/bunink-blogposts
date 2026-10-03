@@ -21,7 +21,7 @@ Der Abschnitt erscheint nur, wenn alles zusammenpasst:
 - Dein GitHub-Konto ist mit bun.ink verbunden.
 - Das aktuelle Projekt ist mit einem Repository verknüpft.
 - Es ist kein High-Privacy-Projekt. Solche Projekte bleiben bewusst nur auf deinem Gerät und haben deshalb keine GitHub-Historie.
-- Du hast ein aktives Pro-Abo oder eine laufende Testphase – das Durchsuchen der Commits gehört zu den Pro-Funktionen.
+- Deine 14-tägige Testphase läuft noch, oder du hast ein Abo.
 
 Fehlt eine dieser Voraussetzungen, bleibt der Abschnitt entweder ganz weg oder zeigt dir in einer kurzen Zeile, woran es liegt. Nichts wirkt wie ein Fehler, wenn eigentlich nur eine Bedingung fehlt.
 

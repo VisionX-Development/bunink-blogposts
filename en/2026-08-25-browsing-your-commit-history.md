@@ -2,7 +2,7 @@
 title: The Commit Browser – Browsing Your Text's History Across Every Commit
 date: 2026-08-25
 description: How the new commit browser in the Changes tab works — search through a branch's entire commit history, freely pick any two states, and understand how this differs from the familiar local comparison.
-sourceHash: 1b62983a7f519ee017ea61340c68a49dfa8795643f0d8dc48b7eee1157dcaff4
+sourceHash: 877260e54dc9df6abd6684ef4ae55f39924d89fc49b5be1a5eecb46ff872365e
 ---
 
 The article [Using GitHub the right way – the versioning workflow in bun.ink](/blog/using-github-with-bun-ink) covered saving, pushing, branches, and merging. But one piece was still missing: how do you look at what has changed in a document across many commits – not just since your last save, but since the very first commit? That's exactly what the new **commit browser** in the Changes tab is for.
@@ -22,7 +22,7 @@ The section only shows up when everything lines up:
 - Your GitHub account is connected to bun.ink.
 - The current project is linked to a repository.
 - It's not a high-privacy project. Projects like that deliberately stay on your device only, so they have no GitHub history.
-- You have an active Pro subscription or an ongoing trial – browsing commits is one of the Pro features.
+- Your 14-day trial is still running, or you have a subscription.
 
 If any of these requirements is missing, the section either stays hidden entirely or shows you a short line explaining why. Nothing looks like an error when really it's just a missing condition.
 
