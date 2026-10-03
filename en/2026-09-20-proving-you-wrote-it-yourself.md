@@ -2,7 +2,7 @@
 title: Proving Your Work – What the AI Watermark Doesn't Tell You
 date: 2026-09-20
 description: Since August 2026, Anthropic has been marking text from new Claude models with an invisible watermark — whether the model wrote it or only corrected it. Why this leads to false accusations, and how your commit history proves that a text is yours, sentence by sentence.
-sourceHash: 6c08386d644b8f7a06ae54c281debed155e855e355350210c278db72b3310380
+sourceHash: a21d7d4f02a5f09dd1eac02eba83426119f52aa56f9b3f6bbe317481c1577b29
 ---
 
 A while back we described here how AI can be used as a [controlled tool](/blog/ai-controlled-writing-partner): with clear rules and an agent that checks and suggests, while we as authors make the decisions.
@@ -27,7 +27,7 @@ All of these tools have long been using language models under the hood, and you 
 
 ## The watermark is no longer a distant prospect
 
-Since 2 August 2026, Anthropic has been adding an invisible watermark to text from new Claude models – [by its own account](https://www.anthropic.com/news/claude-text-watermark) worldwide, because the marking can't yet be reliably limited to one region. For older models it's being added over the coming months; EU law sets a [deadline of 2 December 2026](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/) for that. Behind this is the code of practice for Article 50 of the EU AI Act, which Anthropic has signed — other providers will have to go the same way.
+Since 2 August 2026, Anthropic has been adding an invisible watermark to text from new Claude models – [by its own account](https://www.anthropic.com/news/claude-text-watermark) worldwide, because the marking can't yet be reliably limited to one region. For older models it's being added over the coming months; the AI Act sets a deadline of 2 December 2026 for that in [Article 111(4)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111). Behind this is the code of practice for Article 50 of the EU AI Act, which Anthropic has signed — other providers will have to go the same way.
 
 What matters is where this marking shows up: **every tool that uses a marking model in the background can leave it behind** — including the spell checker. The watermark sits in the choice of words itself. According to Anthropic, it survives light editing and copying; only when every word is replaced is it gone. A translation by Claude carries it too.
 
