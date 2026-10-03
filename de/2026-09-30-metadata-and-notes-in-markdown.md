@@ -71,4 +71,4 @@ Eine Notiz ist in der fertigen Ansicht verborgen, in der Datei aber lesbar. Wer 
 
 Viele Dateien in Docs-Repositories bringen schon HTML-Kommentare mit – ausgeblendete TODOs, Anweisungen für Prüfprogramme. [bun.ink](http://bun.ink) zeigt sie im Editor grau an und speichert sie unverändert zurück. Das klingt selbstverständlich, andere Schreibeditoren verlieren solche Kommentare beim Speichern einfach.
 
-Wie alles im Detail funktioniert, steht im [Handbuch](https://github.com/VisionX-Development/writing-with-bunink).
+Wie alles im Detail funktioniert, steht im Handbuch im Kapitel [Metadaten und Notizen](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/11-metadaten-und-notizen.md).
