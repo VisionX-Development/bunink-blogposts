@@ -17,7 +17,7 @@ Ohne jegliche Wertung sowie grob und vereinfacht gibt es dazu drei Lager: das er
 Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe Rolle. Denn die Antwort liegt nicht im fertigen Text. Sie liegt in seiner Entstehung – vielmehr seinem Entstehungsprozess. Und genau diesen Prozess hält die Versionierung eines Textes  
 fest, und in bun.ink geht das ohne Mehrarbeit. 
 
-## Das neue Problem: der Nachweis deiner Arbeit
+## Das neue Problem: den Negativbeweis führen
 
 Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen  
 musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen  
