@@ -23,7 +23,7 @@ Auf iPhone und iPad gibt es eine Besonderheit: iOS kann Daten eines Browser-Tabs
 
 ## Wenn das Netz wegfällt
 
-Du merkst es kaum. Fällt die Verbindung beim Schreiben weg, schreibst du einfach weiter. Öffnest du bun.ink ohne Netz, lädt es den Editor aus der Kopie auf dem Gerät, mit dem Hinweis **Offline – du arbeitest mit der Kopie auf diesem Gerät.**
+Du merkst es kaum. Fällt die Verbindung beim Schreiben in einem offline verfügbaren Projekt weg, schreibst du einfach weiter. Alle anderen Projekte kannst du bis zur Verbindung nur lesen und exportieren. So bleibt auf einem fremden Rechner kein Text zurück, den du dort nicht haben willst. Öffnest du bun.ink ohne Netz, lädt es den Editor aus der Kopie auf dem Gerät, mit dem Hinweis **Offline – du arbeitest mit der Kopie auf diesem Gerät.**
 
 Offline kannst du:
 
