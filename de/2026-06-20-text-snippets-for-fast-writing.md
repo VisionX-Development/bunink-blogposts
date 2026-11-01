@@ -15,7 +15,7 @@ Textschnipsel eignen sich besonders für alles, was oft vorkommt:
 - schwierige Fremdwörter
 - Figuren- oder Ortsnamen
 - Fachbegriffe
-- Begrüssungen und Signaturen
+- Begrüßungen und Signaturen
 - wiederkehrende Satzanfänge oder Absätze
 
 Ein Kürzel sollte kurz, aber gut merkbar sein. Für ein langes Fachwort kann das eine Abkürzung sein, für eine Figur vielleicht die Initialen, für eine Standardformulierung ein kleines Muster. Wichtig ist nur: Der Schreibfluss bleibt erhalten. Der Textbaustein erscheint dort, wo man ihn braucht.
@@ -42,6 +42,6 @@ Der Wind bläst kräftig durch die Haare.
 
 ## Kleine Bausteine, weniger Reibung
 
-Textschnipsel sind keine grosse Automatisierung, die den Text übernimmt. Sie sind eher ein kleines Werkzeug gegen Wiederholung und Reibung. Lange Wörter, feste Formulierungen und variable Satzteile lassen sich mit wenigen Zeichen einfügen.
+Textschnipsel sind keine große Automatisierung, die den Text übernimmt. Sie sind eher ein kleines Werkzeug gegen Wiederholung und Reibung. Lange Wörter, feste Formulierungen und variable Satzteile lassen sich mit wenigen Zeichen einfügen.
 
 Gerade beim Schreiben ist das wertvoll: Die Aufmerksamkeit bleibt beim Satz, nicht bei der Mechanik des Tippens.

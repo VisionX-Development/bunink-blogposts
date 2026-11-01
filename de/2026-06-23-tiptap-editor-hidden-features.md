@@ -27,7 +27,7 @@ Eine besondere Funktion im Zen-Modus ist die **Stealth-Taste**. Auch sie legst d
 Mit dieser Taste schaltest du die Schrift schnell zwischen zwei Zuständen um:
 
 - **unsichtbar** – der Text ist ausgeblendet
-- **halb sichtbar** – standardmässig zu 50 Prozent; wie stark, stellst du in den Einstellungen unter **Sichtbarkeit beim Einblenden** ein
+- **halb sichtbar** – standardmäßig zu 50 Prozent; wie stark, stellst du in den Einstellungen unter **Sichtbarkeit beim Einblenden** ein
 
 Das funktioniert in dieser Form nur im Zen-Modus. Der Gedanke dahinter ist einfach: Wenn jemand neugierig auf deinen Bildschirm schaut, kannst du den Text mit einem Tastendruck optisch verschwinden lassen. Dann wirkt das Fenster fast leer. Praktisch ist das für private Notizen, unfertige Entwürfe oder schlicht für Momente, in denen dein Text noch niemanden etwas angeht.
 
@@ -50,7 +50,7 @@ Wichtig ist: Der TipTap-Editor in bun.ink erstellt **Markdown-Dokumente**. Markd
 
 Markdown arbeitet mit wenigen, gut lesbaren Zeichen. Einige typische Beispiele:
 
-- `# Überschrift 1` wird zu einer grossen Überschrift.
+- `# Überschrift 1` wird zu einer großen Überschrift.
 - `## Überschrift 2` wird zu einer Unterüberschrift.
 - `**fetter Text**` wird zu **fettem Text**.
 - `*kursiver Text*` wird zu _kursivem Text_.
@@ -110,7 +110,7 @@ Du findest sie in der Seitenleiste im Tab **Verlauf**. Dort kannst du:
 - eine gespeicherte Version **im Editor mit deinem aktuellen Text vergleichen**,
 - eine frühere Version **wiederherstellen** – dein aktueller Text wird dabei zuerst als neue Version gesichert, es geht also nichts verloren.
 
-Zusätzlich legt bun.ink im Hintergrund **automatische Versionen** an – ganz ohne dein Zutun. Das geschieht behutsam und nur, wenn es sich lohnt: typischerweise dann, wenn du gerade eine kurze Schreibpause machst, sich seit dem letzten Snapshot spürbar etwas geändert hat und seit der letzten automatischen Version genügend Zeit vergangen ist (in der Grössenordnung von etwa zehn Minuten). So entsteht nebenbei ein Sicherheitsnetz, falls du einmal vergisst, selbst eine Version zu speichern. Im Verlauf sind solche Einträge als **Automatisch** gekennzeichnet, manuell angelegte als **Manuell**.
+Zusätzlich legt bun.ink im Hintergrund **automatische Versionen** an – ganz ohne dein Zutun. Das geschieht behutsam und nur, wenn es sich lohnt: typischerweise dann, wenn du gerade eine kurze Schreibpause machst, sich seit dem letzten Snapshot spürbar etwas geändert hat und seit der letzten automatischen Version genügend Zeit vergangen ist (in der Größenordnung von etwa zehn Minuten). So entsteht nebenbei ein Sicherheitsnetz, falls du einmal vergisst, selbst eine Version zu speichern. Im Verlauf sind solche Einträge als **Automatisch** gekennzeichnet, manuell angelegte als **Manuell**.
 
 Die Zahl der manuell angelegten Versionen ist bewusst begrenzt: Pro Dokument kannst du **bis zu zehn Versionen** speichern. Ist diese Grenze erreicht, löschst du einfach eine nicht mehr benötigte Version, um wieder Platz für eine neue zu schaffen. **Automatische Versionen zählen dabei nicht mit** und werden nie blockiert – sie sind ein zusätzliches Sicherheitsnetz und kein Ersatz für das bewusste Speichern wichtiger Stände.
 
@@ -118,17 +118,17 @@ Ein Hinweis: Der Verlauf bezieht sich immer auf den Hauptstand deines Dokuments.
 
 So bekommst du auch ohne GitHub eine einfache, nachvollziehbare Versionsgeschichte direkt in bun.ink.
 
-## Was passiert beim Schliessen, Ausloggen oder Sicherheits-Logout?
+## Was passiert beim Schließen, Ausloggen oder Sicherheits-Logout?
 
 Ein Editor muss nicht nur speichern können. Er muss dich auch warnen, wenn du im Begriff bist, ungesicherte Arbeit zu verlieren.
 
-Wenn du einen Tab schliesst oder dich ausloggen möchtest, obwohl seit dem letzten Speichern neue Änderungen entstanden sind, sollte bun.ink dich darauf aufmerksam machen. Der Editor erkennt, dass der aktuelle Inhalt noch nicht gesichert wurde, und gibt dir die Möglichkeit, vorher zu speichern oder die Aktion bewusst fortzusetzen.
+Wenn du einen Tab schließt oder dich ausloggen möchtest, obwohl seit dem letzten Speichern neue Änderungen entstanden sind, sollte bun.ink dich darauf aufmerksam machen. Der Editor erkennt, dass der aktuelle Inhalt noch nicht gesichert wurde, und gibt dir die Möglichkeit, vorher zu speichern oder die Aktion bewusst fortzusetzen.
 
 Ähnlich wichtig ist der **Sicherheits-Logout**. Wenn sie aktiviert ist, schützt sie dein Konto, indem sie dich nach einer bestimmten Zeit der Inaktivität automatisch abmeldet. Damit dabei nichts verloren geht, sichert bun.ink vor dem automatischen Logout alle offenen Änderungen automatisch im lokalen Cloud-Speicher deines Kontos – andernfalls gingen diese Änderungen beim Logout verloren. Ein GitHub-Push passiert dabei allerdings nicht. Den Sicherheits-Logout schaltest du unter **Einstellungen** im Bereich **Sicherheit** ein und aus und wählst dort auch die Zeit ohne Aktivität.
 
-Trotzdem ist es sinnvoll, gerade bei längeren Schreibphasen regelmässig manuell zu speichern – besonders dann, wenn du auf einem GitHub-Branch arbeitest und deine Änderungen erst durch Commit und Push wirklich dort landen.
+Trotzdem ist es sinnvoll, gerade bei längeren Schreibphasen regelmäßig manuell zu speichern – besonders dann, wenn du auf einem GitHub-Branch arbeitest und deine Änderungen erst durch Commit und Push wirklich dort landen.
 
-Genau hier gilt eine klare Faustregel: **Auf einem GitHub-Branch sichert erst Auf Branch speichern – also Commit und Push nach GitHub – deine Arbeit wirklich.** Bis dahin liegen Branch-Änderungen ausschliesslich lokal in diesem Browser. Bei einem Logout, einem Browser-Absturz oder einem versehentlich geschlossenen Tab sind nur die bereits **gepushten** Stände eines Branches gesichert – alles, was noch nicht gepusht wurde, kann verloren gehen. Pushe deshalb ruhig öfter, als du denkst: Zu viel pushen geht praktisch nicht.
+Genau hier gilt eine klare Faustregel: **Auf einem GitHub-Branch sichert erst Auf Branch speichern – also Commit und Push nach GitHub – deine Arbeit wirklich.** Bis dahin liegen Branch-Änderungen ausschließlich lokal in diesem Browser. Bei einem Logout, einem Browser-Absturz oder einem versehentlich geschlossenen Tab sind nur die bereits **gepushten** Stände eines Branches gesichert – alles, was noch nicht gepusht wurde, kann verloren gehen. Pushe deshalb ruhig öfter, als du denkst: Zu viel pushen geht praktisch nicht.
 
 ## Ein Editor, der leise mitdenkt
 

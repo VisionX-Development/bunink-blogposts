@@ -6,7 +6,7 @@ description: Warum bun.ink bewusst im mobilen Browser läuft, sich trotzdem wie 
 
 Schreiben passiert selten nur am Schreibtisch. Eine Idee entsteht im Zug, ein Absatz wird auf dem Sofa besser, eine Notiz muss unterwegs festgehalten werden. Genau für diese Momente ist **bun.ink** so gedacht, dass die App auch auf mobilen Geräten selbstverständlich nutzbar bleibt.
 
-Der Fokus liegt deshalb nicht nur auf einer grossen Desktop-Oberfläche, sondern auf einem **responsiven, einfachen Design**. Die Ansicht soll sich an Smartphones und Tablets anpassen, Bedienelemente sollen erreichbar bleiben und der Editor soll sich nicht schwerer anfühlen als nötig. Gerade beim Schreiben zählt, dass möglichst wenig zwischen Idee und Text steht.
+Der Fokus liegt deshalb nicht nur auf einer großen Desktop-Oberfläche, sondern auf einem **responsiven, einfachen Design**. Die Ansicht soll sich an Smartphones und Tablets anpassen, Bedienelemente sollen erreichbar bleiben und der Editor soll sich nicht schwerer anfühlen als nötig. Gerade beim Schreiben zählt, dass möglichst wenig zwischen Idee und Text steht.
 
 ## Browser-only statt App-Store-Hürde
 
@@ -22,7 +22,7 @@ Der Vorteil ist praktisch: Du tippst auf das Icon, landest direkt in deiner Schr
 
 ## bun.ink zum Home Screen hinzufügen
 
-Je nach Gerät und Browser heisst der Menüpunkt leicht anders. Das Grundprinzip bleibt aber gleich: Seite öffnen, Browser-Menü aufrufen, zum Home Screen hinzufügen oder installieren.
+Je nach Gerät und Browser heißt der Menüpunkt leicht anders. Das Grundprinzip bleibt aber gleich: Seite öffnen, Browser-Menü aufrufen, zum Home Screen hinzufügen oder installieren.
 
 ### iPhone und iPad (Safari)
 
@@ -48,7 +48,7 @@ Auf Android kann Chrome je nach Website und Geräteeinstellung zwischen einem ei
 
 ## Immer aktuell, ohne Update-Stress
 
-Ein grosser Vorteil dieses Ansatzes ist weniger sichtbar, aber im Alltag sehr wertvoll: **Updates passieren im Hintergrund**. Neue Verbesserungen können tagesaktuell bereitgestellt werden, ohne dass du selbst eine Aktualisierung aus einem App Store laden musst.
+Ein großer Vorteil dieses Ansatzes ist weniger sichtbar, aber im Alltag sehr wertvoll: **Updates passieren im Hintergrund**. Neue Verbesserungen können tagesaktuell bereitgestellt werden, ohne dass du selbst eine Aktualisierung aus einem App Store laden musst.
 
 Du musst dich also nicht fragen, ob deine App-Version noch aktuell ist. Wenn bun.ink verbessert wird, bekommst du beim nächsten Laden automatisch die beste verfügbare Version. Das macht die Nutzung unkompliziert und hilft auch auf älteren Geräten: Solange der mobile Browser noch unterstützt wird, kann bun.ink weiterhin laufen.
 

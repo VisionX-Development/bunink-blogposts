@@ -34,7 +34,7 @@ Für Dokumente, die schon gespeichert sind, kommen zwei weitere Werte dazu:
 
 Das ist praktisch, wenn du etwa auf eine bestimmte Textlänge hinarbeitest – eine Kurzgeschichte, einen Zeitungsartikel mit Zeichenlimit oder ein Kapitel mit Zielumfang. Statt zu raten, siehst du genau, wo du stehst.
 
-## Projekt: das grosse Ganze im Blick
+## Projekt: das große Ganze im Blick
 
 Ein einzelnes Dokument ist selten das ganze Projekt. Ein Roman besteht aus Kapiteln, eine Reportage aus Recherchenotizen und Fassungen, ein Sachbuch aus vielen Bausteinen. Die Registerkarte **Projekt** fasst all das zusammen:
 
@@ -45,7 +45,7 @@ Ein einzelnes Dokument ist selten das ganze Projekt. Ein Roman besteht aus Kapit
 
 Zusätzlich kannst du ein **Projektziel** in Wörtern festlegen. Ein Fortschrittsbalken zeigt dann, wie nah du deinem Gesamtziel schon bist – zum Beispiel den 80'000 Wörtern eines Romanmanuskripts.
 
-Ist dein Projekt mit **GitHub** verknüpft, erscheint ausserdem ein Abschnitt zur **GitHub-Aktivität**: die Commits der letzten 120 Tage, die Commits dieser Woche und die neuesten Einträge. So siehst du deine Versionsarbeit direkt neben deiner Schreibarbeit.
+Ist dein Projekt mit **GitHub** verknüpft, erscheint außerdem ein Abschnitt zur **GitHub-Aktivität**: die Commits der letzten 120 Tage, die Commits dieser Woche und die neuesten Einträge. So siehst du deine Versionsarbeit direkt neben deiner Schreibarbeit.
 
 ## Übersicht: Motivation über die Zeit
 
@@ -85,9 +85,9 @@ Die Statistik läuft leise im Hintergrund mit, während du schreibst. Ein paar P
 
 Zahlen allein schreiben kein Buch. Aber sie können Gewohnheiten stützen, und Gewohnheiten schreiben Bücher.
 
-- **Realistische Ziele setzen.** Ein tägliches Wortziel macht ein grosses Projekt greifbar. Nicht „einen Roman schreiben", sondern „heute 500 Wörter".
+- **Realistische Ziele setzen.** Ein tägliches Wortziel macht ein großes Projekt greifbar. Nicht „einen Roman schreiben", sondern „heute 500 Wörter".
 - **Dranbleiben sehen.** Serie und Heatmap belohnen Beständigkeit. Es fällt leichter, eine Kette nicht zu unterbrechen, die man vor sich sieht.
 - **Den Überblick behalten.** Bei langen Projekten geht das Gefühl für den Umfang schnell verloren. Die Projektzahlen zeigen dir, wo Gewicht liegt und wo noch wenig steht.
 - **Sich selbst besser kennenlernen.** Wörter pro Stunde und Durchschnitt pro Tag verraten dir mit der Zeit, wie dein Schreiben tatsächlich funktioniert – und wann du am produktivsten bist.
 
-Die Schreibstatistik in bun.ink ist kein strenger Aufseher. Sie ist eher ein ruhiger Begleiter, der dir hin und wieder zeigt, wie weit du schon gekommen bist. Manchmal ist genau das der kleine Anstoss, der aus einem angefangenen Text ein fertiges Projekt macht.
+Die Schreibstatistik in bun.ink ist kein strenger Aufseher. Sie ist eher ein ruhiger Begleiter, der dir hin und wieder zeigt, wie weit du schon gekommen bist. Manchmal ist genau das der kleine Anstoß, der aus einem angefangenen Text ein fertiges Projekt macht.

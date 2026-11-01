@@ -14,7 +14,7 @@ Für die Frage nach dem Beleg spielt die Haltung zu KI eine erstaunlich geringe 
 
 ## Das neue Problem: den Negativbeweis führen
 
-Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen heute noch wenig: KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmässig falsch – so stufte der Detektor Pangram in einem [Test von Markus Brinsa](https://brinsa.com/moby-dick-failed-the-ai-test-or-the-test-failed-moby-dick) rund 44 Prozent von Moby-Dick, Herman Melvilles Klassiker von 1851, als KI-Text ein.
+Wer einen Text abliefert, muss zunehmend etwas belegen können, das vor kurzem niemand belegen musste: dass er ihn selbst geschrieben hat und nicht eine Maschine. Verlage lassen sich das versichern, Redaktionen nehmen entsprechende Klauseln in Verträge auf. Die Werkzeuge, mit denen dabei geprüft wird, taugen heute noch wenig: KI-Detektoren raten anhand von Oberflächenmerkmalen und liegen regelmäßig falsch – so stufte der Detektor Pangram in einem [Test von Markus Brinsa](https://brinsa.com/moby-dick-failed-the-ai-test-or-the-test-failed-moby-dick) rund 44 Prozent von Moby-Dick, Herman Melvilles Klassiker von 1851, als KI-Text ein.
 
 Das Kernproblem: Die Grenze zwischen Mensch und Maschine bei der Texterstellung wird immer unschärfer. Ein reiner Text ist erstmal ein offenes Ergebnis. Der Unterschied zwischen Mensch und Maschine liegt in der Entstehung – und die ist normalerweise verschwunden, sobald die Datei gespeichert ist. Maschinell erzeugter Text dagegen trägt so gut wie nie die Information über seine Entstehung.
 
@@ -32,7 +32,7 @@ Entscheidend ist, wo diese Markierung auftaucht: **Jedes Werkzeug, das im Hinter
 
 ## Was ein Wasserzeichen aussagt – und was nicht
 
-Für die Gruppe, die „nur“ KI-Tools benutzt, ist das ein Problem. Die Markierung ist sehr grob. Sie belegt, dass ein Modell beteiligt war – aber nicht, dass es den Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel oder Buch erzeugen liess. In den Augen eines fremden Lesers, der die Textentstehung nicht kennt oder nachvollziehen kann, werden die Gruppen 2 (nur KI) und 3 (KI-Tools) jetzt gleichgesetzt.
+Für die Gruppe, die „nur“ KI-Tools benutzt, ist das ein Problem. Die Markierung ist sehr grob. Sie belegt, dass ein Modell beteiligt war – aber nicht, dass es den Text geschrieben hat. Anthropic sagt das selbst deutlich: Sie unterscheidet nicht zwischen geschrieben, überarbeitet, übersetzt und zusammengefasst. Wer den eigenen Text Korrektur lesen lässt, bekommt dieselbe Markierung wie jemand, der ein ganzes Kapitel oder Buch erzeugen ließ. In den Augen eines fremden Lesers, der die Textentstehung nicht kennt oder nachvollziehen kann, werden die Gruppen 2 (nur KI) und 3 (KI-Tools) jetzt gleichgesetzt.
 
 Dazu kommt das eigentliche Ärgernis: **Du kannst es selbst nicht nachprüfen.** Die Erkennung steht bisher nur berechtigten Stellen offen – Behörden, Medien, Forschung. Ein öffentliches Werkzeug, mit dem du einen Vorwurf entkräften könntest, gibt es nicht.
 
@@ -40,7 +40,7 @@ Daraus folgt der Satz, um den sich dieser Artikel dreht: Wenn dir jemand vorhäl
 
 Den Stand zum Wasserzeichen erklärt Anthropic in seiner [Hilfe zur Kennzeichnung KI-erzeugter Inhalte](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content), wie es technisch funktioniert, in [How Claude's text watermarking works](https://www.anthropic.com/news/claude-text-watermark).
 
-## Was in einer Versionierung ausser dem Text noch steht
+## Was in einer Versionierung außer dem Text noch steht
 
 Genau hier tut die Versionierung zufällig auch etwas, für das sie eigentlich in der Vergangenheit gar nicht gedacht war. Wenn du in bun.ink arbeitest, speicherst du keine Datei, die sich selbst überschreibt, sondern legst Speicherpunkte an – Commits, die festhalten, wie der Text aussah, wann das war und was du notiert hast. Was Commits, Branches und Repository bedeuten, erklärt [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers).
 
@@ -66,13 +66,13 @@ Für die dritte Gruppe wird das sehr konkret. Deine Historie enthält den Absatz
 
 Damit verschiebt sich die Frage von «Ist da Maschine drin?» zu «Was genau hat sie getan?». Du beweist nicht, dass nie ein Werkzeug im Spiel war – das kannst du seit diesem Sommer ohnehin nicht mehr. Du beweist Urheberschaft: dass der Text von dir stammt und dass ein Werkzeug ihn an den Rändern berührt hat, nicht in der Substanz.
 
-Praktisch heisst das: **ein Commit vor dem Werkzeuggebrauch, ein Commit danach.** Zehn Sekunden Aufwand – und die Grenze zwischen deiner Arbeit und der Korrektur ist dauerhaft dokumentiert. Weil du die Markierung selbst nicht prüfen kannst, ist deine Historie der einzige Nachweis, der dir gehört.
+Praktisch heißt das: **ein Commit vor dem Werkzeuggebrauch, ein Commit danach.** Zehn Sekunden Aufwand – und die Grenze zwischen deiner Arbeit und der Korrektur ist dauerhaft dokumentiert. Weil du die Markierung selbst nicht prüfen kannst, ist deine Historie der einzige Nachweis, der dir gehört.
 
 ## Die Statistik macht es sichtbar
 
 Was in der Historie steckt, lässt sich auch ansehen statt lesen. Die [Schreibstatistik](/blog/writing-statistics-that-motivate) im Writer zeigt deine Arbeit als Zahlen und Bilder: Wörter pro Tag und Woche, aktive Schreibzeit, eine Heatmap über zwölf Monate. Für Projekte mit Repository kommt die Commit-Aktivität dazu.
 
-Ein Jahr Schreibarbeit sieht darin aus wie ein Jahr Schreibarbeit eben aussieht: ungleichmässig, mit Löchern und dichten Phasen vor Abgabeterminen – nicht wie drei Nachmittage, an denen ein Buch erschienen ist. Die Statistik zählt dabei dich, nicht deinen Text: Erfasst werden Wortmengen und Zeiten, keine Inhalte.
+Ein Jahr Schreibarbeit sieht darin aus wie ein Jahr Schreibarbeit eben aussieht: ungleichmäßig, mit Löchern und dichten Phasen vor Abgabeterminen – nicht wie drei Nachmittage, an denen ein Buch erschienen ist. Die Statistik zählt dabei dich, nicht deinen Text: Erfasst werden Wortmengen und Zeiten, keine Inhalte.
 
 ## GitHub als unbeteiligter Zeuge
 
@@ -80,11 +80,11 @@ Bis hierhin liegt alles bei dir – und alles, was bei dir liegt, kannst du im Z
 
 Ein Zeitstempel, den du selbst setzt, ist eine Behauptung. Ein Zeitstempel auf dem GitHub-Server ist eher ein Beleg. Du gibst Zugriff so grob oder fein, wie du willst – eine Person einladen, das Repository öffnen, oder die Commit-Liste exportieren. Aus «Ich habe das selbst geschrieben» wird «Hier sind die 312 Schritte, mit Datum und dem Inhalt der zugehörigen Änderungen».
 
-Natürlich ist eine gewachsene Commit-Historie kein forensischer Beweis. Sie liesse sich mit genügend Aufwand inszenieren, auch durch einen KI-Agenten. Was die Versionierung leistet, ist bescheidener, aber trotzdem nützlich: Sie verschiebt die Frage von «sieht der Text menschlich aus?» zu «gibt es eine über Wochen gewachsene, stimmige Arbeitsspur?». Das ist die bessere Frage, und sie lässt sich damit beantworten.
+Natürlich ist eine gewachsene Commit-Historie kein forensischer Beweis. Sie ließe sich mit genügend Aufwand inszenieren, auch durch einen KI-Agenten. Was die Versionierung leistet, ist bescheidener, aber trotzdem nützlich: Sie verschiebt die Frage von «sieht der Text menschlich aus?» zu «gibt es eine über Wochen gewachsene, stimmige Arbeitsspur?». Das ist die bessere Frage, und sie lässt sich damit beantworten.
 
 ## Und die Sicherheit deiner Texte?
 
-Im Zusammenhang mit den bekannten grossen Sprachmodellen ergibt sich leider auch immer eine weitere Frage: *Landet mein Manuskript irgendwo in einem Trainingsdatensatz?* Bei bun.ink ist die Antwort kurz. Die App schickt deine Texte weder an ein Sprachmodell noch zu irgendjemand anderem, wenn du das nicht möchtest. In der bun.ink-Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschlüsselt. Wie das im Detail funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
+Im Zusammenhang mit den bekannten großen Sprachmodellen ergibt sich leider auch immer eine weitere Frage: *Landet mein Manuskript irgendwo in einem Trainingsdatensatz?* Bei bun.ink ist die Antwort kurz. Die App schickt deine Texte weder an ein Sprachmodell noch zu irgendjemand anderem, wenn du das nicht möchtest. In der bun.ink-Datenbank liegen Texteinträge nicht als lesbarer Klartext vor, sondern verschlüsselt. Wie das im Detail funktioniert, steht in [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts).
 
 Der Versionierung über GitHub, wie oben beschrieben, musst du ausdrücklich zustimmen. Natürlich kannst du [bun.ink](http://bun.ink) auch ohne GitHub nutzen. Insbesondere ein High-Privacy-Ordner oder -Projekt kann nur ohne GitHub verwendet werden. Kein anderer kann dann deine Texte lesen oder verändern. Aber mit dem Vorteil der absoluten Privatsphäre geht auch ein Nachteil einher: Es fehlt die Versionierung über GitHub – und damit im Zweifel der Beleg über deine Arbeit.
 
@@ -97,7 +97,7 @@ Wenn dir dieser Beleg wichtig ist, lohnen sich ein paar Gewohnheiten:
 - **Ehrliche Nachrichten schreiben.** «Dialog gekürzt, Rückblende raus» sagt mehr als «Update».
 - **Umwege stehen lassen.** Verworfene Fassungen sind kein Makel, sie sind der Beleg.
 - **Werkzeuge einrahmen.** Vor und nach jedem Durchlauf durch eine Korrekturhilfe einmal speichern.
-- **Den Agenten getrennt halten.** Grössere KI-Arbeit gehört auf einen eigenen Branch und unter das eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
+- **Den Agenten getrennt halten.** Größere KI-Arbeit gehört auf einen eigenen Branch und unter das eigene Konto des Agenten – die Unterscheidung ist der halbe Nachweis.
 - **Überarbeitungen auch im Alleingang.** Was du verworfen hast, bleibt so mitsamt Begründung dokumentiert – wie das geht, steht in [Das Lektorat kommt zum Text](/blog/reviews-as-pull-requests).
 
 ## Zum Schluss: ein offenes Buch, in beide Richtungen

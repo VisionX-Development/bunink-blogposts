@@ -1,10 +1,10 @@
 ---
-title: Metadaten und Notizen – was in einer Markdown-Datei ausser dem Text steckt
+title: Metadaten und Notizen – was in einer Markdown-Datei außer dem Text steckt
 date: 2026-09-30
 description: Frontmatter für Titel und Status am Dateianfang, Notizen als Merkzettel an einer Textstelle. Wie beides in bun.ink funktioniert, wo es gespeichert wird und wer es sieht.
 ---
 
-Eine Markdown-Datei ist Text. Aber nicht nur: Oft soll sie auch sagen, wie sie heisst, in welchem Stadium sie ist oder was an einer Stelle noch fehlt. [bun.ink](http://bun.ink) kennt dafür zwei Werkzeuge, die beide in der Datei selbst leben – **Metadaten** und **Notizen**.
+Eine Markdown-Datei ist Text. Aber nicht nur: Oft soll sie auch sagen, wie sie heißt, in welchem Stadium sie ist oder was an einer Stelle noch fehlt. [bun.ink](http://bun.ink) kennt dafür zwei Werkzeuge, die beide in der Datei selbst leben – **Metadaten** und **Notizen**.
 
 ## Kurz: der Unterschied
 
@@ -63,7 +63,7 @@ Wie viele Züge fahren nachts wirklich? Fahrplan prüfen.
 - **Sie reist mit dem Text.** Die Notiz wird mit dem Dokument gespeichert, landet im selben Commit und bleibt an ihrer Stelle, wenn du drumherum schreibst. Kein zweiter Speicherort, der verloren gehen könnte.
 - **Sie zählt nicht als Text.** Wortzählung und Schreibstatistik lassen Notizen aus; die Suche findet sie trotzdem – praktisch, um alle offenen „Quelle nachtragen“ eines Projekts wiederzufinden.
 
-## Eine Warnung: unsichtbar heisst nicht geheim
+## Eine Warnung: unsichtbar heißt nicht geheim
 
 Eine Notiz ist in der fertigen Ansicht verborgen, in der Datei aber lesbar. Wer die Rohdatei, einen Commit oder einen Vergleich ansieht, sieht auch sie. In einem öffentlichen Repository sind deine Notizen öffentlich, und ein Lektorat im selben Repository liest sie mit. Was niemand sehen darf, gehört nicht in eine Notiz. Für Anmerkungen, die tatsächlich an jemand anderen gehen, gibt es den [Review über Pull Requests](/blog/reviews-as-pull-requests): Dort stehen Kommentare auf GitHub am Pull Request, nicht im Text. Notizen sind dein eigener Merkzettel.
 
