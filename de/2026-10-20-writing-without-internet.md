@@ -34,7 +34,7 @@ Offline kannst du:
 
 Was offline geändert ist, erkennst du auf einen Blick: Der Punkt am Tab bleibt rot, und im Explorer steht hinter dem Dokument eine kleine Wolke. Sie bedeutet: **bisher nur auf diesem Gerät gespeichert.** Sichern musst du nichts – bun.ink legt jeden Stand laufend auf dem Gerät ab, auch wenn du das Fenster schließt.
 
-Alles, was den Server braucht muss leider wartet, bis du dich erneut mit dem Internet verbunden hast. So z.B. der Versionsverlauf, die Ansicht der Änderungen, ein Projekt und Ordner anlegen, vorhandene Dokumente umbenennen oder löschen. Ein Klick darauf sagt daher **Offline nicht verfügbar**, und du bleibst im Editor. Dasselbe gilt für Links auf Seiten, z.B. im Blog.
+Alles, was den Server braucht muss leider warten, bis du dich erneut mit dem Internet verbunden hast. So z.B. der Versionsverlauf, die Ansicht der Änderungen, ein Projekt und Ordner anlegen, vorhandene Dokumente umbenennen oder löschen. Ein Klick darauf sagt daher **Offline nicht verfügbar**, und du bleibst im Editor. Dasselbe gilt für Links auf Seiten, z.B. im Blog.
 
 ## Wieder online
 
@@ -53,7 +53,7 @@ Ein Gerät darf vierzehn Tage nach dem letzten Kontakt mit dem Server offline sc
 
 ## Was du wissen solltest
 
-- **Browserdaten löschen löscht auch die Kopie.** Solange **Änderungen warten aufs Hochladen** zu sehen ist, lösche keine Website-Daten. Danach liegt alles auf dem Server.
+- **Browserdaten löschen löscht auch die lokale Kopie deiner Dokumente.** Solange **Änderungen warten aufs Hochladen** zu sehen ist, lösche keine Website-Daten. Danach liegt alles auf dem Server.
 - **Abmelden räumt auf.** Die Kopien und alles, was noch wartet, werden vom Gerät gelöscht – vorher warnt dich bun.ink, wenn noch etwas offen ist. Der automatische Logout nach Inaktivität ruht offline, damit du dich nicht aussperrst.
 - **Anmelden braucht eine Verbindung.** Wer abgemeldet ist, sieht offline nur einen Hinweis. Sobald das Netz zurück ist, geht es von selbst zur Anmeldung.
 
@@ -61,4 +61,4 @@ Was genau auf dem Gerät liegt, beschreibt die [Datenschutzerklärung](/privacy)
 
 ## Mehr dazu
 
-Schritt für Schritt, mit allen Sonderfällen, steht es im [Handbuch im Kapitel «Ohne Internet schreiben»](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md). Wie bun.ink High-Privacy-Bereiche verschlüsselt und deine Texte sonst schützt, beschreibt der Artikel [Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts). Wie du bun.ink am Handy nutzt, steht in [bun.ink auf dem Mobilgerät nutzen](/blog/using-bun-ink-on-mobile).
+Schritt für Schritt, mit allen Sonderfällen, steht es im [Handbuch im Kapitel **«Ohne Internet schreiben»**](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md). Wie bun.ink High-Privacy-Bereiche verschlüsselt und deine Texte sonst schützt, beschreibt der Artikel **[«](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md)[Wie bun.ink deine Texte schützt](/blog/how-bun-ink-protects-your-texts)[«](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md)** Wie du bun.ink am Handy nutzt, steht in **[«](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md)[bun.ink auf dem Mobilgerät nutzen](/blog/using-bun-ink-on-mobile).[«](https://github.com/VisionX-Development/writing-with-bunink/blob/main/de/12-ohne-internet-schreiben.md)**
