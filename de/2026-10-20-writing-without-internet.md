@@ -34,7 +34,7 @@ Offline kannst du:
 
 Was offline geändert ist, erkennst du auf einen Blick: Der Punkt am Tab bleibt rot, und im Explorer steht hinter dem Dokument eine kleine Wolke. Sie bedeutet: **bisher nur auf diesem Gerät gespeichert.** Sichern musst du nichts – bun.ink legt jeden Stand laufend auf dem Gerät ab, auch wenn du das Fenster schließt.
 
-Alles, was den Server braucht, wartet: GitHub, der Versionsverlauf, die Ansicht der Änderungen, Projekte und Ordner anlegen, vorhandene Dokumente umbenennen oder löschen. Ein Klick darauf sagt **Offline nicht verfügbar**, und du bleibst im Editor. Dasselbe gilt für Links auf Seiten wie die Einstellungen oder den Blog. Sie führen offline nicht mehr ins Leere.
+Alles, was den Server braucht muss leider wartet, bis du dich erneut mit dem Internet verbunden hast. So z.B. der Versionsverlauf, die Ansicht der Änderungen, Projekte und Ordner anlegen, vorhandene Dokumente umbenennen oder löschen. Ein Klick darauf sagt daher **Offline nicht verfügbar**, und du bleibst im Editor. Dasselbe gilt für Links auf Seiten, z.B. im Blog.
 
 ## Wieder online
 
