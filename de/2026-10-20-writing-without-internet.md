@@ -6,7 +6,7 @@ description: Wie bun.ink im Zug, im Ferienhaus oder im Flugzeug weiterläuft, wa
 
 Die besten Schreibstunden liegen oft dort, wo das Netz aufhört: im Zug, im Ferienhaus, im Flugzeug. Eine Schreib-App im Browser ist da meistens am Ende – die Seite lädt nicht, und was du vor dem Funkloch getippt hast, hängt irgendwo zwischen Tab und Server.
 
-[bun.ink](https://bun.ink) ist ein Schreibeditor für Markdown, auf Wunsch mit deinem eigenen GitHub-Repository dahinter. Seit dieser Woche läuft es auch ohne Verbindung weiter, ein paar Tage lang, im Browser-Tab, als installierte App am Computer und auf dem iPhone. Die Regel dahinter: **Was du schreibst, bleibt auf deinem Gerät, bis der Server es sicher hat – und nichts wird stillschweigend überschrieben.**
+[bun.ink](https://bun.ink) ist ein Schreibeditor für Markdown. Er funktioniert primär verschlüsselt in der Cloud und/oder, je nach Präferenz, auch sicher verschlüsselt in einem Ordner auf deinem Desktop- PC oder Mac. Seit dieser Woche läuft es auch ohne Verbindung weiter, ein paar Tage lang, im Browser-Tab, als installierte App am Computer und auf dem iPhone. Die Regel dahinter: **Was du schreibst, bleibt auf deinem Gerät, bis der Server es sicher hat – und nichts wird stillschweigend überschrieben.**
 
 ## Vorbereiten, einmal
 
