@@ -4,9 +4,9 @@ date: 2026-06-18
 description: Was Git und GitHub eigentlich sind, in verständlicher Sprache – und warum diese Werkzeuge aus der Programmierwelt gerade für Autorinnen und Autoren überraschend nützlich sind.
 ---
 
-Wenn du an einem längeren Text arbeitest – einem Roman, einer Reportage, einem Sachbuch – kennst du dieses Gefühl: Du hast einen Absatz dreimal umgeschrieben, gestern war eine Fassung dabei, die dir besser gefiel, aber die hast du längst überspeichert. Oder du hast `manuskript_final_v3_wirklich_final.docx` neben sechs ähnlich benannten Dateien liegen und weisst nicht mehr, welche die aktuelle ist.
+**Git bzw. GitHub** sind Werkzeuge der Versionskontrolle aus der Welt der Programmierung. Es ist optional in [bun.ink](http://bun.ink) verfügbar. Warum? Als Entwickler von bun.ink und Autoren habe wir uns schon immer einen Schreib- Editor gewünscht, der Texte versioniert wie **Git** es tut. Neben Git nutzen wir in [bun.ink](http://bun.ink) unsere eigens programmiertes Versionssystem das ohne jeglichen Aufwand funktioniert. 
 
-Genau für dieses Problem gibt es seit Langem ein Werkzeug – nur kam es bisher fast ausschliesslich aus der Welt der Programmierung. Es heisst **Git**. In bun.ink haben wir es so eingebaut, dass du es nutzen kannst, ohne eine einzige Zeile Code zu schreiben. Dieser Beitrag erklärt in Ruhe, worum es geht.
+In bun.ink haben wir GitHub so eingebaut, dass du es nutzen kannst, ohne eine einzige Zeile Code zu schreiben. Dieser Beitrag erklärt in Ruhe, worum es geht. Es liefert den technischen Hintergrund, für die die es interessiert.
 
 ## Was ist Versionskontrolle?
 
@@ -36,9 +36,9 @@ Ein Bild dafür: Dein Text ist ein Fluss. Ein Branch ist ein Seitenarm, den du g
 
 ## Wozu dann noch GitHub?
 
-Git läuft auf deinem Gerät. **GitHub** ist ein Dienst im Internet, der deine Repositories sicher online aufbewahrt. Drei Dinge gewinnst du damit:
+Git läuft auf einem Gerät lokal. **GitHub** ist ein Dienst im Internet, der deine Repositories sicher **online** aufbewahrt. Drei Dinge gewinnst du damit:
 
-1. **Sicherung** – dein Text und seine ganze Geschichte liegen geschützt in der Cloud. Geht dein Laptop verloren, ist die Arbeit nicht weg.
+1. **Sicherung** – dein Text und seine ganze Geschichte liegen geschützt in der **GitHub- Cloud**. Geht dein Laptop verloren, ist die Arbeit nicht weg.
 2. **Überall verfügbar** – du schreibst morgens am Schreibtisch weiter, wo du abends am Sofa aufgehört hast.
 3. **Zusammenarbeit** – ein Lektor oder eine Mitautorin kann an einem eigenen Branch arbeiten, und ihr führt eure Fassungen geordnet zusammen.
 
@@ -55,4 +55,6 @@ Diese Werkzeuge wurden für Software gebaut – aber das Problem, das sie lösen
 
 In bun.ink passiert all das im Hintergrund. Du schreibst wie gewohnt – die Versionskontrolle ist einfach da, wenn du sie brauchst. Du musst weder Git installieren noch Befehle lernen. Begriffe wie _Commit_, _Branch_ und _Merge_ tauchen an den richtigen Stellen auf, und jetzt weisst du, was sie bedeuten.
 
-In kommenden Beiträgen schauen wir uns einzelne Funktionen genauer an. Bis dahin: Schreib mutig – dein Text vergisst nichts mehr.
+**MERKE: das [bun.ink](http://bun.ink) eigene Versionskontrollsystem ist dem Versionskontrollsystem von Git nachempfunden! Bereits mit der Versionskontrolle von [bun.ink](http://bun.ink) hast du alles was du brauchst! Die Verknüpfung mit einem GitHub- Repository ist optional und macht nur Sinn wenn du deine Datein explizit mit GitHub synchronisieren möchtest, z.B. wenn du mit anderen Autoren zusammen an deinen Datein arbeiten möchtest.** 
+
+In kommenden Beiträgen schauen wir uns einzelne Funktionen zur Versionskontrolle genauer an. Bis dahin: Schreib mutig – dein Text vergisst nichts mehr.
