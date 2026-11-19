@@ -6,7 +6,7 @@ description: Wie Textschnipsel in bun.ink häufige Wörter und Formulierungen mi
 
 Manche Wörter tauchen in einem Text immer wieder auf. Manche sind lang, ungewohnt oder einfach mühsam zu tippen. Genau hier helfen **Textschnipsel**: kurze Zeichenkürzel, die bun.ink im Editor automatisch durch einen vorher festgelegten Text ersetzt.
 
-Das Prinzip ist einfach. Statt jedes Mal `Supercalifragilisticexpialidocious` auszuschreiben, kann ein Kürzel wie `sfd` reichen. Sobald das Kürzel im Editor eingegeben und ausgelöst wird, erscheint das vollständige Wort. Das spart nicht nur Zeit, sondern verhindert auch Tippfehler bei Begriffen, Namen, Fachwörtern oder wiederkehrenden Formulierungen.
+Das Prinzip ist einfach. Statt jedes Mal `Supercalifragilisticexpialidocious` auszuschreiben, kann ein Kürzel wie `sfd` reichen. Sobald das Kürzel im Editor eingegeben und ausgelöst wird, erscheint das vollständige Wort. Das spart nicht nur Zeit, sondern verhindert auch Tippfehler bei Begriffen, Namen, Fachwörtern, wiederkehrenden Formulierungen oder ganzen Textbausteinen.
 
 ## Wörter, Namen und feste Formulierungen
 
@@ -17,8 +17,9 @@ Textschnipsel eignen sich besonders für alles, was oft vorkommt:
 - Fachbegriffe
 - Begrüßungen und Signaturen
 - wiederkehrende Satzanfänge oder Absätze
+- Textbausteine
 
-Ein Kürzel sollte kurz, aber gut merkbar sein. Für ein langes Fachwort kann das eine Abkürzung sein, für eine Figur vielleicht die Initialen, für eine Standardformulierung ein kleines Muster. Wichtig ist nur: Der Schreibfluss bleibt erhalten. Der Textbaustein erscheint dort, wo man ihn braucht.
+Ein Kürzel sollte kurz, aber gut merkbar sein. Für ein langes Fachwort kann das eine Abkürzung sein, für eine Figur vielleicht die Initialen, für eine Standardformulierung ein kleines Muster. Wichtig ist nur: Der Schreibfluss bleibt erhalten. Der Textschnipsel erscheint dort, wo man ihn braucht.
 
 ## Sprungmarken für flexible Bausteine
 
