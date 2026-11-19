@@ -18,7 +18,7 @@ Im Zen-Modus geht es bewusst nicht um viele Knöpfe, Menüs oder Ablenkungen. Du
 - die **Transparenz** der Schrift
 - **Aktuelle Zeile zentriert halten** – die Zeile, an der du schreibst, bleibt in der Mitte des Bildschirms, und der Text läuft unter ihr durch
 
-Diese Einstellungen werden gespeichert, damit deine ruhige Schreibumgebung beim nächsten Mal wieder so aussieht, wie du sie brauchst. Mehr soll der Zen-Modus gar nicht sein. Er ist kein zweiter, komplizierter Editor, sondern ein Raum zum Schreiben.
+Diese Einstellungen werden gespeichert, damit deine ruhige Schreibumgebung beim nächsten Mal wieder so aussieht, wie du sie brauchst. Mehr soll der Zen-Modus gar nicht sein. Er ist kein zweiter, komplizierter Editor, sondern ein Raum zum Schreiben. Für das Aufrufen des Zen- Modus kann in den Einstellungen optional ein Tastenkürzel als Shortcut vergeben werden. Die Formatierungs- Bubble (siehe weiter unten) ist natürlich auch im Zen- Modus verfügbar.
 
 ## Die Stealth-Taste – wenn der Text kurz verschwinden soll
 
@@ -29,7 +29,7 @@ Mit dieser Taste schaltest du die Schrift schnell zwischen zwei Zuständen um:
 - **unsichtbar** – der Text ist ausgeblendet
 - **halb sichtbar** – standardmäßig zu 50 Prozent; wie stark, stellst du in den Einstellungen unter **Sichtbarkeit beim Einblenden** ein
 
-Das funktioniert in dieser Form nur im Zen-Modus. Der Gedanke dahinter ist einfach: Wenn jemand neugierig auf deinen Bildschirm schaut, kannst du den Text mit einem Tastendruck optisch verschwinden lassen. Dann wirkt das Fenster fast leer. Praktisch ist das für private Notizen, unfertige Entwürfe oder schlicht für Momente, in denen dein Text noch niemanden etwas angeht.
+Das funktioniert in dieser Form nur im Zen-Modus. Der Gedanke dahinter ist einfach: Wenn jemand neugierig auf deinen Zen- Modus Bildschirm schaut, kannst du den Text mit einem Tastendruck optisch verschwinden lassen. Dann wirkt das Fenster fast leer. Praktisch ist das für private Notizen, unfertige Entwürfe oder schlicht für Momente, in denen dein Text noch niemanden etwas angeht.
 
 Und ja: Wenn man dabei an neugierige Chefs denkt, ist das natürlich eher mit einem Augenzwinkern gemeint.
 
