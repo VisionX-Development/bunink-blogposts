@@ -6,16 +6,16 @@ description: Die Geschichte hinter bun.ink und wie es unter der Haube funktionie
 
 bun.ink ist aus einer einfachen Beobachtung entstanden: Die mächtigsten Werkzeuge für Versionierung und Zusammenarbeit an Texten gibt es längst. Sie heissen Git und GitHub, und Entwickler arbeiten seit Jahrzehnten damit – aber wer sie für seine Texte nutzen wollte, musste bisher im Terminal leben. Schreib-Apps wiederum fühlen sich wunderbar an, behandeln die Geschichte eines Textes aber als Nebensache: Es existiert immer nur der aktuelle Stand, alles davor ist weg oder vergraben in Duplikaten und „Versionen"-Menüs.
 
-bun.ink schliesst genau diese Lücke: eine Schreib-App im Browser, die sich anfühlt wie ein moderner Editor – und deine Texte als Markdown in einem GitHub-Repository versioniert. Ohne Terminal, ohne Git-Vorwissen.
+bun.ink schliesst genau diese Lücke: eine Schreib-App im Browser, die sich anfühlt wie ein moderner Editor – und deine Texte als Markdown bereits in der App versioniert. Optional ist die Verknüfung zu einem GitHub-Repository versioniert.
 
-## Schreib-App vorne, Repository hinten
+## Schreib-App vorne, Versionskontrolle hinten
 
 In bun.ink schreibst du wie in jeder guten Schreib-App: fokussierter Editor, Formatierung, [Textschnipsel](/blog/text-snippets-for-fast-writing), [Schreibstatistiken](/blog/writing-statistics-that-motivate). Der Unterschied liegt darunter:
 
 - **Die Datei ist Markdown, und sie gehört dir.** Gespeichert wird kein eigenes Format, sondern genau die `.md`-Datei, die in deinem Repository liegt. Wer bun.ink nicht mehr nutzt, hat seine Texte trotzdem – auf GitHub und als ZIP-Export.
-- **Ein Commit ist eine bewusste Fassung.** Speichern sichert deinen Stand in bun.ink, mit einem Versionsverlauf pro Dokument. Was du festhalten willst, wird ein Commit mit Nachricht in deinem Repository. Branches sind Textfassungen: Eine radikale Überarbeitung probierst du auf einem eigenen Zweig aus, während die Hauptfassung unberührt bleibt. Den Ablauf erklären wir in [GitHub richtig nutzen](/blog/using-github-with-bun-ink).
-- **Die Geschichte ist lesbar.** Im [Commit-Browser](/blog/browsing-your-commit-history) vergleichst du zwei beliebige Stände – zwei Commits oder einen Commit mit deinem aktuellen Text – als Text und nicht als Diff-Syntax.
-- **Alles läuft im Browser**, [auch auf dem Smartphone](/blog/using-bun-ink-on-mobile). bun.ink selbst läuft in Frankfurt; was du nach GitHub pushst, liegt in deinem GitHub-Konto.
+- **Lege Meilentein an für eine Änderung oder neue Fassung.** Speichern sichert einen neuen Stand auf diesem Meilenstein in bun.ink.
+- **Die Geschichte ist lesbar.** Der Verlauf dieser Meilensteine ist im Verlaufs- Tab jederzeit sichtbar. Zwei beliebige Meilensteine können hier in einem Diff- Editor mit einander verglichen werden. 
+- **Alles läuft im Browser**, [auch auf dem Smartphone](/blog/using-bun-ink-on-mobile). bun.ink's Server stehen in Frankfurt;
 
 Falls dir Begriffe wie Commit, Branch und Merge noch nichts sagen: In [Git und GitHub einfach erklärt](/blog/git-and-github-for-writers) haben wir sie in Ruhe und ohne Programmierer-Vokabular aufgeschrieben. Hier soll es um die Frage gehen, warum wir das Ganze überhaupt gebaut haben.
 
