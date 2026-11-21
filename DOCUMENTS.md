@@ -22,6 +22,7 @@ Every file in `de/` starts with a front-matter block. The sync reads it, so a ma
 title: Git und GitHub für Autoren – eine Einführung
 date: 2026-06-18
 description: Was Commits, Branches und Repositories für Schreibende bedeuten.
+updated: 2026-11-20
 ---
 ```
 
@@ -30,6 +31,7 @@ description: Was Commits, Branches und Repositories für Schreibende bedeuten.
 | `title` | yes | heading, index entry, `<title>` |
 | `date` | yes (`YYYY-MM-DD`) | sorting (newest first) and display |
 | `description` | recommended | teaser in the index and meta description |
+| `updated` | when revised (`YYYY-MM-DD`) | date of the last substantive revision. Set or bump it whenever the content of a published post changes; leave `date` as it is. Not for typo or whitespace fixes |
 
 Generated files in `en/` additionally carry `sourceHash`, a hash of the German file. It tells the sync whether the translation is still current. Do not edit it.
 

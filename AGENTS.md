@@ -23,7 +23,7 @@ The posts are written *in* bun.ink and saved to this repository; the website is 
 1. **German is the source.** Write and edit in `de/` only. If you are asked to fix wording in `en/`, fix it in the German source; the next sync re-translates.
 2. **Never hand-edit `en/` or `CONTENTS.md`.** Both are generated and overwritten.
 3. **File names are `YYYY-MM-DD-english-slug.md`** and never change after publication — the slug is the URL. See [`DOCUMENTS.md`](DOCUMENTS.md).
-4. **Front matter is required** on every file in `de/`: `title`, `date`, and ideally `description`.
+4. **Front matter is required** on every file in `de/`: `title`, `date`, and ideally `description`. When you substantively revise a published post, set `updated: YYYY-MM-DD` to today and leave `date` unchanged.
 5. **Describe the app as it actually behaves.** If you are unsure whether a feature works the way a draft claims, say so in the pull request instead of guessing.
 
 ## Working as an agent on this repo
