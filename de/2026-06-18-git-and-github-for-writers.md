@@ -2,7 +2,7 @@
 title: Git und GitHub einfach erklärt – Versionskontrolle für Autoren
 date: 2026-06-18
 description: Was Git und GitHub eigentlich sind, in verständlicher Sprache – und warum diese Werkzeuge aus der Programmierwelt gerade für Autorinnen und Autoren überraschend nützlich sind.
-update: 2026-11-20
+updated: 2026-11-20
 ---
 
 **Git bzw. GitHub** sind Werkzeuge der Versionskontrolle aus der Welt der Programmierung. Es ist optional in [bun.ink](http://bun.ink) verfügbar. Warum? Als Entwickler von bun.ink und Autoren habe wir uns schon immer einen Schreib- Editor gewünscht, der Texte versioniert wie **Git** es tut. 

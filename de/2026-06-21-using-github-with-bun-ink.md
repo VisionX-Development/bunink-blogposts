@@ -2,7 +2,7 @@
 title: GitHub richtig nutzen – der Versionierungs-Workflow in bun.ink
 date: 2026-06-21
 description: Vom kostenlosen GitHub-Konto über das erste Repository bis zum kompletten Branch-, Commit- und Sync-Workflow in bun.ink – Schritt für Schritt und ohne Fachchinesisch erklärt.
-update: 2026-11-20
+updated: 2026-11-20
 ---
 
 Im Artikel [Git und GitHub einfach erklärt – Versionskontrolle für Autoren](/blog/git-and-github-for-writers) ging es um die grosse Frage: Was sind Git und GitHub eigentlich, und warum sind diese Werkzeuge gerade für Schreibende nützlich? Dieser Beitrag setzt genau dort an und wird konkret. Es geht jetzt nicht mehr um das Was, sondern um das Wie: den praktischen Workflow, mit dem du deine Dokumente über GitHub versionierst – direkt aus bun.ink heraus.
